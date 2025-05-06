@@ -17,3 +17,36 @@
 2025-05-06 16:20:02,523 - INFO - Original dataset size: 400
 2025-05-06 16:20:02,523 - INFO - Resampled dataset size: 404
 2025-05-06 16:20:02,815 - INFO - XGBoost Model Accuracy: 0.47
+2025-05-06 16:20:03,476 - INFO - Stratified K-Fold Cross-Validation Accuracy: 0.55 ± 0.02
+2025-05-06 16:20:04,183 - INFO - Random Forest Cross-Validation Accuracy: 0.55 ± 0.05
+2025-05-06 16:20:04,183 - INFO - 
+=== LightGBM Classification Report ===
+2025-05-06 16:20:04,199 - INFO - 
+              precision    recall  f1-score   support
+
+           0       0.58      0.61      0.60        57
+           1       0.45      0.42      0.43        43
+
+    accuracy                           0.53       100
+   macro avg       0.52      0.52      0.52       100
+weighted avg       0.53      0.53      0.53       100
+
+2025-05-06 16:20:04,211 - INFO - 
+=== RandomForest Classification Report ===
+2025-05-06 16:20:04,217 - INFO - 
+              precision    recall  f1-score   support
+
+           0       0.59      0.58      0.58        57
+           1       0.45      0.47      0.46        43
+
+    accuracy                           0.53       100
+   macro avg       0.52      0.52      0.52       100
+weighted avg       0.53      0.53      0.53       100
+
+2025-05-06 16:20:04,874 - INFO - Categorical features ['CustomerSegment', 'FavoriteCategory'] have been one-hot encoded.
+2025-05-06 16:20:04,885 - INFO - Customer Analytics Application Started
+2025-05-06 16:20:04,886 - INFO - Data loaded with 500 records
+2025-05-06 16:20:04,886 - INFO - Charts saved to charts
+2025-05-06 16:20:04,887 - INFO - HTML report generated: charts\report-20250506_162004.html
+2025-05-06 16:20:04,889 - WARNING -  * Debugger is active!
+2025-05-06 16:20:04,897 - INFO -  * Debugger PIN: 867-014-462

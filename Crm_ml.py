@@ -78,7 +78,7 @@ plt.style.use('ggplot')
 sns.set(style="whitegrid")
 
 # Load the dataset - Use a relative path instead of hardcoded path
-data_path = 'synthetic_customer_data_500.csv'  # Assuming the file is in the current directory
+data_path = r'C:\Users\reddy\Downloads\crm_analytics_lab\synthetic_customer_data_500.csv'  # Assuming the file is in the current directory
 logging.info(f"Loading data from file: {data_path}")
 
 try:

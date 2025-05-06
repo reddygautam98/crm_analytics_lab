@@ -1,0 +1,19 @@
+2025-05-06 16:20:01,091 - INFO - Streamlit is available.
+2025-05-06 16:20:01,091 - INFO - Loading data from file: synthetic_customer_data_500.csv
+2025-05-06 16:20:01,091 - INFO - Data loaded successfully!
+2025-05-06 16:20:01,113 - INFO - 
+=== Pre-Scaling Summary Statistics ===
+2025-05-06 16:20:01,114 - INFO - Total Customers: 500
+2025-05-06 16:20:01,114 - INFO - Churn Rate: 49.00%
+2025-05-06 16:20:01,114 - INFO - Average Age: 41.9
+2025-05-06 16:20:01,114 - INFO - Average Spend: $1639.47
+2025-05-06 16:20:01,121 - INFO - Numerical features have been standardized.
+2025-05-06 16:20:01,246 - INFO - Number of anomalies detected: 25
+2025-05-06 16:20:01,530 - WARNING - Error in segmentation: Bin labels must be one fewer than the number of bin edges. Using manual binning.
+2025-05-06 16:20:01,535 - WARNING - Error in segmentation: Bin labels must be one fewer than the number of bin edges. Using manual binning.
+2025-05-06 16:20:02,276 - WARNING - Not enough data points for ARIMA modeling. Creating synthetic data.
+2025-05-06 16:20:02,287 - INFO - ADF Statistic: -2.4730963603614926
+2025-05-06 16:20:02,287 - INFO - p-value: 0.122158236448282
+2025-05-06 16:20:02,523 - INFO - Original dataset size: 400
+2025-05-06 16:20:02,523 - INFO - Resampled dataset size: 404
+2025-05-06 16:20:02,815 - INFO - XGBoost Model Accuracy: 0.47

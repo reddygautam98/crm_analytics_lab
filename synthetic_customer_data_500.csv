@@ -1,0 +1,501 @@
+CustomerID,Name,Email,Phone,Address,Gender,CustomerSegment,FavoriteCategory,Age,TotalSpend,NumberOfPurchases,SupportTickets,IsChurned,LastLoginDate
+C001,Emily Reese,bryantlisa@sanchez.net,+1-368-227-4250x4531,66666 Francis Cove,Male,Standard,Sports,61,905.64,1,5,1,2025-03-03
+C002,Marissa Peters,reevesanthony@hotmail.com,360.297.0335x595,972 Allison Pike,Female,Premium,Sports,46,1774.88,9,4,1,2025-04-13
+C003,Ryan Austin,hjacobson@gmail.com,+1-399-845-3492x353,921 Shannon Bridge Suite 179,Male,Standard,Electronics,55,1736.84,27,3,0,2025-04-15
+C004,John Patel,martinmelissa@gmail.com,+1-072-174-8703,45601 Smith Flats,Female,Premium,Fashion,46,1355.86,1,5,1,2025-04-25
+C005,Betty Meza,gallegostyler@gmail.com,289-694-0793x577,00419 Kim Cliffs,Male,Premium,Electronics,33,300.36,30,2,0,2025-04-14
+C006,Sandra Reese,meadowscorey@gmail.com,353-810-4531x803,865 Derek Trail,Male,Basic,Home,56,1648.31,28,2,0,2025-03-07
+C007,Brandon Johnson,masseysteven@hotmail.com,772.787.3953x369,53411 Stuart Garden,Female,Premium,Home,52,2824.41,28,4,0,2025-04-17
+C008,Amy Mercado,garymarks@gmail.com,1244661911,953 Ronald Lakes Suite 670,Female,Standard,Sports,40,1659.57,10,5,1,2025-03-06
+C009,Luis Lopez,marshalltiffany@mullen.biz,001-725-980-8812x15311,05016 Evans Locks,Male,Premium,Home,64,2485.77,3,2,1,2025-04-13
+C010,Kevin Adams,victoria15@yahoo.com,001-839-896-0467x7948,0879 Makayla Bypass Suite 286,Female,Standard,Electronics,40,1543.22,30,3,1,2025-04-09
+C011,Aaron Cook MD,walter14@james-tyler.com,001-626-039-2988,881 Brad Island,Male,Standard,Home,46,2406.52,8,2,1,2025-03-16
+C012,Marc Moreno,hmaldonado@boyer.com,5013231734,5566 Samantha Corners,Female,Basic,Home,47,1871.11,21,4,0,2025-04-18
+C013,Allison Miranda,tracey48@gmail.com,+1-528-635-8896x5327,5586 Torres Coves,Female,Basic,Sports,39,2130.29,21,4,0,2025-03-24
+C014,Todd Huynh,zgray@hotmail.com,001-402-528-3636x170,742 Gonzalez Ranch,Male,Basic,Sports,37,2074.72,27,0,1,2025-03-30
+C015,Sheila Barrett,william62@robertson.com,001-625-338-9185x5261,6858 Benjamin Cliff,Male,Basic,Fashion,64,1148.17,25,5,0,2025-03-17
+C016,Jennifer Brown,dtate@gmail.com,001-235-660-3249x14730,9679 Jason Ridges,Female,Basic,Sports,35,2503.46,7,3,1,2025-03-13
+C017,Anthony Banks,gary33@mckinney.com,+1-502-888-4438x33170,911 Joshua Isle,Female,Premium,Fashion,25,925.24,9,5,1,2025-04-06
+C018,Matthew Reese,mgarza@hunt.net,385.257.5352x748,462 Williams Roads,Female,Basic,Electronics,41,405.22,10,3,0,2025-03-13
+C019,Kelsey Green,katherinehernandez@kaiser.com,(586)024-0875x17570,320 Patricia Well Apt. 265,Female,Standard,Fashion,59,443.9,10,1,1,2025-03-05
+C020,Bradley Ballard,lynncoleman@hotmail.com,817-592-4168,1608 Jon Dam,Female,Basic,Sports,36,902.27,17,3,0,2025-04-26
+C021,Sally Johnson,xheath@yahoo.com,340-513-6886,367 Jerry Springs,Female,Standard,Home,25,2617.81,30,2,0,2025-03-09
+C022,Patrick Jones,zadams@hotmail.com,082-504-3483x06387,9685 Jason Way,Male,Premium,Sports,58,2194.64,20,0,0,2025-03-15
+C023,Kenneth Manning,danielaguilar@gmail.com,+1-921-593-9793x67251,2105 Baker Locks Apt. 883,Male,Standard,Fashion,46,2371.82,16,0,0,2025-04-20
+C024,Sarah King,maxwellscott@gmail.com,(297)429-1337,80264 Jennifer Groves Suite 060,Male,Premium,Electronics,37,1584.48,13,0,0,2025-03-11
+C025,Justin Rios,lewislaurie@elliott.net,592.307.8596,678 Hansen Locks,Female,Standard,Fashion,22,2813.42,27,4,1,2025-03-31
+C026,Michael Hall,ryoder@yahoo.com,001-915-316-4859,99985 Susan Fords,Female,Basic,Home,58,2562.69,17,4,0,2025-04-25
+C027,Jennifer Bird,cherylallen@sanchez.org,001-549-846-8236x548,0119 Shelby Flat,Male,Premium,Fashion,38,2764.95,1,0,1,2025-03-18
+C028,Raymond Harris,sarah37@morales.info,942.409.1278,6600 John River,Male,Standard,Sports,58,2851.36,10,5,0,2025-04-28
+C029,Brian Sheppard,reynoldsbrandy@thomas.biz,210.806.5854x27230,105 John Bridge,Male,Basic,Fashion,64,784.55,17,1,1,2025-04-19
+C030,Brandon Long,rodgersamy@jackson-warren.com,579.621.2203,25023 Tammy Station,Male,Standard,Fashion,33,785.34,7,0,1,2025-04-23
+C031,Daniel Torres,daviskara@hotmail.com,374.540.5402x594,203 Jones Land Apt. 509,Male,Standard,Home,37,1774.24,17,2,0,2025-04-15
+C032,Howard Davis,jennifercarr@yahoo.com,622-653-2275,24795 Veronica Island Suite 653,Male,Standard,Fashion,41,794.4,30,0,1,2025-04-01
+C033,Christopher Goodman,morganlinda@byrd-craig.com,720.392.6197x12877,26538 Amanda Plain,Female,Basic,Sports,48,535.74,1,0,0,2025-04-12
+C034,Carla Moore,samanthabrown@maxwell.org,240-454-1457x950,408 Annette Manors Suite 888,Female,Basic,Fashion,28,407.14,27,0,0,2025-04-27
+C035,Sarah Wallace,brandon27@gmail.com,(533)516-9179x6593,6433 Bishop Skyway Suite 309,Male,Basic,Home,57,1737.07,5,1,0,2025-03-20
+C036,Jennifer Harris,jmorris@hotmail.com,+1-384-257-1196x70993,596 Valentine Harbors,Male,Basic,Electronics,56,494.12,18,4,0,2025-03-07
+C037,Jeffrey Taylor,john14@fischer.com,374.159.0870x88472,5829 Harvey Divide,Female,Standard,Fashion,19,737.81,7,0,0,2025-03-07
+C038,Dylan Rodriguez,fbrock@lloyd.com,743-776-2021x93017,98338 Samantha Harbors,Female,Standard,Fashion,36,2664.96,3,0,0,2025-03-23
+C039,Kristin Walsh,melissalarson@mendez.org,(519)194-8168x44389,3869 Esparza Parkways Suite 881,Male,Premium,Sports,20,491.24,9,4,1,2025-03-28
+C040,Brian West,aandrews@hotmail.com,+1-895-564-5443,81984 Mitchell Prairie Suite 724,Female,Standard,Home,58,1351.74,20,3,0,2025-03-20
+C041,David Johnson,gwalker@caldwell.org,(033)024-7011,70801 Gill Station,Female,Basic,Home,21,1639.04,24,2,0,2025-03-16
+C042,Lisa Bell,johnmiller@martinez.net,084-410-3901,88171 Ethan Field,Female,Standard,Home,58,1506.67,5,1,1,2025-04-19
+C043,John May,anna88@gomez.com,(856)784-9192x500,21251 Chapman Overpass Suite 230,Male,Basic,Electronics,61,2025.95,9,1,0,2025-04-29
+C044,Lucas Gutierrez,salinasbrandon@yahoo.com,304.490.3196x864,3585 Brown Grove Suite 639,Male,Premium,Sports,65,1191.1,24,1,0,2025-04-25
+C045,Sarah Gonzalez,mccoysarah@hotmail.com,2226681525,83607 Becker Walk,Male,Standard,Sports,25,734.9,2,1,1,2025-03-29
+C046,Paula Simmons,bridgetadams@gmail.com,(064)965-1453x6213,94559 Austin Views Apt. 101,Male,Premium,Sports,35,2239.39,13,1,0,2025-03-13
+C047,Michael Gomez,sarahharrison@yahoo.com,296.539.4418x9944,535 Robin Forks,Female,Standard,Sports,26,1488.16,28,2,1,2025-04-22
+C048,Julia Mason,cynthiakim@campbell.com,(089)227-8236,6375 Jones Hills,Male,Premium,Fashion,21,826.33,1,4,1,2025-04-01
+C049,Lauren Robinson,ovargas@villa.net,(818)272-7174x92197,5005 Munoz Square,Female,Standard,Home,43,1377.47,13,5,1,2025-04-02
+C050,Charles Brooks,matthew72@cameron.com,001-110-332-5653,8521 Roy Valley,Female,Basic,Fashion,26,2610.56,29,1,0,2025-03-02
+C051,Stephanie Mcfarland,fernandezpatrick@gmail.com,370-762-4925,85122 Alex Glens,Male,Basic,Home,32,2238.84,26,3,0,2025-03-24
+C052,Tammy Reynolds,djoseph@yahoo.com,4672156655,3102 Martin Bridge,Female,Basic,Sports,63,211.89,7,5,0,2025-03-04
+C053,Samuel Thompson,james16@tucker.com,500-604-5939x029,2218 Butler Spurs,Male,Basic,Home,34,2447.77,28,5,0,2025-04-09
+C054,Christopher Oneill,troy58@hotmail.com,001-599-466-0263x932,25650 Salinas Knolls,Female,Standard,Electronics,37,1583.4,10,2,0,2025-03-13
+C055,Julia Arnold,brandon93@nelson-jenkins.com,(864)868-8275x1082,7440 Debbie Keys,Male,Standard,Sports,37,587.24,20,1,1,2025-03-31
+C056,Derek Hall,codymeyer@hotmail.com,545.203.3554x378,2332 Dixon Roads Apt. 036,Male,Standard,Sports,50,2018.9,17,5,1,2025-04-07
+C057,Matthew Salazar,eric18@yahoo.com,154.041.3216,30770 Harvey Brook,Male,Standard,Electronics,54,432.05,26,0,1,2025-03-06
+C058,Laura Frank,clinedavid@hotmail.com,684-231-0255x0132,3144 York Prairie,Male,Premium,Electronics,31,1340.2,19,4,1,2025-04-13
+C059,Daniel Mccoy,brian73@lane-boyer.net,099.959.2330x46106,9713 Brandon Drive,Male,Basic,Fashion,51,1040.0,8,4,0,2025-03-05
+C060,Christopher West,mturner@thompson-lewis.com,1313496939,7935 Carter Track Suite 822,Female,Basic,Home,32,932.9,9,3,0,2025-03-06
+C061,Zachary Lee,hjones@gmail.com,237.406.2427x73633,09342 Brandon Corner,Female,Premium,Electronics,52,414.99,15,2,1,2025-04-29
+C062,Cindy Goodwin,daryl82@yahoo.com,405.845.5032x3471,18402 Amy Curve Suite 092,Male,Standard,Sports,23,1724.94,26,0,0,2025-03-10
+C063,Joanna Thompson,paige89@mills.com,(491)519-8405x38011,3800 Jordan Square Apt. 426,Female,Standard,Sports,21,129.55,5,0,1,2025-04-09
+C064,Erica Abbott,gina70@harrison.net,+1-993-732-7777x8368,08264 White Street Apt. 479,Female,Standard,Home,36,1866.62,8,5,1,2025-03-08
+C065,Madison Miller,gonzalezlinda@gmail.com,(532)495-1542x03028,0309 Thomas Springs Apt. 154,Male,Basic,Electronics,44,1623.18,16,5,0,2025-04-08
+C066,Dorothy Byrd,robert44@clark.com,(179)887-1604,35967 Regina Hollow Apt. 477,Female,Standard,Sports,42,797.02,15,5,0,2025-03-19
+C067,Gregory Trevino,karen29@rodriguez.com,+1-865-093-1940x410,3982 Denise Park,Female,Basic,Electronics,37,2963.71,22,0,0,2025-03-24
+C068,Timothy Fernandez,roy63@hotmail.com,1733667998,083 Schultz Lodge,Male,Basic,Sports,54,203.98,15,4,1,2025-03-09
+C069,Stephen Brooks,gerickson@roberson.com,001-092-946-1200x70967,419 Thomas Lake,Female,Premium,Sports,29,2101.38,25,3,0,2025-03-20
+C070,Mercedes Marquez,sharon62@melton.biz,(341)192-1032,3573 Jennifer Rapid Apt. 075,Female,Standard,Sports,50,2767.2,21,4,0,2025-03-07
+C071,Jesse Jones,anthonymorgan@hotmail.com,892-752-3427x4641,7863 Porter Forges Suite 403,Female,Standard,Electronics,65,2390.92,25,5,0,2025-03-04
+C072,Miss Penny Houston,jade97@gmail.com,6776959207,47596 Vasquez Loop Apt. 706,Male,Basic,Electronics,54,1285.48,14,0,0,2025-04-07
+C073,Stephanie Carroll,taylor65@rivera-sloan.com,138-894-0020x8961,317 Moore Forges Apt. 497,Male,Standard,Fashion,21,2125.76,27,5,1,2025-03-03
+C074,Jose Griffith,jeffery14@diaz.com,012.136.7265,494 Johnson Lakes,Female,Standard,Electronics,37,2984.79,25,3,0,2025-03-18
+C075,Kevin Levy,mcneiljohn@gmail.com,199.145.6968,526 Castro Well Apt. 568,Female,Basic,Electronics,61,649.61,21,5,1,2025-04-06
+C076,Brittney Andrews,stephanie54@valdez.com,831.775.2481x41616,7002 Fuller Overpass Apt. 373,Female,Basic,Sports,60,2884.57,18,3,0,2025-03-21
+C077,Paige Mercado,ljones@yahoo.com,8747925184,81388 Mccullough Camp Apt. 064,Female,Basic,Sports,38,596.87,17,3,0,2025-03-03
+C078,Richard Miller,laurendickson@hall.com,+1-262-622-4206x5606,53955 Matthew Stream,Male,Basic,Sports,27,976.69,8,2,0,2025-03-13
+C079,Daniel Burns,cferguson@gmail.com,128-190-4608x2268,70710 Phyllis Expressway,Female,Standard,Home,40,1100.76,29,2,1,2025-03-12
+C080,Kristy Sanchez,joefarmer@reed.net,001-790-890-6727x58383,0237 Gina Stream,Male,Premium,Electronics,35,1838.37,12,1,1,2025-04-04
+C081,Beverly Sanchez MD,christinesmith@rogers.com,263-355-3730,38663 Jordan Common,Female,Premium,Fashion,46,727.23,1,3,0,2025-03-04
+C082,Jesse Mitchell,ggarza@hayes.info,+1-844-699-9890x013,70353 Johnson Port,Female,Standard,Sports,22,2580.67,5,0,1,2025-04-04
+C083,Carla Williams,opalmer@gmail.com,209-897-9442,312 Garcia Fort Suite 069,Female,Standard,Sports,30,1074.54,6,5,1,2025-03-25
+C084,Kendra Hall,sgraham@harris.net,001-911-841-5845,570 Reynolds Circle Suite 948,Male,Premium,Sports,21,507.76,6,0,1,2025-03-15
+C085,Stacey Johnson,gchen@giles-lopez.net,448.542.8022,9322 Crawford Parkway,Female,Premium,Electronics,64,1676.87,4,3,0,2025-03-08
+C086,Maria Rhodes,danielle79@miller.info,(060)423-9363x45002,5191 Daniel Tunnel,Male,Basic,Fashion,39,2518.93,19,4,1,2025-04-07
+C087,Amy Garza,dana17@gmail.com,+1-288-307-9834x7679,7578 Melendez Corner Apt. 137,Female,Standard,Home,60,1094.95,25,5,1,2025-03-14
+C088,John Martinez,samuelthomas@hotmail.com,(512)506-4284x1433,6213 Scott Valleys,Female,Basic,Electronics,37,2681.75,14,2,0,2025-04-12
+C089,Matthew Hood,raysarah@nelson.com,001-560-118-1493x31327,9318 Wiley Divide,Female,Standard,Electronics,41,2671.8,4,1,0,2025-03-17
+C090,Julia Cox,lopezann@gmail.com,935.194.7183x3989,3972 Donna Harbors,Male,Standard,Home,50,2366.8,15,4,1,2025-04-17
+C091,Brian Ramirez,jeffrey83@larson-paul.com,191-996-4750x06879,0353 Linda Lodge Suite 089,Female,Standard,Electronics,22,628.37,28,1,0,2025-04-27
+C092,Joseph Griffin,johnbarrett@castro.com,451-098-3234,940 Valentine Haven,Male,Standard,Fashion,43,1614.71,13,4,1,2025-04-12
+C093,April Davis,ashleyavila@hunt.info,+1-549-051-3123x01998,93863 Timothy Springs Apt. 423,Male,Premium,Sports,53,2173.87,20,2,0,2025-03-10
+C094,Samantha Cannon,harrisalicia@lane-delgado.com,(258)707-4227,0834 Dean Gardens Apt. 276,Male,Basic,Sports,29,2405.73,26,0,0,2025-03-27
+C095,Melissa Marquez,hamiltonbrandon@yahoo.com,234-679-7299,5705 Gardner Mission,Female,Standard,Electronics,39,109.64,15,5,1,2025-03-16
+C096,Kristina Harris,kcampbell@hotmail.com,864-209-1499x2976,61010 Robert Motorway Apt. 103,Female,Basic,Home,50,1619.18,20,4,0,2025-04-05
+C097,Angela Steele,dleonard@hotmail.com,567-838-4030x4536,01232 Norman Drive Apt. 556,Female,Premium,Fashion,54,2244.71,1,1,0,2025-03-17
+C098,Dana Salazar,dbowen@hernandez.biz,435.477.8831x641,03026 House Brook,Female,Basic,Electronics,29,1238.73,12,2,0,2025-03-23
+C099,Erica Jones,karenhess@gmail.com,001-239-542-9251,979 Collins Mount Apt. 904,Female,Standard,Sports,41,623.39,23,2,1,2025-04-04
+C100,Melanie Green,marquezcheryl@mckenzie.com,001-301-888-4287,496 Connie Green Suite 121,Male,Premium,Home,39,2690.15,13,3,1,2025-03-09
+C101,Andrew Sanders III,nicholsjennifer@hotmail.com,(314)756-4485,971 Dale Divide Suite 952,Male,Basic,Sports,44,2168.77,26,5,0,2025-04-05
+C102,Erica Miller,ericaherrera@gmail.com,6019710881,248 Jeremiah Tunnel Apt. 774,Male,Standard,Fashion,34,1645.26,7,4,1,2025-04-18
+C103,Colleen Cox,andreayoung@yahoo.com,758.161.8525x429,36193 Graham Expressway,Female,Standard,Fashion,42,2991.61,12,2,0,2025-04-03
+C104,Ashley Miller,michael49@yahoo.com,(413)804-9670x4197,98662 Peter Via Suite 932,Male,Standard,Home,50,2040.24,8,1,0,2025-03-12
+C105,Elizabeth Meyer,mejiapatricia@kim-terrell.org,540.380.1017,1017 William Run Suite 116,Male,Standard,Sports,18,1897.52,8,3,0,2025-03-26
+C106,Brandi Cortez,mreed@gmail.com,971.859.3110,0463 Oneal Points Suite 877,Male,Premium,Sports,22,867.55,14,1,1,2025-03-18
+C107,Melinda Edwards,welchkurt@rowland-davis.com,001-739-409-7659x4255,0974 Schultz Brook,Female,Premium,Electronics,49,2847.04,24,2,1,2025-04-08
+C108,Robin Rush,fprice@lopez-white.org,+1-427-952-7018x9151,2698 Vega Squares Apt. 299,Female,Standard,Fashion,19,407.52,23,1,0,2025-04-19
+C109,Cynthia Taylor,ujenkins@moore.com,(804)061-7542,0726 Harrison Tunnel,Male,Premium,Electronics,65,1460.92,19,0,1,2025-03-25
+C110,Gary Gallegos,gina49@martin.com,723-830-4521x21760,825 Clifford Locks,Female,Basic,Electronics,63,1010.21,18,1,0,2025-04-20
+C111,Dawn Conrad,wellsdestiny@hotmail.com,(385)556-1071x7544,987 Laura Village,Male,Premium,Electronics,28,2884.75,17,4,0,2025-04-15
+C112,Heidi Hamilton,pottsmary@gmail.com,512.158.4137,05674 Rodriguez Camp Apt. 529,Female,Basic,Fashion,53,1890.24,23,1,1,2025-03-11
+C113,Kelsey Brown,qroy@gmail.com,186-090-3499,3504 John Loop,Female,Premium,Fashion,56,1157.5,21,2,1,2025-04-21
+C114,Diana Zavala,alan44@hotmail.com,+1-493-605-9559x13815,2672 Cody Spur Apt. 697,Male,Standard,Electronics,33,1110.03,20,1,0,2025-04-14
+C115,John Buchanan,bwoods@yahoo.com,(659)537-1563,41294 David Mill,Male,Basic,Sports,47,328.68,10,3,1,2025-04-19
+C116,James Mendez,victoria64@hotmail.com,8122081547,9641 Dana Ridge,Male,Standard,Electronics,60,2975.5,2,4,1,2025-03-29
+C117,Andrew Keller,bobby37@wilson.info,+1-077-708-3305x8221,9570 Elizabeth Shores,Male,Premium,Home,65,434.74,1,2,1,2025-04-11
+C118,Chad Hill,gregoryrichardson@tucker.org,+1-916-021-0302x47266,52758 Byrd Key,Male,Premium,Electronics,28,2772.28,28,3,1,2025-04-23
+C119,Mary Jenkins,vasquezchristopher@hotmail.com,362.307.3102x57615,96894 Thomas Roads,Female,Premium,Fashion,40,2048.66,8,3,0,2025-03-30
+C120,Gregory Harris PhD,erin75@baker-mcknight.biz,(899)037-7836,5472 Monica River,Male,Standard,Sports,36,833.65,24,5,0,2025-03-25
+C121,Joshua Rodriguez,christopher92@hotmail.com,001-162-427-5226x1534,95275 Phillip Freeway Suite 422,Male,Premium,Home,27,1357.51,24,1,1,2025-04-02
+C122,Lisa Garcia,donnamaddox@gmail.com,758.566.8646,676 Lowe Lake,Female,Premium,Fashion,24,2754.06,6,0,1,2025-03-27
+C123,Kelly Andrews,qli@yahoo.com,(114)074-9406x2811,2575 Cox Ridge,Male,Basic,Electronics,43,1983.56,14,3,1,2025-04-26
+C124,Kristina Brooks,richardschristine@jensen.com,668-581-4851x7032,7568 Conway Summit,Male,Standard,Home,45,2750.51,2,3,1,2025-04-20
+C125,Thomas Bennett,julie00@yahoo.com,(728)420-7067,76123 Hill Dam,Male,Standard,Electronics,34,1230.78,5,4,1,2025-04-21
+C126,Robin Anderson,pmartin@yahoo.com,001-863-935-8576x45148,667 Lewis Lights Suite 014,Female,Standard,Home,39,2290.39,23,1,0,2025-03-25
+C127,Mallory Davis,michaelli@hotmail.com,(870)322-9167x61900,8615 Alice Terrace,Female,Basic,Electronics,65,2642.91,23,2,0,2025-03-28
+C128,James Arnold,wattssheila@hensley.com,641.935.7329,2512 Trujillo Ridge,Male,Premium,Electronics,40,2395.83,6,4,0,2025-03-20
+C129,Shane Johnson,sarah39@gmail.com,(999)282-0398x8280,31332 Dodson Fields Suite 471,Male,Premium,Fashion,18,547.43,6,5,1,2025-04-26
+C130,Anthony Peterson,victoriaho@gmail.com,078.397.5574x3344,8783 Brown Greens,Male,Premium,Fashion,58,1497.07,23,4,1,2025-04-20
+C131,Zachary Gomez,patriciadaniel@horn.org,001-290-751-9362,08815 Roy Burg,Male,Premium,Fashion,48,2689.1,18,3,1,2025-03-22
+C132,Melissa Stanton,fchoi@flores.com,068-944-6677x1429,5665 Johnson Square Apt. 971,Female,Premium,Sports,56,2872.0,6,4,0,2025-04-22
+C133,George Ellis,chadromero@hernandez.net,040-757-4789x8176,1591 Miller Plains,Male,Basic,Home,58,2924.44,8,3,1,2025-04-28
+C134,Lauren Wilson,bmorgan@martin-williams.com,(898)994-1359,1306 Mckinney Gateway Apt. 025,Male,Standard,Fashion,18,2187.27,2,5,0,2025-04-27
+C135,William Haynes,burtonmichael@bowman.com,(350)100-5153x16742,581 Amber River Apt. 852,Male,Standard,Fashion,27,1528.06,12,3,1,2025-03-05
+C136,Raymond Andrews,jameswhitehead@gmail.com,302.701.9800x08371,57324 Joseph Ville Suite 629,Male,Premium,Fashion,64,981.56,17,4,1,2025-04-28
+C137,Curtis Green,rwalls@erickson-pittman.org,(864)563-3619,23835 White Cliffs,Female,Basic,Electronics,39,1385.23,23,1,0,2025-03-21
+C138,Miguel Stewart,ghamilton@steele.com,9645883546,4870 Diana Shoal,Female,Standard,Home,63,1452.98,18,0,1,2025-03-09
+C139,Christopher Williams,rlloyd@long.biz,495.354.2701,740 Miguel Plaza Apt. 977,Male,Standard,Home,38,422.79,6,4,0,2025-03-15
+C140,Monica Mcclure,hamiltoneric@yahoo.com,278-519-5446x325,6548 Tina Island Apt. 656,Male,Standard,Fashion,48,2937.51,20,5,0,2025-03-10
+C141,Zachary Rodriguez,tgomez@carroll-chase.com,878.885.3707x63994,833 John Springs Apt. 001,Female,Standard,Fashion,40,2991.47,16,3,1,2025-03-01
+C142,Joseph Wade,greyes@hotmail.com,001-278-357-2082x2188,01177 Allen Vista,Female,Standard,Home,58,2665.57,6,5,1,2025-04-09
+C143,Michael Hopkins,julie46@werner.com,+1-207-219-5660x7944,8697 Cochran Circle,Female,Standard,Sports,22,2693.64,19,0,0,2025-04-11
+C144,Holly Hess,brian22@yahoo.com,001-599-839-9542x12066,3285 Jackson Rue,Male,Standard,Sports,49,2055.31,30,1,0,2025-03-28
+C145,Michael Mendoza,conniemorrison@gutierrez.com,026-980-8906,0223 Webb Plaza Apt. 294,Male,Premium,Fashion,56,2265.51,28,3,0,2025-04-05
+C146,Stacy Hernandez,torresrussell@yahoo.com,128-730-3831x9699,1695 Anna Ports,Male,Basic,Electronics,46,1950.8,11,3,0,2025-04-22
+C147,Alexandra Robinson,herreraryan@hotmail.com,+1-877-428-6548x56876,16032 Estes Wells,Female,Basic,Electronics,32,2656.91,30,2,1,2025-04-02
+C148,Christina Garcia,patricia89@morales.com,468-256-9900x40772,4263 Young Spurs Suite 263,Male,Premium,Home,40,228.05,1,1,1,2025-03-10
+C149,Jillian Valencia,elizabeth47@yahoo.com,+1-427-647-9757x957,942 Brown Track,Male,Standard,Home,30,1765.23,16,4,1,2025-03-30
+C150,Hannah Crane,tiffany64@yahoo.com,001-979-894-0440x446,85889 Victor River Apt. 233,Male,Basic,Electronics,22,2727.58,23,1,0,2025-04-02
+C151,Michael Harris DDS,sarah53@bonilla.info,001-687-082-3380x2520,9805 Thomas Road Apt. 293,Male,Standard,Fashion,50,447.74,21,0,1,2025-04-01
+C152,Glenda Fields,juancastaneda@gmail.com,6607336691,57720 John Gardens Apt. 596,Male,Premium,Electronics,61,587.46,12,1,1,2025-04-20
+C153,Kimberly Miller,valerie03@hotmail.com,001-487-240-7435x92475,1570 Lopez Points Apt. 347,Male,Standard,Electronics,62,963.13,21,2,1,2025-04-14
+C154,Tonya Smith,byrdnathan@mason.net,+1-333-168-5573,49200 Ramos Point Apt. 406,Male,Premium,Fashion,46,2393.58,18,1,0,2025-03-24
+C155,Connor Miller,john03@morris.biz,(811)925-5141x9823,4577 Osborn Cliff Apt. 153,Female,Standard,Home,37,2894.9,11,4,0,2025-04-01
+C156,Nichole Macdonald,jonathan84@castillo.com,648-464-1046,5367 Felicia Overpass Apt. 770,Female,Standard,Electronics,45,1999.87,9,2,1,2025-03-30
+C157,Ernest Chambers,hperry@hotmail.com,(796)332-2322x32760,65908 Cynthia Parkways Suite 471,Female,Basic,Sports,22,487.36,24,1,0,2025-03-19
+C158,Connie Stanley,juliegarcia@peters-reeves.com,5215750995,28786 Nelson Junction Apt. 228,Male,Premium,Sports,40,568.13,6,1,0,2025-04-02
+C159,Jacob Orozco,tchavez@gmail.com,993.962.2745x52717,7470 Shannon Rest,Female,Premium,Fashion,62,824.66,5,4,0,2025-03-23
+C160,Dr. Mark Wilson,lance60@gmail.com,566-088-6501x8427,9922 Thomas Glens Apt. 337,Female,Premium,Fashion,33,1576.48,23,0,0,2025-03-07
+C161,Kylie Green,uarias@gmail.com,(281)465-5541,6553 Steven Hills Apt. 709,Male,Standard,Home,52,449.26,19,3,1,2025-03-29
+C162,Jesse Wiley,tuckerrichard@yahoo.com,324.343.3432,268 Gina Roads,Male,Standard,Sports,22,118.08,2,4,0,2025-04-22
+C163,Timothy Wells,caroline05@arnold.com,(765)883-5668x6129,5289 Morales Corner,Male,Standard,Electronics,30,2690.55,9,0,0,2025-04-11
+C164,Kelly Watkins,usimpson@gmail.com,971.008.7781,9278 Kelly Plains,Male,Standard,Home,35,2074.46,16,2,0,2025-04-05
+C165,Jessica Rodriguez,johnstein@diaz.org,001-801-640-3838x57617,1594 Whitehead Causeway Apt. 644,Female,Basic,Home,47,1653.03,15,0,1,2025-04-16
+C166,Daniel Snow,gregorycarroll@gmail.com,(091)037-5239x019,782 Herman Ridges,Male,Premium,Fashion,19,284.69,20,2,1,2025-04-01
+C167,Wesley Stanley,fcardenas@torres-brown.com,(100)304-0790x3074,53214 Smith Lakes Suite 591,Male,Premium,Electronics,31,2158.97,4,5,0,2025-04-15
+C168,Darryl Carney,rodriguezstacie@hunt.org,(071)823-4140,48580 Brandon Vista Apt. 472,Male,Basic,Fashion,33,2414.67,15,2,0,2025-03-23
+C169,Rachel Orozco,tiffanycoleman@sanchez-marshall.info,+1-039-954-1847x10736,92467 Long Keys,Female,Standard,Home,21,1773.1,10,0,1,2025-04-07
+C170,Krista Baker,kayla42@boone.biz,799.153.2320,88224 Stephen Plains,Male,Standard,Sports,50,2760.64,8,1,0,2025-04-22
+C171,Nancy Salazar,villarrealvirginia@gmail.com,+1-270-513-3237x8406,379 Steven Island Apt. 936,Male,Premium,Sports,42,787.48,15,0,0,2025-04-12
+C172,Alicia Barry,josephcole@perry-hall.com,115.174.0281x66622,378 Bennett Expressway,Female,Standard,Fashion,57,985.36,28,5,1,2025-04-18
+C173,Lisa Gibson,qjones@wade-scott.info,001-142-354-4155,3417 Michael Alley Apt. 733,Female,Standard,Electronics,23,957.36,23,2,1,2025-04-22
+C174,Peter Abbott,liujohn@moreno.biz,443-933-2609,9347 Curry Point,Female,Standard,Home,45,1513.58,5,5,0,2025-04-25
+C175,Christina Cain,robinsonjocelyn@gmail.com,955-492-8912x714,8669 Jessica Throughway,Female,Premium,Sports,22,1771.6,17,5,0,2025-03-13
+C176,Joshua Taylor,mendozacurtis@hotmail.com,434.803.8705x03378,898 Edwards Turnpike,Female,Basic,Fashion,52,979.22,26,3,1,2025-04-22
+C177,Jeffrey Hess,dominguezgabriel@gmail.com,724-000-1303x669,068 Ochoa Station,Male,Standard,Sports,19,885.51,5,3,0,2025-04-11
+C178,Stacy Adkins,sarah15@gilbert.net,(003)566-3158x60312,097 Ryan Crescent Suite 034,Female,Basic,Sports,29,2308.78,10,0,0,2025-04-13
+C179,John Henderson,lisa39@west.com,508.271.9155,36220 Mark Union,Male,Standard,Fashion,26,1700.54,9,2,0,2025-03-03
+C180,Elizabeth Marks,birdhunter@hill.com,(952)812-0263x2480,712 Shane Keys,Male,Premium,Home,19,2424.27,17,4,1,2025-04-29
+C181,Ryan Garza,ochurch@brown-rodriguez.net,5566414347,860 Taylor Common Apt. 289,Male,Standard,Electronics,26,1541.21,21,5,0,2025-03-06
+C182,John Roberts,lori45@garrison-frank.com,(432)113-4367x4041,1805 Liu Fords Apt. 676,Male,Standard,Home,30,2785.21,4,4,1,2025-04-24
+C183,Benjamin Woods,victoria95@yahoo.com,001-344-983-3508x25768,495 Romero Stravenue,Female,Basic,Fashion,27,307.15,13,3,1,2025-03-20
+C184,Angela Williams,emiller@petty.org,695.778.1264x53142,604 Ramirez Junction Apt. 684,Male,Premium,Home,63,270.9,12,5,0,2025-04-02
+C185,Jason Chan,russellvirginia@yahoo.com,3408713127,552 Ryan Parks,Female,Premium,Sports,63,2435.39,9,1,1,2025-04-11
+C186,Nathaniel Fuentes,maywhitney@yahoo.com,+1-718-821-4836x77620,6737 Taylor Fords Apt. 748,Male,Standard,Fashion,40,847.67,9,1,0,2025-03-31
+C187,Andrew Tucker,loriortega@gmail.com,5860368656,152 Donald Key Suite 980,Female,Standard,Home,25,1879.48,15,5,1,2025-03-07
+C188,Ashley Black,christopherbooth@holmes-marshall.org,899.692.6073x5589,232 Wilson Tunnel Suite 156,Male,Basic,Home,27,377.64,13,0,1,2025-04-01
+C189,Katrina Ellison,lampaul@gmail.com,001-350-510-9483x951,564 Michael Centers Apt. 408,Male,Basic,Electronics,31,839.74,24,3,1,2025-03-31
+C190,Stephanie Adams,rebecca42@mcclain-rodriguez.com,+1-054-778-1172x0411,3497 Huerta Fords Apt. 120,Female,Premium,Fashion,24,2162.75,9,1,1,2025-03-18
+C191,Kimberly Weaver,josephmcdowell@murphy.com,(603)725-1706x45728,19614 Jessica Mall Apt. 205,Male,Premium,Fashion,54,285.56,16,2,1,2025-03-29
+C192,Roger Mccullough,christopher43@yahoo.com,001-288-592-4027x7254,7140 Tammy Flat,Male,Premium,Electronics,49,2102.72,11,0,0,2025-04-04
+C193,Aaron Joseph,larryjackson@yahoo.com,244.859.4667,7433 Keith Divide Apt. 981,Male,Premium,Fashion,27,2858.88,28,1,0,2025-04-26
+C194,Tiffany Martin,umiller@yahoo.com,810.278.9489x746,032 Mary Lights Apt. 728,Male,Standard,Electronics,19,1698.15,15,0,1,2025-03-24
+C195,Gary Rodriguez,qchandler@gardner.net,125-654-3485,0072 Kenneth Parkways Suite 796,Male,Standard,Sports,30,2690.52,2,4,1,2025-04-19
+C196,Christopher Curry,arthurprice@zimmerman-banks.com,262-606-6873,78405 Anthony Ports Apt. 557,Male,Standard,Sports,62,1188.7,16,4,0,2025-04-19
+C197,Aaron Calderon,christophergreene@lewis.com,830-788-9379x21802,114 Jacob Groves,Male,Standard,Fashion,34,2463.01,12,5,1,2025-04-22
+C198,Cameron Simpson,susanwallace@cook.biz,372-333-7662x3349,812 Phyllis Extensions,Male,Standard,Electronics,49,1020.76,7,4,1,2025-03-29
+C199,Alex Carter,jessesilva@rivera-deleon.biz,531.804.3676,59141 Porter Avenue,Male,Basic,Fashion,64,1953.26,17,4,0,2025-03-10
+C200,Heather Roberts,leelinda@lopez-wilson.com,1060510348,74599 Palmer Motorway Suite 828,Female,Standard,Fashion,52,194.3,1,1,1,2025-04-20
+C201,Shawn Wells,davidgarcia@martinez.com,9358776165,7985 Gallegos View,Female,Standard,Home,63,2507.25,4,0,0,2025-03-31
+C202,Rebecca Smith,wagnerchristopher@yahoo.com,707-164-0635,3926 Michelle Street Apt. 713,Female,Premium,Sports,37,2720.27,23,2,1,2025-03-23
+C203,Matthew Wilcox,krystalrobinson@hernandez.com,199.385.2200,407 Micheal Plain Suite 204,Male,Premium,Sports,24,2511.37,7,4,0,2025-03-27
+C204,Kimberly Thornton,kyle62@watkins-bolton.com,059.187.0706x483,656 William Burgs,Male,Premium,Sports,46,471.31,30,1,1,2025-04-09
+C205,Cameron Simpson,christopher87@short-mccormick.com,712-226-0866x68519,859 Brianna Creek Suite 345,Male,Standard,Electronics,56,2973.47,24,4,1,2025-03-25
+C206,Ralph Turner,courtney50@orr.org,001-847-348-0741x80958,2931 Shepard Field,Female,Premium,Sports,51,1143.78,15,3,1,2025-04-14
+C207,Jacob Patel,bassjessica@waters.com,4898894910,27095 Alyssa Passage Suite 022,Female,Standard,Electronics,61,2992.73,4,4,0,2025-04-02
+C208,Shannon Webster,bradmartinez@olson.com,+1-359-982-7226,3214 Cline Crossroad Suite 833,Female,Standard,Electronics,65,1338.61,5,4,0,2025-04-07
+C209,Sabrina Noble,melindachristensen@gmail.com,+1-813-120-3317,585 Patterson Rest,Female,Premium,Sports,19,1999.64,14,5,1,2025-04-10
+C210,Robert Wise,crystalgordon@gmail.com,+1-731-938-3931x3370,2268 Mendez Route,Female,Standard,Fashion,21,1060.29,27,5,0,2025-04-02
+C211,Carl Clark,kevin03@mercer.biz,+1-776-052-5185,79782 Lewis Plaza,Male,Basic,Fashion,35,758.18,10,1,1,2025-04-28
+C212,Alejandra James,nicholas56@yahoo.com,713-710-4433x759,5977 Wright Meadows Suite 078,Male,Basic,Electronics,24,1613.31,17,4,1,2025-03-28
+C213,Nicole Todd,dcampbell@hotmail.com,998-505-6529x12746,104 Edward Fort,Male,Premium,Sports,21,2197.32,10,4,0,2025-04-29
+C214,Joann Morales,kaylablevins@gmail.com,684-836-7967,74648 Ellison Heights Suite 810,Male,Standard,Home,56,1137.9,3,0,1,2025-04-19
+C215,Amy Chandler,colejohnson@stewart.org,(362)713-7418x9813,32959 Danielle Shoal,Male,Premium,Fashion,41,1897.82,9,5,1,2025-03-08
+C216,Mr. William Sharp DDS,melissaanderson@garcia.com,359.725.9768,882 Kayla Groves Apt. 225,Female,Premium,Electronics,59,2546.24,12,2,0,2025-04-27
+C217,Christine Lopez,brendaanderson@gmail.com,(978)147-9647x08573,31919 Thomas Falls,Male,Premium,Home,39,2221.51,10,5,0,2025-04-08
+C218,Krista Krause,deanna89@jackson.info,(726)929-0255,83093 Gonzalez Locks,Male,Basic,Fashion,49,1857.75,2,5,0,2025-04-21
+C219,Alexis Schultz,vbates@yahoo.com,+1-473-485-8704,6034 Zachary Mount Apt. 361,Male,Basic,Electronics,19,472.15,4,5,1,2025-04-15
+C220,Michael Wilson,sburke@gmail.com,(248)834-6577x87094,2865 Julie Courts,Male,Standard,Home,28,2001.74,24,3,0,2025-03-04
+C221,Katherine Harrison,hboyle@hotmail.com,295-440-6605x25494,78334 Bradley Mountains Apt. 281,Female,Basic,Electronics,42,2331.15,12,5,1,2025-03-29
+C222,Thomas Melendez,obates@gmail.com,4390977598,58495 Janice Canyon Suite 975,Female,Standard,Electronics,65,1888.48,3,0,0,2025-03-24
+C223,Mark Hancock,fwebb@mckinney.net,+1-526-016-7879x01238,10256 Rubio Club Suite 208,Female,Basic,Sports,38,2885.65,2,4,0,2025-03-28
+C224,John Anthony,aparks@hotmail.com,739.073.2196,933 Roberts Springs,Male,Standard,Home,40,2751.65,23,2,1,2025-03-23
+C225,Jason Orr,merrittjasmine@yahoo.com,+1-132-292-0495x042,60362 Smith Well Suite 048,Female,Premium,Electronics,29,2493.08,30,3,0,2025-03-07
+C226,Wendy Payne,tracyhuff@sosa.com,+1-596-593-7120x020,851 John Alley,Female,Premium,Electronics,26,1377.02,19,4,0,2025-04-20
+C227,Martin Wheeler,tammy73@yahoo.com,(286)195-6721x6206,4328 Garcia Avenue Suite 931,Male,Premium,Sports,27,1757.37,14,0,0,2025-04-14
+C228,Danny Galvan,gregory92@marsh-moore.com,127-687-2800x471,97979 Trevor Trail Apt. 501,Male,Standard,Fashion,52,1445.05,22,2,1,2025-03-12
+C229,Ashley Fernandez,amanda72@patel.org,(404)331-0814x4579,88421 Jared Gardens,Female,Standard,Home,37,1458.82,17,0,0,2025-03-22
+C230,Joshua Fisher,ktran@hotmail.com,496-054-6760,70024 Walker Isle Suite 149,Female,Standard,Fashion,38,655.35,27,3,0,2025-03-17
+C231,Crystal Daniel,brianwoodard@brown-turner.info,708-118-6747x3840,1738 Melissa Drive,Male,Premium,Fashion,23,1808.72,13,4,1,2025-03-25
+C232,Matthew Newton,qarmstrong@johnson.com,646.511.4590,5814 Thomas Key,Female,Standard,Sports,51,492.99,20,4,1,2025-03-17
+C233,David Peck,rebeccathompson@thomas.net,428-812-5677x2242,5846 Matthew Plain Suite 936,Male,Standard,Home,56,1156.72,30,2,1,2025-04-11
+C234,Edgar Perkins,keith81@gmail.com,001-383-180-4168x31845,756 John Springs Suite 863,Female,Standard,Fashion,50,1024.49,14,5,1,2025-03-31
+C235,Connie Logan,jenniferkemp@hotmail.com,+1-539-859-7019x0714,4960 Mike Union,Female,Premium,Home,35,1845.36,8,5,1,2025-03-21
+C236,Christina Reese,ramirezjoanna@yahoo.com,+1-897-198-5837x2051,6689 Duke Ports Suite 333,Female,Basic,Fashion,43,1076.19,25,3,0,2025-03-23
+C237,Diana Hansen,adamvelazquez@thomas-wallace.com,(706)442-7859x69594,4645 Barton Union,Female,Standard,Fashion,60,2557.47,16,1,0,2025-04-04
+C238,Mrs. Stacy Marsh,bhutchinson@rivera.com,001-736-192-2356x8374,7410 Anthony Stream,Male,Basic,Electronics,47,2412.76,10,3,1,2025-03-17
+C239,Amanda Davis,elizabethpitts@hotmail.com,+1-871-975-7600,681 Parker Streets Suite 321,Male,Premium,Sports,32,2745.65,11,1,1,2025-03-15
+C240,Evan Morse,eileen48@coffey.com,604.509.1911x0176,233 Hudson Stream,Female,Premium,Electronics,54,1182.04,12,0,1,2025-04-15
+C241,Troy Dennis,mark07@hotmail.com,+1-470-064-2358x7141,251 David Green Apt. 989,Male,Standard,Fashion,21,1321.14,10,2,1,2025-04-20
+C242,Brian Dixon,lbright@williamson.com,245-569-1494,25670 Miller Fall Suite 856,Female,Basic,Sports,53,290.92,8,0,1,2025-03-15
+C243,Jennifer Lawrence,kylescott@gmail.com,996.696.0230,5797 Gray Underpass Suite 263,Male,Premium,Electronics,31,1877.28,15,1,0,2025-03-11
+C244,Shaun Carey,nancyjohnson@wright.org,+1-207-462-3563x7540,397 Debbie Crossing,Male,Standard,Fashion,34,2425.41,29,5,1,2025-04-23
+C245,Stephanie Brown,cfrank@hotmail.com,+1-654-811-3607x24278,6572 Washington Avenue,Female,Standard,Fashion,27,673.86,28,2,1,2025-04-08
+C246,Patrick Gonzalez,alexandrapierce@yahoo.com,001-403-921-7748,7471 Huerta Mountain Apt. 334,Female,Standard,Home,37,1078.32,18,1,1,2025-04-27
+C247,Erik Gilbert,zortiz@fleming.net,201.079.9156,828 Charles Ramp Suite 779,Male,Basic,Sports,18,2652.67,18,3,0,2025-03-15
+C248,Michael Alexander,richard44@murphy-wallace.com,001-251-078-9124x852,92651 Dennis View,Female,Basic,Sports,39,2933.95,3,1,1,2025-03-23
+C249,Jordan Willis,jeffrey22@hotmail.com,001-009-218-4273x2006,82075 Matthew Turnpike,Female,Basic,Electronics,58,2662.11,20,3,1,2025-03-27
+C250,Samantha Alvarez,anthony20@hotmail.com,3972460578,35390 Ryan Spur,Male,Premium,Electronics,63,1829.32,19,1,0,2025-04-09
+C251,Kelly Wolf,lisa29@yahoo.com,660-015-9138,268 Seth Meadows,Male,Basic,Home,54,343.38,1,4,0,2025-03-31
+C252,Brandon Wilson,michaelthompson@yahoo.com,338-188-2884,04178 Forbes Inlet Apt. 973,Female,Standard,Sports,62,2208.65,17,2,1,2025-03-14
+C253,Michael Brooks,emartinez@delgado.com,(440)933-0055,896 Jonathan Radial,Female,Premium,Home,45,446.13,8,2,1,2025-04-05
+C254,Melissa Baird,rachelmcknight@gmail.com,(279)753-3651,4948 Nancy Wells,Male,Basic,Sports,22,437.71,25,1,1,2025-03-22
+C255,Joyce Wilson,stephanie20@yahoo.com,291.148.1010,5463 James Greens,Male,Premium,Sports,60,1379.04,30,1,0,2025-03-30
+C256,Gary Evans,schristian@gmail.com,+1-867-767-5559,20727 Daugherty Coves,Male,Premium,Sports,38,2712.4,1,3,1,2025-04-08
+C257,Mathew Randolph,anna95@yahoo.com,3855670552,298 Dana Island,Female,Basic,Electronics,26,1090.75,9,0,1,2025-04-16
+C258,Rachel Hernandez,karenmassey@gmail.com,425-571-5724x112,4010 Callahan Gardens Apt. 225,Male,Standard,Electronics,44,2769.02,17,2,1,2025-03-01
+C259,Patricia Smith,ehoffman@hotmail.com,+1-312-626-9804,9243 Benjamin Avenue Suite 570,Female,Basic,Fashion,42,1391.74,16,2,0,2025-03-30
+C260,Richard Miller,brenda70@yahoo.com,331-266-4200,91547 Hansen Pass,Female,Basic,Home,30,2487.32,10,5,0,2025-04-11
+C261,Bruce Gilmore,smithdavid@gmail.com,846.950.4642,491 Nichols Junction Suite 918,Female,Standard,Fashion,32,274.73,24,2,1,2025-03-02
+C262,Stacy Jones,bowensusan@yahoo.com,(906)881-0074,6613 Fox Circles Apt. 570,Female,Premium,Electronics,62,2876.41,7,2,1,2025-04-06
+C263,Joshua Curry,lisachang@figueroa.biz,001-692-846-7779,084 Carolyn Ford Suite 535,Female,Premium,Sports,18,2963.57,22,2,0,2025-03-01
+C264,Stephanie Cooper,andersonbrandi@smith.org,344.842.1858,53514 Cox Track,Female,Premium,Home,20,989.78,3,0,1,2025-04-11
+C265,David Moore,mark33@weber-daniels.net,+1-747-143-0382,29865 Michael Lock,Male,Premium,Electronics,62,1828.4,16,4,0,2025-03-09
+C266,Kenneth Cook,watsonrebecca@yahoo.com,(542)963-7708x7898,6936 Deborah Canyon Suite 021,Female,Standard,Home,42,1609.83,6,2,1,2025-03-31
+C267,Scott Reyes,larsonkevin@hotmail.com,778.789.0494,598 Price Cape,Female,Standard,Electronics,22,2216.25,28,2,1,2025-04-06
+C268,Janice Martin,brandonlambert@rodgers-boone.net,5580129637,2585 Christine Track,Female,Standard,Home,26,1731.51,20,4,0,2025-04-23
+C269,John Copeland,michellenorman@yahoo.com,(160)919-5430,68709 Christopher Turnpike,Male,Standard,Fashion,37,2733.58,15,1,0,2025-04-09
+C270,Devon Carey,hharris@hotmail.com,(236)617-1597,853 Silva Stravenue Suite 519,Female,Basic,Electronics,36,2757.86,15,4,0,2025-03-21
+C271,Joseph Scott,cdaniel@young-pratt.com,+1-996-595-6257x120,028 Martin Plaza,Male,Standard,Fashion,61,2390.86,9,5,1,2025-04-27
+C272,Anthony Decker,lopezadam@green-nicholson.info,805-924-5806,98304 Martinez Summit Suite 443,Female,Premium,Sports,47,993.46,21,0,1,2025-03-03
+C273,Diane Reed,russellcrystal@gmail.com,305-284-4685,489 Carla Brooks,Female,Standard,Fashion,54,1181.72,11,2,1,2025-04-14
+C274,Edward Small,cynthiaweiss@harris-jackson.com,(761)398-6233x23631,736 Juarez Radial,Female,Standard,Sports,33,2756.63,25,4,0,2025-04-29
+C275,Daniel Oneal,xshah@gmail.com,602.734.6960,72706 Dawn Mission Suite 303,Male,Premium,Home,22,1272.06,2,5,1,2025-03-28
+C276,Heidi Perkins,jillian23@hotmail.com,(282)348-2325,6600 Mary Expressway Apt. 793,Female,Premium,Electronics,21,1474.7,18,5,0,2025-03-24
+C277,Catherine White,houseluis@casey-york.com,(474)044-0845,9378 April Crescent,Female,Basic,Electronics,31,1826.95,14,4,0,2025-03-10
+C278,Marvin Christensen,stephen43@thomas.net,028-288-5599,338 Murphy Vista,Male,Basic,Sports,65,1785.04,4,0,1,2025-03-22
+C279,Robert Williams,jonathan63@yahoo.com,+1-773-238-6071,9054 Jenkins Points,Female,Basic,Sports,31,2572.46,21,4,0,2025-03-02
+C280,Christopher Anderson,cheryl13@gmail.com,(333)283-5881x50342,4590 Courtney Drive,Male,Basic,Fashion,58,2805.0,6,4,0,2025-03-08
+C281,Brian Boyle,michael73@yahoo.com,935.063.0550,937 Maria Brook,Male,Standard,Home,62,1567.18,12,0,0,2025-04-16
+C282,Anthony Sanchez,lcraig@hotmail.com,265-432-5455x893,47333 Hughes Camp,Female,Premium,Electronics,19,2788.28,14,0,1,2025-04-16
+C283,Bethany Rivera,moorekathryn@logan.com,488-550-5824x4595,22076 Stephanie Drive,Male,Standard,Fashion,22,734.26,4,1,1,2025-04-17
+C284,Erin Gallegos,williamschloe@gmail.com,9679145616,5439 Skinner Ways,Male,Premium,Home,42,762.14,17,0,0,2025-03-05
+C285,Jessica Clark,nicolejohnson@adkins.com,(535)777-5420x3011,120 Massey Vista,Female,Standard,Sports,50,2148.82,9,2,0,2025-04-24
+C286,Louis French,perrybrenda@hotmail.com,(432)673-7752x7856,722 Steven Views Suite 522,Female,Basic,Home,36,677.31,21,5,1,2025-03-24
+C287,Charles Howell,hsellers@ware-rodriguez.com,(930)507-3634,122 Glen Inlet,Male,Standard,Home,41,2012.14,17,5,0,2025-03-26
+C288,Chelsea Pope,dicksonchristina@yahoo.com,(265)368-1851,18711 Andrew Trail Apt. 136,Female,Standard,Home,24,1321.13,10,2,0,2025-04-05
+C289,James Taylor,bmartinez@mejia.com,233-073-6395x34268,53166 Casey Summit,Male,Basic,Home,33,2557.75,3,4,0,2025-04-29
+C290,Maria Mckenzie,wsmith@lewis-howard.info,394-184-7196,420 Melanie Fall Apt. 933,Male,Standard,Home,22,2531.87,20,0,0,2025-03-28
+C291,Jodi Allen,margaret59@lawrence.biz,646-157-5145x9506,465 Dennis Locks,Male,Premium,Electronics,48,1082.33,28,4,1,2025-04-12
+C292,Kevin Wilson,gomezelizabeth@gmail.com,906-369-8575x927,307 Rodriguez Harbors,Female,Basic,Sports,22,763.96,27,5,1,2025-03-20
+C293,Brittany Bailey,abailey@yahoo.com,001-653-244-1492x801,337 Grant Camp,Female,Standard,Sports,65,248.01,5,4,0,2025-04-04
+C294,Melissa Hoffman,meagandillon@gmail.com,030-850-0704x888,80604 David Islands Apt. 838,Male,Basic,Home,58,263.1,24,5,1,2025-04-08
+C295,Troy Dixon,warrenwhitney@yahoo.com,6209803378,35453 Benjamin Overpass,Male,Premium,Sports,34,2619.86,14,2,0,2025-03-13
+C296,Matthew Parsons,jamiebaker@luna-orozco.com,+1-322-490-7978,4155 Pierce Keys,Female,Standard,Electronics,50,1278.97,8,0,1,2025-03-16
+C297,Michelle Haas,fernandezkristina@christian-calderon.com,781.249.8304x62338,27803 Johnson Mountain,Female,Standard,Fashion,54,2042.34,12,1,0,2025-04-11
+C298,Susan White,anthony44@gmail.com,9719646891,1787 James Ramp,Female,Premium,Electronics,33,1126.38,7,2,1,2025-04-06
+C299,David Mcdonald MD,cynthia79@gmail.com,001-114-951-6787x6775,551 Chandler Forest,Male,Premium,Home,65,753.48,12,3,1,2025-03-08
+C300,Gregory Cook,jerry51@hotmail.com,500.371.8952x18383,78161 Michelle Mission Suite 810,Male,Premium,Fashion,37,2959.46,17,1,1,2025-03-26
+C301,David Mayo,annette18@buchanan-alvarado.biz,001-753-129-0324x3076,7425 John Prairie Suite 550,Female,Standard,Electronics,25,502.15,8,1,0,2025-03-22
+C302,Tiffany Mendoza,adrianford@gmail.com,3150343627,6919 Phillips Gardens,Female,Basic,Sports,62,267.91,29,0,0,2025-03-11
+C303,Lisa Johnson,alexanderwilliams@reynolds.org,(912)129-3378,39807 Hanson Center Suite 345,Male,Basic,Fashion,59,2923.79,4,3,1,2025-04-26
+C304,Aaron Espinoza,kramirez@reeves.com,+1-131-895-2367x480,79670 Contreras Crossroad,Female,Standard,Home,30,2781.91,22,3,1,2025-04-08
+C305,Lauren Martinez,yvelez@hotmail.com,001-145-843-3707,414 Carroll Pass,Male,Basic,Sports,24,2201.35,25,0,0,2025-03-18
+C306,Shawn Stewart,randy17@wilson.com,959-587-8851,3334 Powell Groves,Female,Standard,Fashion,36,176.73,11,5,0,2025-03-27
+C307,Ian Curtis,stephen23@webb.net,+1-125-483-8005,015 Matthew Knolls Apt. 648,Male,Standard,Electronics,30,1453.06,7,3,1,2025-04-12
+C308,Scott Horton,christinasawyer@willis.com,956-357-5855,934 Denise Lodge,Male,Premium,Electronics,50,2687.16,28,3,0,2025-04-27
+C309,Lindsey Barber,singletonvictoria@hotmail.com,+1-541-121-5834x52294,23945 Brandt Rapid Suite 988,Male,Basic,Home,63,155.49,28,5,1,2025-04-22
+C310,Jessica Cruz,pcooper@johnson.net,(426)941-4242x7129,010 Moran Trace Suite 103,Female,Basic,Home,40,1139.65,17,4,1,2025-03-02
+C311,Rebecca Jimenez,acox@williams.com,+1-571-867-8672x131,229 Simon Valleys Apt. 111,Male,Basic,Sports,20,538.6,7,2,1,2025-04-05
+C312,Joshua Tapia,ballardryan@vaughn.info,+1-167-923-6921x110,131 Anna Road,Male,Premium,Home,47,2797.25,6,2,1,2025-04-07
+C313,Heather Johnson,judy86@boyd.info,001-636-794-6933x358,75257 Joe Forks,Male,Basic,Sports,58,132.08,6,2,0,2025-04-01
+C314,Mark Chapman,courtney17@berry.net,001-540-724-3938x05139,614 Angela Park Apt. 303,Male,Standard,Fashion,64,1028.41,24,4,0,2025-04-20
+C315,David Cuevas,jon46@hotmail.com,596.918.6817,303 Brandon Branch,Female,Standard,Electronics,65,2121.25,23,0,1,2025-03-09
+C316,Mr. Roberto Mcintosh,timothy32@powers.com,001-588-807-4138,9570 Christopher Rapid,Female,Premium,Sports,32,1202.18,30,4,1,2025-04-17
+C317,Melissa Parker,jacksonsharon@yahoo.com,001-188-650-6461x36894,441 Joseph Inlet Apt. 580,Female,Basic,Electronics,59,2740.53,17,1,0,2025-03-27
+C318,William Aguirre,hballard@saunders-reyes.com,(783)114-6917,3254 Miller Ridge,Female,Basic,Sports,32,2264.46,5,3,0,2025-04-20
+C319,Shannon Murphy,ashleystone@yahoo.com,280.978.3271x3244,48380 David Rapid,Female,Basic,Electronics,18,1165.78,22,2,1,2025-03-19
+C320,John Estes,tzimmerman@yahoo.com,(278)440-9517x405,69831 Rebecca Cliff,Female,Standard,Electronics,26,2674.25,6,3,0,2025-03-05
+C321,Angela Edwards,krichardson@hotmail.com,188.100.1526,464 Miller Path Apt. 505,Male,Premium,Sports,21,1295.15,27,0,1,2025-04-27
+C322,Anne Reed,brittany89@lester.com,272.731.1745x88013,180 Thompson Corner,Male,Premium,Home,65,2343.8,23,1,0,2025-04-15
+C323,Angela Johnson,david70@yahoo.com,(952)371-6501,808 Walker Club,Male,Basic,Electronics,59,939.8,13,4,0,2025-03-09
+C324,Pamela Bailey,zsavage@scott-collins.biz,001-385-626-2610x432,812 Jared Creek Suite 264,Male,Premium,Fashion,65,969.37,24,0,0,2025-04-20
+C325,Ashley Perry,jakekennedy@woods-foster.info,591-790-5002x2190,554 Smith Pine,Male,Basic,Home,39,2298.19,25,1,0,2025-04-16
+C326,Adrian Joyce,hfreeman@brown.net,+1-007-400-1007,095 Natalie Pass,Female,Basic,Electronics,41,795.01,11,0,1,2025-03-24
+C327,Kyle Collins,samueljohnson@hotmail.com,482-361-4553,49160 Arroyo Land,Male,Premium,Sports,61,1659.44,19,4,0,2025-03-13
+C328,Gabriel Hernandez,eduardoharper@hotmail.com,001-915-758-9506x8031,91782 Tanner Pass Suite 050,Female,Standard,Fashion,63,988.02,28,4,1,2025-03-12
+C329,Kathleen Stone,andrew58@hotmail.com,472-673-4271,91482 Philip Road,Male,Premium,Fashion,57,1664.0,20,5,0,2025-03-04
+C330,Bruce Reed,wangdawn@marshall.com,224-303-5467x359,84129 Joyce Shoal,Male,Premium,Fashion,56,1267.7,4,3,1,2025-03-12
+C331,Carol Wade,uleonard@dixon-robertson.biz,001-077-360-3804x381,536 King Trace,Male,Premium,Electronics,50,154.75,23,2,0,2025-03-23
+C332,Michael Nichols,mbutler@yahoo.com,515-910-0103x263,08529 Angel Meadow,Female,Premium,Sports,31,2575.42,11,3,0,2025-03-10
+C333,Monica Mccullough,jmoore@farmer.org,(571)576-5763,179 Robinson Spur Apt. 126,Female,Basic,Home,24,2967.54,24,1,1,2025-03-03
+C334,Brandon Marks,stephaniemueller@hotmail.com,(835)408-8423,19174 Smith Well Apt. 050,Female,Standard,Electronics,64,1165.89,1,4,0,2025-03-02
+C335,Jonathan Flynn,jimmy10@hebert-green.net,522-242-6827,97477 Austin Lake,Female,Basic,Fashion,52,2328.37,10,1,0,2025-03-04
+C336,Doris Robinson,saguilar@foster.com,(950)055-7421x2389,6531 Reid Mountain,Male,Basic,Sports,48,2292.52,18,3,1,2025-03-22
+C337,Barbara Lewis,brenda05@holland.com,(913)085-1526x541,4534 Huang Views,Female,Basic,Electronics,24,150.99,24,3,1,2025-03-19
+C338,David Wise,garyjones@hotmail.com,+1-881-019-2740x604,5919 Colleen Ville Suite 378,Male,Standard,Electronics,41,2446.35,18,5,1,2025-03-17
+C339,Kelli Nelson,william29@reynolds-clark.info,+1-800-353-8127,05188 Johns Burgs Apt. 200,Male,Premium,Home,30,337.52,22,5,0,2025-04-15
+C340,Michelle Garrett,kevinward@yates.com,882.142.3771x35071,79773 Cassandra Port Apt. 883,Male,Basic,Electronics,28,480.6,10,1,0,2025-04-20
+C341,Samantha Martin,hmack@yahoo.com,001-540-091-2467x465,7441 Ward Harbor,Male,Standard,Fashion,22,2911.77,26,1,1,2025-04-11
+C342,Kevin Williams,ysmith@gmail.com,+1-572-285-3577x19870,905 Vargas Mission Apt. 481,Male,Basic,Home,51,113.29,15,4,0,2025-04-29
+C343,Chelsea Mullen,johnpetersen@hotmail.com,(705)164-9778x051,43622 Nelson Ridges,Female,Basic,Home,56,535.58,11,5,0,2025-04-24
+C344,Mark Mullins,emilyhartman@yahoo.com,+1-124-661-7072x03959,1900 Johnson Ways,Female,Premium,Fashion,54,112.73,16,5,1,2025-04-14
+C345,Elizabeth Page,ronald36@yahoo.com,608.848.7691x204,356 David Loop Apt. 846,Female,Premium,Sports,64,2012.87,26,3,0,2025-04-09
+C346,Jasmine Lewis,frank58@smith.com,479-803-0738,365 Nicholas Points,Male,Basic,Home,43,2673.04,8,3,0,2025-04-21
+C347,Cynthia Armstrong,snguyen@short.com,331.965.9228x39584,314 Elaine Manor Suite 721,Female,Premium,Home,49,2473.67,23,1,1,2025-04-04
+C348,Lisa Roy,glenn18@yahoo.com,306-581-5492x42855,61423 Matthew Canyon,Male,Standard,Fashion,38,640.93,24,5,1,2025-04-09
+C349,Johnny Friedman,kimberly54@hotmail.com,(159)534-0583,224 Nicolas Plain,Male,Standard,Electronics,61,2589.95,7,2,1,2025-04-20
+C350,Jeffrey Waller,benjaminsims@foster.com,477.221.5173,1593 Vanessa Village,Male,Basic,Home,46,1805.24,26,5,0,2025-03-11
+C351,Linda Nguyen,allenelizabeth@gmail.com,(727)253-4987,4010 Crystal Villages Apt. 419,Female,Premium,Home,60,280.5,19,4,1,2025-03-07
+C352,Lisa Novak,thomasmeredith@hotmail.com,467-260-3496x2319,57676 Danielle Circle Apt. 120,Female,Premium,Fashion,50,1773.24,2,4,0,2025-04-27
+C353,Jesus West,samuel96@gmail.com,320-246-1085x617,1669 Gordon Extensions Suite 099,Female,Premium,Home,36,1592.56,29,4,0,2025-04-28
+C354,Erik Mccann,cynthia67@yahoo.com,+1-996-856-1086x53009,91853 Foster Stream Apt. 748,Male,Basic,Sports,25,1743.2,21,0,0,2025-04-19
+C355,Thomas Alexander,josephcruz@hotmail.com,785-845-1374,65301 Gallegos Lane Suite 756,Female,Basic,Electronics,50,1384.68,18,1,1,2025-04-09
+C356,Anne Baker,qhamilton@yahoo.com,426-668-5115x98594,6266 Debra Mount,Male,Basic,Home,48,1782.49,5,4,0,2025-04-12
+C357,Annette Forbes,dnolan@yahoo.com,001-315-301-2527x63601,664 Daniel Branch Suite 597,Male,Premium,Home,42,672.49,17,5,0,2025-03-23
+C358,Paul Schneider,cassandragreene@hotmail.com,001-147-431-4052x4898,38957 Johnny Gateway Apt. 900,Female,Basic,Fashion,64,283.39,21,3,1,2025-03-14
+C359,Natalie Mckenzie,ebass@yahoo.com,1707421836,355 Mcfarland Meadows,Female,Premium,Home,35,1588.45,6,3,1,2025-03-13
+C360,Tracy Fisher,edwardscristian@anderson.biz,088.579.4344,045 Cohen Pass Suite 910,Male,Standard,Sports,35,1354.94,18,3,1,2025-03-16
+C361,James Garcia,kaylacontreras@jones.org,+1-213-008-4927,67703 Kaitlin Field,Female,Standard,Electronics,26,1453.02,5,4,0,2025-04-03
+C362,Holly Pope,dcook@phillips.com,969.957.4469,210 Jones Common,Male,Premium,Sports,54,2858.88,1,1,1,2025-04-25
+C363,Colton Tucker,francisco72@padilla.com,(243)565-2214x80398,39866 Ford Valley,Male,Premium,Home,29,1584.99,20,1,0,2025-04-16
+C364,Benjamin Proctor,hartbrianna@mason.info,032-910-9446,360 Keith Pike Apt. 718,Female,Premium,Electronics,65,2537.05,11,5,0,2025-03-18
+C365,James Smith,rebecca27@lee.com,(715)979-7788x4693,30083 Jackson Cliffs,Male,Basic,Fashion,65,417.12,20,1,0,2025-03-28
+C366,Morgan Jordan,brownalice@hotmail.com,852-109-1340x3906,28446 Williams Ridge,Male,Premium,Sports,38,2083.99,18,4,1,2025-04-23
+C367,Ashley Henderson,heatherpatel@mann.com,107.793.6227x558,17390 Briggs Alley Apt. 700,Male,Premium,Home,39,564.56,23,1,1,2025-04-21
+C368,Jennifer Maynard,hollowayeric@gmail.com,+1-080-262-1015x4288,66153 Heather Fork Suite 273,Male,Standard,Sports,39,754.76,15,0,0,2025-04-09
+C369,Lisa Hendrix,cherylscott@hotmail.com,948.873.9211,773 Melissa Streets,Female,Premium,Electronics,18,574.36,28,0,1,2025-03-12
+C370,George Nichols,warrencheryl@yahoo.com,970.264.1278x43462,50510 Ponce Vista,Male,Basic,Fashion,50,1172.65,3,5,0,2025-03-26
+C371,Victor Bell,kperkins@jackson.info,(659)299-1639x44923,907 Elizabeth Village Apt. 288,Male,Basic,Sports,33,201.92,3,4,0,2025-03-28
+C372,Jennifer Young,susan55@johnson.com,9024532987,98761 Julie Ferry Suite 528,Female,Standard,Home,37,1771.48,22,1,0,2025-03-02
+C373,Robyn Sanchez,michael97@taylor.org,(444)485-9498x4199,922 Duane Fort,Male,Premium,Fashion,25,2095.51,9,4,0,2025-03-02
+C374,Jeanette Martin,david68@hotmail.com,559-998-1028x687,081 Floyd Port Apt. 966,Male,Premium,Home,52,321.59,2,5,0,2025-04-04
+C375,Karen Lee,christophercrawford@howe-taylor.info,(705)167-6134,1894 Mitchell Vista Apt. 650,Male,Standard,Fashion,32,1848.65,26,0,1,2025-03-27
+C376,Richard Riddle,bbeasley@shannon.com,+1-964-569-5108,1173 Carr Underpass Apt. 231,Female,Standard,Electronics,37,1674.91,29,5,1,2025-03-11
+C377,Jody Mckee,quinnnathaniel@mcclure.info,(397)111-3194x8918,538 Cox Turnpike,Female,Standard,Fashion,41,1364.92,12,4,0,2025-04-10
+C378,Linda Harris,harrisonreginald@hotmail.com,686.885.9142x1278,7741 Regina Pine,Female,Basic,Fashion,29,867.72,1,1,1,2025-04-02
+C379,Jennifer Williams,christopher98@rodriguez-crawford.biz,+1-916-159-4942,3115 Ruiz Neck,Male,Standard,Home,62,1179.9,28,4,1,2025-04-21
+C380,Carol Schneider,heather76@hotmail.com,993-430-7667x01377,6881 Michael Meadow Suite 220,Female,Standard,Electronics,55,2274.88,8,3,0,2025-04-07
+C381,Holly Barr,tdunn@velasquez-phillips.com,001-401-546-3490x6138,70982 White Village Suite 825,Female,Standard,Sports,30,2732.76,16,1,0,2025-03-06
+C382,Reginald Mccormick,spencer99@carroll-herring.com,+1-252-216-1587x50838,54439 Aaron Estate,Male,Basic,Sports,34,1894.85,27,1,0,2025-04-15
+C383,Tristan Ramirez,mark83@allen-lambert.biz,6076586405,45547 Patricia Causeway Suite 315,Female,Premium,Fashion,50,1833.55,19,0,1,2025-03-06
+C384,Kimberly Bell,vschneider@fields.com,547-142-3964,62589 Williamson Run,Female,Standard,Sports,33,875.93,20,5,1,2025-04-02
+C385,Mrs. Jessica Morgan,catherineperkins@smith.biz,242-279-7945x80341,301 David Viaduct Apt. 955,Female,Basic,Home,44,2237.45,3,4,0,2025-04-26
+C386,Joseph Perez,rmiller@ellis.org,001-450-748-5242x39946,4933 Edwards Turnpike Suite 543,Female,Standard,Electronics,52,2463.45,9,3,0,2025-03-17
+C387,Michael Obrien,paul68@gmail.com,260.269.2059,6305 Christopher Terrace,Male,Standard,Fashion,52,2946.76,15,0,0,2025-04-07
+C388,Tina Lowery,christinebanks@gmail.com,182-568-4058,660 Williams Shore,Male,Standard,Sports,32,102.19,25,0,1,2025-03-15
+C389,Daniel Gill,russellricky@white.info,702-326-1023,3030 Gregory Plaza Apt. 985,Male,Basic,Sports,33,2674.92,26,2,1,2025-04-05
+C390,Jeffrey Robertson,stevendiaz@haley-huffman.com,967-324-8145x88545,861 Jimenez Mews Apt. 918,Female,Basic,Home,28,1999.14,23,0,1,2025-03-23
+C391,Clarence Wood,emilygriffin@yahoo.com,800.729.0661,62644 Lopez Divide,Female,Standard,Home,49,2241.52,1,4,0,2025-04-22
+C392,Monica Bauer,joshuamendoza@yahoo.com,047.515.8193,51087 Roger Crescent Suite 833,Male,Standard,Fashion,56,1482.48,13,0,1,2025-04-03
+C393,Lisa Chen,briankelly@hotmail.com,001-650-178-4987,4740 Santiago Camp,Female,Basic,Home,63,2196.2,12,2,0,2025-04-14
+C394,Victoria Alvarez,staceyshannon@kelly.com,342-859-5493,70865 Stephens Flat,Female,Premium,Home,23,2084.77,12,4,1,2025-03-29
+C395,Nicholas Long,goodwinchase@gmail.com,001-027-115-9333,753 Charles Hollow Suite 518,Male,Basic,Home,55,2063.93,24,5,0,2025-04-11
+C396,James Ross,danielle79@paul.net,010-592-1152x9899,230 Anthony Oval Suite 964,Male,Standard,Fashion,34,1604.33,19,3,0,2025-03-15
+C397,Andrew Boyle,greenjohnny@marquez-dennis.com,771.514.9690,732 Nielsen Mall,Male,Basic,Fashion,25,2504.12,11,4,1,2025-04-26
+C398,Jason Mclaughlin,qboyer@hotmail.com,071.351.7608x2750,259 Garner Mills,Male,Basic,Fashion,47,1008.62,26,2,1,2025-03-28
+C399,Tiffany Murray,kaiserjoseph@hotmail.com,798-602-8026x313,563 Henry Isle,Female,Basic,Electronics,33,2053.15,15,5,1,2025-03-16
+C400,Shelby Newton,mary95@hotmail.com,001-138-059-8717x103,634 Amy Squares,Female,Basic,Fashion,61,1002.96,3,5,1,2025-03-22
+C401,Miguel Thomas,tara21@yahoo.com,323-371-7457,41527 Garrison Wells,Female,Standard,Sports,62,1432.87,16,1,0,2025-03-01
+C402,Mark Campbell,wblair@austin.com,415-125-6199,528 Hicks Points,Male,Basic,Home,26,1963.86,20,3,0,2025-03-27
+C403,Daniel Allen,ashleykennedy@roach.biz,+1-804-161-1700x158,60350 Romero Corner,Male,Premium,Electronics,47,616.6,5,1,0,2025-04-04
+C404,Debbie Wilson,tony05@hotmail.com,261-362-5555,321 Nicholas Land Suite 946,Female,Standard,Sports,38,2480.42,24,2,0,2025-04-04
+C405,Regina Watts,baxterbrenda@yahoo.com,001-984-569-8371x6398,09623 Marcus Lane,Male,Premium,Electronics,43,1646.3,1,2,1,2025-04-13
+C406,Heather Smith,adrian30@hotmail.com,039-877-7181,46286 Patricia Camp Suite 968,Female,Basic,Sports,63,2335.09,26,0,0,2025-04-02
+C407,Mr. Richard Reed,stacysmith@gmail.com,+1-418-237-5870x791,900 Keller Curve,Female,Standard,Electronics,28,653.04,26,4,1,2025-03-29
+C408,Caleb Stewart,laceywright@yahoo.com,001-492-745-1131x910,3041 Michele Canyon,Male,Premium,Home,30,309.76,3,2,0,2025-03-06
+C409,Jeffrey Sanchez,wattskeith@gmail.com,(817)359-5662x57345,81970 Harper Lakes,Female,Standard,Home,56,659.02,18,2,0,2025-04-22
+C410,Francisco Price,angelabell@hotmail.com,537.043.0761,151 Jones Valley Suite 198,Female,Standard,Home,47,413.64,18,0,1,2025-04-12
+C411,Alexis Morgan,dave04@yahoo.com,771-500-6180x3011,3548 Rodriguez Lock Suite 026,Male,Standard,Fashion,48,2174.14,23,5,1,2025-03-30
+C412,Cody Wong,samantharich@yahoo.com,(092)700-6054x57198,18487 Christopher Gateway Apt. 521,Female,Premium,Home,57,2921.96,7,5,0,2025-03-08
+C413,Sonia Wilson,jennifer30@hughes.com,+1-347-106-1463x78053,858 Elizabeth Parkways Apt. 047,Female,Premium,Fashion,33,1945.0,2,4,1,2025-03-22
+C414,Donald Smith,oali@crawford.biz,228-929-5834x341,511 Tracey Squares Apt. 438,Female,Standard,Fashion,61,1754.18,7,0,1,2025-04-21
+C415,Patrick Chung,willisjulie@yahoo.com,+1-247-001-3962x234,301 Allen Place,Male,Premium,Home,58,2048.18,29,3,1,2025-03-10
+C416,Destiny Wright,danagreen@hotmail.com,+1-763-335-0344x578,625 Ray Plaza,Female,Standard,Electronics,58,519.78,21,2,0,2025-03-30
+C417,Rebecca Salazar,thess@collins.org,277.540.0118,0269 Deborah Drives,Male,Premium,Fashion,26,2183.35,7,0,1,2025-04-27
+C418,Brandy Madden,vwalsh@larsen-hill.com,5145019742,30531 Tate Unions,Male,Standard,Sports,31,2212.19,9,0,1,2025-04-07
+C419,Michael Bailey,james55@gmail.com,+1-523-896-6874x886,141 Nathan Groves,Male,Premium,Home,59,1764.49,25,5,0,2025-03-07
+C420,Catherine Reid,mwilson@yahoo.com,(390)464-0206x13201,43055 Kristie Manor,Male,Premium,Fashion,55,248.36,30,0,1,2025-03-07
+C421,Nathan Durham,willisjose@jones.net,680.096.2176,57093 Knight Shoals Suite 181,Male,Standard,Sports,25,2019.37,29,0,0,2025-03-12
+C422,Grant Myers,pamela24@johnson.com,001-974-368-8397,0529 Victoria Fords Apt. 884,Male,Basic,Electronics,31,1278.09,9,1,0,2025-04-28
+C423,Lauren Turner,taylormichael@joyce.net,001-773-641-5802x9131,767 Kent Forge,Female,Premium,Home,18,2689.68,28,0,0,2025-03-02
+C424,Marissa Carter,dchavez@montoya-ortiz.net,1814405474,6389 Jonathan Common Suite 069,Male,Standard,Fashion,39,1655.32,14,4,0,2025-04-05
+C425,Jermaine Jones,tyronerivers@yahoo.com,+1-312-734-6674x97174,57900 John Stravenue Suite 318,Male,Premium,Fashion,48,1316.68,3,4,0,2025-04-04
+C426,Rebecca Finley,rarnold@yahoo.com,(458)076-0112,1803 Huber Path,Female,Premium,Sports,58,1282.22,5,3,0,2025-04-14
+C427,Timothy Davis MD,frederick90@oconnell.com,+1-590-384-6853x0451,0496 Wilson Turnpike,Female,Basic,Home,35,2773.3,20,5,1,2025-03-25
+C428,Carl Browning,xpaul@gmail.com,(110)063-3621,45777 Krystal Motorway,Female,Basic,Sports,61,1825.55,16,3,0,2025-04-15
+C429,Joseph White,kspencer@meadows.net,991-322-8004x528,45421 Anthony Cliff,Male,Premium,Home,25,2873.16,3,4,0,2025-04-17
+C430,Brian Brown,jonathon96@gmail.com,751.905.3578,80602 Wilson Islands Apt. 703,Female,Basic,Home,41,2066.27,16,5,1,2025-04-28
+C431,Jeffrey Lewis,pjones@hotmail.com,185-987-9927x3603,0705 David Junction,Female,Premium,Home,23,2812.18,9,1,1,2025-03-17
+C432,Derek Sullivan,cynthia14@yahoo.com,(641)939-2036,58277 Lisa Port Suite 323,Male,Premium,Fashion,64,1529.63,25,4,0,2025-03-17
+C433,Aaron Pope,eric12@norman-finley.biz,+1-535-601-0216x061,714 Duane Harbor Suite 128,Female,Standard,Fashion,52,2068.33,18,1,0,2025-04-18
+C434,Brianna Larson,yhudson@keith.com,607-351-7273x25920,36138 Michael Hills Apt. 099,Male,Premium,Home,28,452.98,23,4,0,2025-04-11
+C435,Raven Hansen,connerdoris@hotmail.com,+1-253-283-1100x0668,420 Reed Square,Female,Basic,Electronics,26,1691.44,12,3,1,2025-03-02
+C436,Anthony Morris,tkerr@yahoo.com,(164)418-9790x638,5580 Reyes Rest,Male,Standard,Home,25,2579.47,10,1,0,2025-03-16
+C437,Ronald Daugherty,rachelray@black.com,185-148-4878x84139,7331 Salazar Stravenue,Female,Basic,Sports,50,1791.54,20,0,1,2025-04-16
+C438,Rebecca Diaz,richard24@hotmail.com,095-891-6240x3351,44614 Nelson Road Suite 619,Male,Basic,Home,39,2152.75,12,3,1,2025-03-12
+C439,Jennifer Villegas,bryanhernandez@yahoo.com,227-766-6018x399,121 Jason Springs Suite 321,Female,Basic,Sports,30,2023.88,17,2,0,2025-04-04
+C440,Tiffany Ballard,anthony48@yahoo.com,572.902.2573,162 Santiago Lock,Male,Premium,Sports,60,2476.26,1,5,1,2025-03-31
+C441,Alison Welch,eblankenship@yahoo.com,413-009-9391,40865 Tracey Course,Female,Standard,Electronics,64,1046.7,2,5,0,2025-03-16
+C442,Anne Davis,davischristopher@gmail.com,372-753-3999x932,175 Gonzalez Pass Suite 785,Male,Standard,Electronics,52,2493.23,30,4,1,2025-03-15
+C443,Gregory Davis,wardryan@garcia.com,(049)204-7921x0581,17217 Love Ports Apt. 107,Male,Premium,Fashion,26,973.27,28,1,1,2025-04-18
+C444,Brett Jenkins,kelli62@hotmail.com,009-046-7074,0242 Pierce Mission Apt. 924,Female,Standard,Sports,26,2868.41,19,3,1,2025-04-06
+C445,Claudia Stevens,qkeith@gmail.com,504.988.5855,38179 Stewart Meadow,Female,Basic,Fashion,55,1302.55,28,2,1,2025-04-11
+C446,Michael Wilson,qroach@gmail.com,770.866.0786,92603 Sydney Parkway Suite 569,Female,Premium,Electronics,30,2862.72,12,2,0,2025-04-06
+C447,Amy Bowman,larsonmelissa@gmail.com,689.413.4886,11108 Osborne Coves Suite 153,Male,Standard,Fashion,56,2080.9,23,3,1,2025-03-19
+C448,Sean Adkins,ariana61@hotmail.com,8029125505,55099 Frey Turnpike Suite 177,Female,Standard,Sports,54,2437.95,24,3,0,2025-03-08
+C449,David Sweeney,ginaknight@clayton-vasquez.org,001-929-636-6943x96031,87177 Karen Locks,Male,Standard,Electronics,45,156.27,6,4,1,2025-03-05
+C450,Sydney Dorsey,connie53@jenkins.net,079.268.7180x380,64685 Yesenia Locks,Male,Basic,Home,54,2956.72,10,4,0,2025-04-25
+C451,Krista Jones,katherinemyers@gmail.com,+1-449-087-9607x4327,849 Jessica Mission,Female,Standard,Electronics,48,1293.72,13,4,1,2025-03-19
+C452,David Jones,smithmaureen@richardson.com,930.532.6103x24600,558 Henderson Rest Apt. 830,Female,Standard,Home,20,787.91,21,5,1,2025-04-24
+C453,Sharon Rivera,xschultz@gmail.com,5679650726,76716 Bird Park Apt. 494,Male,Basic,Home,57,1514.68,23,3,1,2025-03-19
+C454,Garrett Rios,lorimonroe@yahoo.com,(544)934-5634x986,0551 Morgan Harbor,Male,Standard,Electronics,30,1237.51,5,0,1,2025-03-13
+C455,Jack Nguyen,mcgeejose@jones.com,076.502.1880,4597 John Lodge Apt. 544,Female,Standard,Electronics,25,843.75,21,2,0,2025-04-18
+C456,Angela Smith,anguyen@yahoo.com,(148)177-2040,60899 Pugh Via Suite 535,Female,Standard,Sports,62,1107.23,3,1,1,2025-04-14
+C457,Julie Sutton,ubaldwin@yahoo.com,001-616-744-8679x28498,8504 Joseph Estates,Male,Premium,Electronics,27,1759.36,2,4,0,2025-03-26
+C458,Joshua Thomas,allenjacob@gmail.com,473.799.5777,45821 Brown Stream,Male,Basic,Home,62,2741.1,6,0,0,2025-04-04
+C459,Stacy James,cfisher@hotmail.com,708-067-7666x09703,032 Courtney Drive Apt. 536,Male,Basic,Sports,61,728.66,15,3,0,2025-04-03
+C460,Jeanne Collins,carrrichard@hotmail.com,181.799.4564,120 Klein Green Apt. 736,Female,Standard,Fashion,50,303.41,19,1,0,2025-04-12
+C461,Cheryl Frank,luis46@gmail.com,+1-705-462-9252x64494,97836 Wanda Corners Suite 952,Male,Premium,Sports,40,2975.53,19,4,1,2025-04-11
+C462,Brandon Nguyen,hduke@buchanan.com,001-717-006-3133,8853 Jason Garden,Male,Standard,Fashion,49,2713.62,11,3,0,2025-04-28
+C463,Anna Hall MD,smithjudith@jones.com,(191)465-3664,31691 Michael Way Apt. 747,Female,Premium,Electronics,61,1522.93,20,1,1,2025-03-08
+C464,Ronald Williams,samuel60@owens.com,267-336-1333,4491 Lee Ridge,Male,Premium,Sports,52,916.45,27,3,1,2025-04-02
+C465,Courtney Johnson,graysamuel@campbell-wade.org,168.267.0549x084,94595 Tamara Spurs Apt. 378,Female,Standard,Fashion,35,2941.01,22,1,0,2025-04-25
+C466,Lori Short,keykelsey@johnson-roberts.com,+1-123-481-0213,08034 Davis Course,Female,Basic,Electronics,20,646.62,20,3,1,2025-03-23
+C467,Derrick Hardin,timothystrickland@yahoo.com,001-454-576-6382x0454,0015 Stewart Cliffs Apt. 024,Female,Basic,Sports,51,2055.82,14,3,1,2025-03-21
+C468,Jennifer Knapp,anna73@smith.com,001-373-089-4969x6896,5390 Palmer Street,Female,Standard,Sports,51,1502.55,30,2,1,2025-04-27
+C469,Laura Murphy,davispamela@garcia.com,+1-005-355-2607x16924,213 Claudia Crossing Apt. 526,Male,Premium,Electronics,25,2173.2,3,2,0,2025-04-13
+C470,Michael Mendez,kurt08@long.com,2375289478,50652 Black Falls Suite 037,Female,Premium,Fashion,43,428.06,24,4,0,2025-04-21
+C471,Lori George,quinnnathan@williams-garcia.com,001-109-842-7063x970,532 Cox Burg Suite 154,Female,Premium,Electronics,36,2819.59,30,1,0,2025-04-07
+C472,Robert Dickson,justincarroll@gmail.com,667.915.0089x101,46847 King Turnpike,Female,Premium,Home,19,2836.8,12,0,1,2025-04-21
+C473,Jason Hayes,moraleslarry@hotmail.com,5204962858,24085 Oscar Walk,Female,Premium,Electronics,43,2236.41,10,3,0,2025-04-22
+C474,Laura Gregory,johnsonjonathan@hotmail.com,542-254-2151,6634 Anthony Mountains,Male,Basic,Home,42,1022.23,4,5,1,2025-04-27
+C475,Anita Davis,ymitchell@yahoo.com,001-492-300-4925x6333,377 Jordan Rue,Female,Premium,Home,52,663.1,23,5,1,2025-03-23
+C476,James Jones,smithchristopher@tran.com,941-698-0329,06320 Whitaker Trafficway Apt. 653,Male,Standard,Fashion,55,350.64,29,4,0,2025-03-03
+C477,Peter King,edwardsjose@yahoo.com,+1-223-189-4859,151 April Cliffs,Male,Standard,Fashion,50,2212.44,24,3,0,2025-03-05
+C478,Amanda Gonzalez,htyler@hotmail.com,652-581-4365x2863,9301 Martha Meadow,Male,Premium,Electronics,61,2211.9,7,0,0,2025-03-27
+C479,Katherine Cox,scottrangel@yahoo.com,3115830017,690 Alicia Isle,Male,Standard,Electronics,28,1843.79,20,4,0,2025-04-24
+C480,Tina Lee,elucero@hotmail.com,847-700-2735,32770 Dunn Plaza Apt. 333,Female,Basic,Fashion,30,936.97,20,5,0,2025-04-24
+C481,Dr. Daniel Sanders,cooperkimberly@hotmail.com,+1-108-934-7204x985,175 Melissa Way,Female,Premium,Sports,23,1674.72,2,1,1,2025-04-07
+C482,Alicia Thomas,emoore@barrett.info,001-499-350-5867x138,760 Russell Ports Suite 224,Female,Standard,Electronics,19,589.16,30,2,1,2025-04-12
+C483,Larry Hayes,khoward@conway.org,210-882-1451x4178,95468 Rhonda Center,Female,Standard,Fashion,34,2083.05,20,5,0,2025-04-29
+C484,Miguel Brown,ymays@bridges-martin.net,+1-131-198-8220x72589,2513 Melissa Key,Female,Basic,Sports,57,773.04,11,3,1,2025-03-22
+C485,Julie Gray,hjackson@johnson.com,+1-064-830-0462x578,0785 Martinez Glens,Male,Basic,Electronics,56,1139.42,28,0,1,2025-04-07
+C486,Steven Thomas,jasonwhitaker@jones.com,001-390-125-4629x656,75163 Susan Corner Apt. 303,Female,Standard,Electronics,63,761.16,3,5,0,2025-03-17
+C487,David Berger,wgonzalez@gmail.com,180.053.8924x11379,8334 Nathaniel Harbors,Male,Basic,Fashion,33,2659.6,13,4,1,2025-04-11
+C488,Alvin Foster,satkinson@hill.com,(836)379-3547,291 Mathis Parks,Male,Premium,Fashion,48,2419.45,14,2,1,2025-03-13
+C489,Jacqueline Stone,samanthagreen@gmail.com,402-404-9916x559,80554 Daryl Bypass Suite 795,Female,Standard,Fashion,63,2534.75,7,2,0,2025-04-28
+C490,Aaron Nelson,paulsingleton@yahoo.com,001-547-305-3326x002,4695 Kenneth Haven Apt. 980,Male,Basic,Home,47,1266.24,24,4,1,2025-04-26
+C491,Mary Morris,josephgreene@yahoo.com,196-661-1178,71469 Crystal Motorway,Male,Standard,Sports,64,2311.67,18,1,1,2025-03-09
+C492,Gregory Palmer,finleychristopher@gmail.com,970-591-0438,268 Nguyen Inlet,Male,Standard,Sports,55,2526.82,2,5,1,2025-03-15
+C493,Benjamin Fields,michaelrichards@gmail.com,382-160-5015x21858,380 Paul Rest,Female,Basic,Home,51,1553.35,18,2,0,2025-03-22
+C494,Stephanie Anderson,jeffrey20@owen.com,+1-697-170-2913x316,134 William Gateway,Male,Premium,Fashion,59,416.57,10,1,1,2025-04-17
+C495,Kristina Ross,aaron68@rodriguez.net,174-653-6517x28473,712 Williams Springs Suite 805,Male,Standard,Fashion,54,1284.82,26,1,0,2025-04-13
+C496,Michael Shah,cwood@gmail.com,9377738629,981 Larry Shoal Suite 074,Male,Basic,Sports,19,2271.67,6,2,0,2025-04-20
+C497,Jacob Osborne,christopher79@yahoo.com,001-901-135-0443x0090,8760 Pacheco Street,Female,Basic,Fashion,20,1293.81,6,4,0,2025-03-31
+C498,Brittany George,jessicapatrick@mendoza-ward.net,248-774-2190,4273 Hicks Trafficway Apt. 710,Female,Premium,Home,27,1216.83,25,3,0,2025-03-27
+C499,Luis Dean,justindeleon@stewart.com,001-213-906-0008x030,095 Lisa Way Suite 722,Male,Standard,Fashion,42,2002.45,23,5,0,2025-04-17
+C500,Christopher Barrera,deannaboyd@gmail.com,720.558.5566x354,602 Rachel Burgs,Male,Basic,Home,47,289.68,13,5,1,2025-04-05

@@ -1,0 +1,52 @@
+2025-05-06 16:09:31,937 - INFO - Streamlit is available.
+2025-05-06 16:09:31,937 - INFO - Loading data from file: synthetic_customer_data_500.csv
+2025-05-06 16:09:31,948 - INFO - Data loaded successfully!
+2025-05-06 16:09:31,948 - INFO - 
+=== Pre-Scaling Summary Statistics ===
+2025-05-06 16:09:31,948 - INFO - Total Customers: 500
+2025-05-06 16:09:31,948 - INFO - Churn Rate: 49.00%
+2025-05-06 16:09:31,959 - INFO - Average Age: 41.9
+2025-05-06 16:09:31,959 - INFO - Average Spend: $1639.47
+2025-05-06 16:09:31,959 - INFO - Numerical features have been standardized.
+2025-05-06 16:09:32,092 - INFO - Number of anomalies detected: 25
+2025-05-06 16:09:32,471 - WARNING - Error in segmentation: Bin labels must be one fewer than the number of bin edges. Using manual binning.
+2025-05-06 16:09:32,475 - WARNING - Error in segmentation: Bin labels must be one fewer than the number of bin edges. Using manual binning.
+2025-05-06 16:09:33,574 - WARNING - Not enough data points for ARIMA modeling. Creating synthetic data.
+2025-05-06 16:09:33,578 - INFO - ADF Statistic: -3.1085189452410855
+2025-05-06 16:09:33,578 - INFO - p-value: 0.025929138249473797
+2025-05-06 16:09:35,169 - INFO - Original dataset size: 400
+2025-05-06 16:09:35,169 - INFO - Resampled dataset size: 404
+2025-05-06 16:09:35,658 - INFO - XGBoost Model Accuracy: 0.47
+2025-05-06 16:09:36,879 - INFO - Stratified K-Fold Cross-Validation Accuracy: 0.55 ± 0.02
+2025-05-06 16:09:38,190 - INFO - Random Forest Cross-Validation Accuracy: 0.55 ± 0.05
+2025-05-06 16:09:38,202 - INFO - 
+=== LightGBM Classification Report ===
+2025-05-06 16:09:38,207 - INFO - 
+              precision    recall  f1-score   support
+
+           0       0.58      0.61      0.60        57
+           1       0.45      0.42      0.43        43
+
+    accuracy                           0.53       100
+   macro avg       0.52      0.52      0.52       100
+weighted avg       0.53      0.53      0.53       100
+
+2025-05-06 16:09:38,223 - INFO - 
+=== RandomForest Classification Report ===
+2025-05-06 16:09:38,229 - INFO - 
+              precision    recall  f1-score   support
+
+           0       0.59      0.58      0.58        57
+           1       0.45      0.47      0.46        43
+
+    accuracy                           0.53       100
+   macro avg       0.52      0.52      0.52       100
+weighted avg       0.53      0.53      0.53       100
+
+2025-05-06 16:09:39,845 - INFO - Categorical features ['CustomerSegment', 'FavoriteCategory'] have been one-hot encoded.
+2025-05-06 16:09:39,852 - INFO - Customer Analytics Application Started
+2025-05-06 16:09:39,852 - INFO - Data loaded with 500 records
+2025-05-06 16:09:39,853 - INFO - Charts saved to charts
+2025-05-06 16:09:39,854 - INFO - HTML report generated: charts\report-20250506_160939.html
+2025-05-06 16:09:39,880 - WARNING -  * Debugger is active!
+2025-05-06 16:09:39,883 - INFO -  * Debugger PIN: 233-813-176

@@ -1,0 +1,501 @@
+CustomerID,Name,Email,Age,Gender,Location,CustomerSegment,TotalSpend,NumberOfPurchases,FavoriteCategory,LastLoginDate,IsChurned,SupportTickets
+26174f96-6999-428e-85f7-b13631bfcaea,Denise Moran,rprice@stewart.com,56,Other,New Caitlin,Budget,929.43,8,Health,2024-12-16,0,3
+98188792-9610-421b-9233-5822355a965e,Amy Lewis,mariastuart@gmail.com,69,Male,Natashafort,Standard,401.71,12,Books,2024-11-14,0,1
+05612f67-66bf-4331-b482-e19873bb6f5c,Eddie Perez,rwilson@rowe-bowman.com,46,Male,Port Garrett,Budget,242.47,7,Health,2025-01-28,1,1
+118c97bc-2696-4861-84f5-d13114efbe6e,Ricky Taylor,heathermorgan@yahoo.com,32,Other,West Angelica,Standard,283.81,6,Health,2025-03-18,1,0
+6526e239-41a2-4011-baf2-4542a760c55a,Katherine Peters,jeffbooth@taylor-torres.org,60,Female,Darrenport,Budget,163.21,10,Health,2025-04-01,0,1
+4f8aac55-05c4-4209-b008-35efd3850a5e,Jason Reyes,meganburke@coleman.com,25,Male,Nelsonmouth,Budget,85.4,15,Fashion,2025-03-10,1,2
+33f6b4f9-a844-44fe-9b60-e1172d5d294e,Lisa Wright,qlambert@castro-long.com,38,Male,Williamsborough,Standard,132.0,11,Health,2024-11-26,1,2
+0a4f36af-f8fb-4b0d-bd1b-c09093687f09,Andrew Bauer,michaelbyrd@yahoo.com,56,Male,East Shawnborough,Standard,425.45,6,Books,2025-04-05,1,0
+923811a3-8e99-4f46-8237-2d3c6730a1bb,Roy Hughes,rmorales@peters-chen.info,36,Other,South Troybury,Standard,4.35,10,Books,2025-01-24,1,0
+7162e406-3b5b-4f41-a343-abe72c23dc33,Cindy Wong,jgibson@hotmail.com,40,Male,West Nicolas,Budget,37.01,7,Books,2024-11-24,1,1
+601ffc5e-fddb-48bd-b321-6a11b2b89e3f,Cindy Johnson,johnwilliams@gomez.com,28,Other,Port Martha,Budget,14.13,11,Groceries,2025-03-05,0,5
+68f5d44f-31cf-4d67-a433-5121f3664b5a,Melissa Brooks,frysarah@bush-browning.net,28,Other,Danielstad,Budget,12.47,13,Health,2024-12-18,1,3
+2aaaa905-260b-4b7d-9cef-9097437fbb29,Raven Cobb DVM,bakerkimberly@jones.info,41,Other,Butlerchester,Premium,580.26,10,Books,2025-03-10,1,1
+3ae12c43-dce0-426b-9d80-e2d940fb82ff,John Smith,bturner@smith-carter.com,53,Male,North Jonathan,Budget,364.87,9,Groceries,2024-12-24,1,2
+6ce5a0cc-6e87-480f-923c-9002ad438d8d,Kristen Hernandez,carlagordon@gmail.com,57,Other,Jameston,Standard,192.84,6,Health,2025-02-23,1,1
+f8ed729e-0c01-4b61-8f08-f59d311da060,Brittany Cordova,millertraci@harris.info,41,Female,Lake Stevenborough,Standard,30.89,9,Health,2024-11-04,1,1
+bdf799a9-f3c3-4e74-ac50-d69dfe27e7af,Stephen Shields,millererika@hotmail.com,20,Male,New Anthony,Standard,202.96,11,Electronics,2025-01-06,0,2
+bc103e3d-77f2-4f77-ac11-dac9661d6974,Heather Moore,david54@tyler-chandler.info,39,Male,Markborough,Budget,192.44,12,Health,2025-02-18,1,3
+899370cc-3470-4c77-a3d2-768382694b3b,Madison Hale,opatel@smith-johnson.com,19,Male,North Jade,Standard,57.06,7,Electronics,2024-10-12,0,1
+29c7360f-bb20-4800-abfe-fbcd7ee5b546,Erin Freeman,james17@hotmail.com,41,Male,Port Catherine,Standard,170.67,13,Fashion,2025-02-17,0,2
+dd055238-973c-48ab-aba2-85a5bf5cb0e5,David Pierce MD,zcooper@hotmail.com,61,Male,Steinburgh,Premium,152.5,11,Fashion,2025-03-25,0,2
+13813558-eec5-4fbc-86e3-2598fa8c908d,Christine Kennedy,hdavis@coffey.com,47,Other,New Louishaven,Premium,287.02,5,Groceries,2025-03-03,0,0
+c947eaba-b538-413c-93a7-3b0314193383,Philip Simpson,robertblanchard@kane-powell.com,55,Other,Christophermouth,Standard,302.43,14,Electronics,2024-12-17,1,2
+228f4723-ba5f-44be-91c6-f6cb5414e62a,Kim Chen,hannahadams@hotmail.com,19,Male,South Johnbury,Premium,13.91,12,Fashion,2025-02-27,0,1
+8840c89d-05d6-4e35-a490-546031a6a1ee,James Mason,yjones@hotmail.com,38,Other,Wyattton,Premium,140.82,8,Fashion,2025-03-23,1,1
+617afe4e-49c5-44f1-b314-2d9460b845fb,Austin Cole,smithangelica@thompson.com,50,Male,Port Crystal,Standard,294.94,7,Fashion,2024-11-04,0,1
+ac7ce622-982b-44bf-bb8e-6acdb9dda18e,Nicole Harmon,corylopez@baird.info,29,Other,South John,Budget,209.83,7,Health,2025-01-31,0,1
+7989c623-b738-4171-ba29-6752b786a53b,Robert Wilkinson,craigfrank@yahoo.com,39,Other,North Heatherton,Budget,582.4,9,Electronics,2025-02-17,1,0
+e97a1c6e-75d0-43bd-bbbd-c1d9c6af56e6,Ashley Rivera,katherine50@hotmail.com,61,Other,Terrimouth,Standard,322.49,13,Fashion,2024-12-11,0,5
+80df8a9e-aed0-4812-96fb-cd5505076d0f,Karen Gonzalez,andrew09@thomas.net,42,Other,North Williamshire,Budget,53.36,7,Electronics,2024-12-05,1,0
+ae7f9e25-9b8f-4219-bb88-3f1a63b2520b,Mrs. Alexandra Lewis MD,ashley47@gmail.com,66,Female,Loriland,Premium,21.95,11,Books,2024-12-25,1,1
+ca2bd225-95ce-4079-9629-98375287c741,Jose Arnold,arojas@williams-curtis.com,44,Male,Kevinchester,Standard,308.52,11,Books,2024-12-12,1,0
+fc5def89-337c-42e9-a8fb-e65dd4ee1dd3,Brandi Mathis,daniel56@everett.com,59,Female,West Michelle,Budget,8.06,10,Health,2025-03-15,0,4
+428d1657-2b51-49e9-a5b9-897094ec8cd0,Kyle Carter,smithjasmine@hotmail.com,45,Other,Williamborough,Budget,264.4,13,Books,2024-10-19,1,2
+34838430-d6e8-4e91-bf2d-eded8ee18d7e,Nicholas Hill Jr.,davidcolon@yahoo.com,33,Female,West Jennifer,Premium,845.18,14,Groceries,2024-11-05,1,0
+40020e2b-737f-4e84-a336-d4ad53b3a84b,Amy Rodriguez,michaelheath@gmail.com,32,Male,Lake Jeremy,Standard,257.03,9,Electronics,2024-12-30,1,5
+9abc36e8-a598-47e6-9874-ba52ef5ca32c,Mario Floyd,cheryl50@lester-adkins.com,64,Male,Hansonport,Standard,147.39,8,Fashion,2025-03-11,0,1
+8d85baf0-9fcd-4c13-934b-e53f51695913,Sierra Phillips,tara03@moore.com,68,Other,New Crystal,Premium,309.25,11,Groceries,2025-02-09,0,2
+a82accc9-427b-49fd-adc6-d0f10490c750,Mr. Miguel Miller,garciaemily@yahoo.com,61,Female,Rossmouth,Standard,183.89,6,Groceries,2024-12-20,0,3
+87601e7c-4cbf-47d5-abbf-2ef3e923c2e2,Joseph Waller,jeffrey39@yahoo.com,69,Female,Coryfort,Standard,236.64,5,Books,2024-11-17,1,2
+041cf9e9-387b-4c23-999f-1811299403a8,Shelly Parker,ophillips@yahoo.com,20,Female,Warnerchester,Premium,851.44,8,Electronics,2025-01-12,0,1
+7fe47aa4-10f9-4e47-88b1-e7b4ff68ed3d,Michele Pearson,ngarcia@gmail.com,54,Male,Johnfurt,Premium,146.38,11,Fashion,2024-10-30,0,1
+c8c8356c-2f0e-4667-af0f-d22c54970f14,Joshua Andrade,james41@hotmail.com,68,Male,West Rachel,Budget,974.73,7,Groceries,2025-01-18,1,4
+9b5cd274-1675-4daf-89f0-0b03da563295,Anthony Carlson,chughes@green.com,24,Female,Stephanietown,Standard,707.27,14,Health,2024-12-18,1,1
+e80a76e9-4213-4b01-8509-72b1747fc08c,William Ali,pattonjames@burns.com,38,Male,East Jamie,Premium,65.37,11,Fashion,2025-01-14,0,1
+21c3c2a6-bcc0-4ccb-b6fc-4946700cf229,Holly Brock,annette89@gmail.com,26,Male,Amandaville,Budget,21.57,9,Books,2025-01-31,1,1
+f9ca8540-8449-4d32-8de4-5680db90dc35,Autumn Greene,smithnicholas@hotmail.com,56,Female,Brookeberg,Standard,31.87,10,Electronics,2025-03-15,0,0
+d8226ca0-81f0-4159-8def-7812587dadb1,Cassandra Anderson,donaldbradford@cook.com,35,Male,East Josephburgh,Budget,5.52,5,Health,2025-03-08,1,2
+b4b61a6a-d829-43f7-bac2-46badf9eb4f9,Alicia Gardner,cheryl63@roman-mitchell.com,21,Female,Williamsonside,Premium,29.76,7,Fashion,2025-03-21,0,1
+b413d6db-dc68-4ad2-8406-fbd32bd7e7a2,Kimberly Hernandez,deckerbonnie@gmail.com,42,Female,Adamland,Standard,344.66,8,Fashion,2025-03-24,1,1
+bbe1f8e7-1f6c-41a9-a8de-f95a31d1845c,Thomas Thomas,bharris@hotmail.com,31,Other,North Richardville,Budget,22.15,12,Groceries,2025-03-14,0,0
+ad4fe16f-d977-460b-a203-0ed92464fcfc,Jason Andrade,rodriguezcharles@gmail.com,67,Female,Alexburgh,Premium,115.25,11,Fashion,2024-10-23,0,1
+30af09cf-59a6-4fb2-89b4-e9a9db6df540,Michelle Stevens,tthomas@hotmail.com,26,Male,Lake Michael,Premium,559.06,12,Electronics,2025-02-07,1,0
+972ed3d0-e664-457c-b1aa-7758fdc0fb9a,Nicolas Kennedy,fbush@gmail.com,43,Other,Johnsonberg,Premium,7.06,11,Electronics,2025-02-26,1,0
+d7693d4f-7f68-4ca0-8791-837b0a9697ba,Pamela Taylor DVM,paul92@miller.com,19,Female,South Katrinaborough,Premium,505.36,10,Fashion,2025-01-31,1,0
+a139297f-b1f4-4fd9-9b3a-6d8e20909af5,Abigail Kramer,kirsten52@mason.net,37,Other,Michaelborough,Premium,99.33,8,Groceries,2024-11-26,1,0
+6d01f193-8b50-4499-b3f3-ba8293317ecb,Charles Soto,cynthia44@gmail.com,45,Male,Rodriguezburgh,Premium,37.73,5,Health,2025-04-07,0,2
+1430e1ac-fb4a-4dc2-b706-3f204d68c037,Gregory Stewart,lawrencebrandon@hotmail.com,64,Female,Tonyport,Premium,357.95,12,Health,2025-04-01,0,1
+b564d390-b6ab-485d-a457-3c3ee61b647c,Sara Massey,steven26@yahoo.com,24,Male,Nathanchester,Budget,297.42,12,Groceries,2025-02-27,0,2
+65eb4ccf-7729-4eef-8c2f-36d47742aeb1,Latoya Jackson,hdiaz@clark.com,61,Other,East Stephanieland,Standard,629.82,13,Books,2024-11-12,1,1
+4db84de3-6944-405f-8cc3-8fab96e65848,Joanna Cook,meaganrodriguez@hotmail.com,25,Female,Thomastown,Standard,398.49,8,Electronics,2024-11-02,0,1
+899934ea-25db-4cf0-a2a1-4a50ed963ec6,Mark Garcia,vpaul@hotmail.com,64,Other,East Travis,Budget,488.1,9,Books,2024-11-07,0,4
+ba70f1a0-1f23-4016-b7a6-9b39ac694669,Roberta Walsh,warnerlisa@ryan.com,52,Other,Wallsland,Premium,99.4,15,Groceries,2025-02-05,0,1
+9a8c54a1-118e-4d0b-99e3-4119b9044a78,Keith Smith,herbertgreen@hotmail.com,31,Female,South David,Standard,58.6,17,Books,2025-02-22,0,1
+7326822e-e175-461a-ab7c-54a05c957000,Cassandra Sanchez,jeffmoon@atkinson.com,34,Other,Thomasfort,Premium,416.63,7,Groceries,2025-02-17,0,3
+db810fbb-9a78-4fa6-913b-399b7172b630,Theresa Green,joannmartinez@hansen.net,53,Male,South Tiffany,Standard,493.26,14,Health,2024-12-31,1,3
+43f5f048-d268-4f5b-ae52-f64565a15dfc,Christina Gross,allentravis@yahoo.com,67,Other,Lisastad,Premium,1397.1,13,Health,2024-12-11,1,1
+a9238154-5c0e-40bc-a0d4-d3d232a5edd5,Daniel Jones,fmccoy@kline-gomez.org,57,Male,North Markshire,Budget,159.62,7,Books,2025-03-23,1,1
+a1470754-d124-4117-a8f3-316584c7769c,David Larson,bryantkent@gmail.com,21,Male,Port Katrinaborough,Premium,139.57,16,Books,2025-02-23,1,2
+8a5fa378-9b51-401a-b2a3-a15825bfd015,Christopher Rice,martinezjessica@arnold.com,19,Other,South Karenland,Standard,449.39,7,Electronics,2024-10-23,0,1
+62d63e6b-a8cc-487f-81d1-7f144e845b4c,Michele Valdez,anthony26@cannon.com,23,Male,Robinsonton,Premium,125.02,15,Health,2024-10-30,1,1
+510f111e-4114-4e90-8712-9c54fcdfde89,Todd Keith,patriciarussell@gmail.com,59,Female,Hobbston,Standard,801.04,12,Electronics,2025-03-15,1,2
+b21edeee-eb0a-4847-a378-c05ac61aa929,Samantha Rogers,jamesharris@gmail.com,21,Male,New Robert,Premium,586.45,16,Books,2024-12-01,1,0
+e966c7de-8e7c-41ed-8116-d3e1e45af696,Norman Wang,kwhite@gmail.com,46,Male,Port Anna,Standard,168.11,8,Groceries,2024-11-10,0,3
+9360d7d8-7e1b-44d0-9cf0-ff27c4538388,John Turner,beckyjones@hotmail.com,35,Male,Schmittport,Standard,416.94,7,Health,2025-01-04,0,1
+9c644694-23cd-40e6-8845-704b7db53b91,Donald Dunn,andradejennifer@gmail.com,43,Female,Kirkport,Standard,421.39,8,Groceries,2024-10-18,0,0
+e07ac852-f64a-4435-8b03-7ad5f3dbf0aa,Robert Watkins,adkinschelsea@hayes-barker.org,61,Female,Grahamchester,Premium,32.65,4,Electronics,2025-04-01,0,5
+bc6d3c91-443a-4dbc-b227-9766da016eec,Diane White,amorris@holt.info,51,Female,Patrickmouth,Standard,698.53,10,Electronics,2025-01-28,0,1
+3f49edaf-ad09-4018-898a-1e5d3e379ebd,Jennifer Tran,brittanymiller@hotmail.com,27,Other,East Alextown,Premium,211.11,8,Fashion,2024-11-18,0,1
+26f9856e-224a-4a2f-ae7f-708ed91ebc3c,Alexandra Snow,richardsilva@williams-ward.com,53,Female,Maryville,Budget,525.4,14,Health,2024-12-09,1,0
+e4c576e9-f8e7-4ba2-be28-552237ecd5e0,Timothy Hicks,nicholashays@gmail.com,31,Male,Fieldshaven,Budget,115.72,7,Health,2025-01-05,1,1
+cdaad8e5-489a-4f23-8220-3012e9d1b18e,Kristen Andrade,mooremaria@yahoo.com,48,Female,Brownburgh,Standard,677.64,14,Electronics,2024-10-19,1,2
+627fd619-c459-41b7-96bb-05e0fe63e728,Crystal Le,kingheather@gmail.com,65,Female,Michelemouth,Premium,147.9,14,Groceries,2025-03-03,1,0
+5ac076e3-d0d4-48fe-8560-8fded70bd56f,Laura Brown,angelica60@gmail.com,32,Male,Jessicamouth,Standard,3.27,16,Health,2025-01-22,1,1
+d3722fed-5e6f-486b-b131-3ea985a2ee50,Cynthia Mitchell,ohoward@yahoo.com,25,Other,Brendamouth,Premium,707.37,13,Electronics,2024-12-14,1,4
+332b1b40-2650-4339-b96e-dafef02e0c30,Victor Schroeder,mossharold@gmail.com,31,Female,Port Billyview,Premium,28.72,10,Fashion,2025-03-20,1,1
+838ea1e0-3434-46d7-9162-df56cf5fef1e,Sarah Davis,marc54@hotmail.com,40,Other,Ericton,Budget,115.4,13,Books,2025-02-22,0,2
+c9c65cc7-1a22-4a0f-9260-9c713d5da11a,Sandra Kirk,thompsonnicole@hotmail.com,57,Other,Richmondfurt,Premium,899.09,9,Health,2025-03-02,0,4
+9d3b92cf-68db-4fe0-a26b-2b067ffa0573,Vanessa Mccormick,noah22@holmes.com,38,Other,Turnershire,Premium,902.38,7,Books,2025-01-30,1,1
+d50707c9-0abb-4f8b-9c0f-2678c0faddea,Patricia Moore,rthompson@jackson.com,33,Male,North Roberthaven,Standard,255.6,8,Groceries,2024-10-30,1,1
+4feebc75-7e0c-48ee-8ce8-210988ad4795,Gabriella Hodges,teresa36@douglas.org,62,Other,South Matthew,Standard,299.77,8,Fashion,2025-03-30,0,2
+6708f1a5-bb9b-451b-ac64-d35b1e244659,Gregory Petersen,janetsmith@hotmail.com,35,Other,Garciaview,Premium,178.5,2,Health,2024-11-15,1,0
+f84961f7-07d3-45ea-902a-6256270880d5,Tony Perez,sharialexander@schaefer.net,64,Male,Cathytown,Budget,104.11,9,Books,2024-12-17,1,1
+3f7ae6e1-38af-4842-9418-915cd239f3c6,Allison Ayers,wernermark@hotmail.com,41,Other,North Mark,Standard,119.55,13,Books,2025-03-27,1,2
+7d09e8cc-811c-4196-b74f-5a1eb9b56048,Thomas Dillon,jeremiah18@gmail.com,43,Other,Stewartside,Standard,334.9,9,Electronics,2025-02-24,0,0
+24d7bacb-2133-44b5-a602-98a0acfbecef,Heather Vargas,williamsisabel@brooks-coleman.net,42,Male,Samanthaside,Budget,418.75,17,Books,2024-10-12,0,2
+6cffe46d-c613-4899-b58e-e84768fdd62d,Michelle Jones,jacksonkaitlin@montoya.com,62,Male,Lake Heatherland,Standard,470.46,11,Groceries,2025-03-19,1,0
+acb12a45-f5ff-4f6e-9057-ed6785ac4250,Michelle Savage,dmiller@hotmail.com,58,Female,South Kellyland,Premium,467.65,16,Books,2025-03-03,0,1
+b87c76d8-25ea-4b0f-abb7-fa9d5ab03e80,Jeremy Meadows,holtelijah@gonzalez.com,46,Female,Krististad,Premium,28.69,11,Groceries,2024-10-20,0,2
+96624cf2-0c32-439c-84ca-1e63fad5f6ae,Eddie Marshall,barnesjustin@obrien.com,32,Female,Bakerberg,Premium,204.61,7,Groceries,2025-04-08,0,0
+b8039803-3674-41e3-bbba-044a17c5b7c4,Cynthia Green,lrangel@hotmail.com,62,Other,Port Kevinbury,Standard,17.78,7,Electronics,2025-03-25,1,3
+992390a1-0b45-43d6-9b18-3ffa96d592d1,Judith Lowery,hernandezcaitlin@hotmail.com,18,Other,South James,Standard,239.24,13,Fashion,2025-01-28,0,1
+cf749ed9-d08e-4998-98ea-99b93a2d0fa2,Jennifer Jones,hawkinsricardo@yahoo.com,42,Other,North Paulbury,Standard,174.77,9,Groceries,2024-12-01,0,2
+c0c02f4e-06da-49f8-8a4b-4387b5222d4a,Alison Nguyen,fgarza@yahoo.com,24,Male,Baileymouth,Standard,655.99,12,Books,2025-01-28,1,0
+dcf4742e-3a52-470b-b295-c2aa75b7aeb0,Robert Thompson,joannawells@yahoo.com,26,Other,West Jeffrey,Premium,129.66,13,Books,2025-04-09,1,0
+4ba3881c-2102-4a00-8a3d-95f6ca1f9a1f,Ethan Moore,annejohnson@anderson-horne.com,41,Female,Lake Cheyenne,Budget,37.35,7,Groceries,2025-03-25,1,1
+e788ceb2-cccb-4e8c-a293-6ac19d2a506a,Andre Webb,nicholassullivan@hahn.com,18,Male,West Michaelburgh,Premium,46.29,11,Books,2024-10-25,0,0
+68dc579f-646e-47da-8ff2-81fbdd3d270b,Kelly Moss,schmidterica@salas.com,61,Male,Mccarthyside,Standard,430.03,8,Health,2025-01-08,0,2
+bcc20c68-0ecc-43ff-b459-ddb8d671e4ea,Joshua Whitaker,carla91@yahoo.com,25,Male,Mcculloughmouth,Premium,288.87,11,Electronics,2024-10-15,1,1
+030c38ca-7038-4412-b797-0f879dd7c9c6,Marisa Sims,jessicasmith@gmail.com,41,Female,Jeffreymouth,Budget,31.98,5,Books,2024-11-03,1,3
+6b3d067e-2316-44a0-8411-8954a8803c2f,Joann Carpenter,campbellcolleen@bradley.com,28,Female,Harrischester,Premium,26.36,9,Electronics,2024-11-30,0,4
+5d6f7503-5ee2-48df-a6ab-778526063360,Dylan Diaz,nicole60@cortez.net,68,Female,Xavierville,Budget,362.16,12,Groceries,2025-03-13,0,1
+aaac8adf-5b55-4e30-847a-06b4c5c34aed,Stephanie Alexander,jatkinson@yahoo.com,34,Male,Anamouth,Standard,22.66,5,Groceries,2024-10-14,1,1
+80b51cb0-b179-481d-b5c6-70628cd49dd5,Anthony Mercer,fredrichardson@hotmail.com,25,Male,Lake Monicaberg,Premium,517.56,12,Groceries,2024-12-11,0,3
+b7f49949-e6d7-4880-bd1f-dbe5122fcc70,Victoria Austin,tina97@davis-wise.com,52,Other,Kathleenland,Premium,367.5,14,Electronics,2025-01-29,1,1
+545035d3-ec74-4a02-8cfe-0eed8e627fac,Laurie Phillips,grimeseric@garcia.com,52,Other,Webbton,Premium,25.45,10,Books,2024-11-20,0,1
+122a408b-0c20-4dde-bc80-e609076a9e18,Matthew Richmond,gentrystephanie@yahoo.com,50,Female,Downsberg,Premium,26.6,13,Health,2024-11-26,1,0
+9e3c7557-98d1-42c7-8b6c-2c2e90c2165d,Cheryl Ewing,sharon01@banks-wilson.org,22,Male,North Ryan,Standard,1294.64,12,Electronics,2025-01-14,0,1
+9e38cd95-132a-447a-85d6-6dd84a63b875,Mrs. Rachael Watkins,gregoryramirez@yahoo.com,59,Other,West Mariabury,Budget,140.65,8,Health,2025-01-13,1,2
+d71fc773-450d-4142-ae2e-ad2dc71b590b,Eric Walters,hhuerta@kelly.net,56,Female,Lake Daniel,Budget,138.92,13,Books,2025-01-31,0,1
+cac94556-e6f6-47f4-ae76-7a34e96fa0ff,Wendy Ramirez,vrodriguez@gmail.com,58,Female,West Josephstad,Premium,502.67,12,Books,2025-03-30,1,2
+95a94672-55ed-404d-8c39-4613112ceefe,Robert Ray,erincollins@gmail.com,45,Other,Mikefort,Standard,882.65,11,Electronics,2025-02-10,0,3
+851c30d0-525b-4d92-83d6-cbf2ab4abcb3,Alyssa Andrews,tinaanderson@hotmail.com,24,Female,West Johnnychester,Budget,1280.63,14,Fashion,2024-12-01,1,2
+10a15d86-0f1c-4749-ace9-079378a6bbf6,Donald Perez,fosterlisa@yahoo.com,26,Male,North Robert,Budget,419.97,13,Health,2024-12-09,1,1
+0845d31a-d65d-40ab-a039-fbf7254afd9e,Tom Elliott,meganjuarez@hotmail.com,25,Female,Jacobhaven,Budget,141.61,8,Groceries,2024-12-28,1,2
+e02a08ab-5237-4628-b5c9-61f9d6d91892,Shannon Barnes,paguirre@gmail.com,29,Male,Rodriguezside,Budget,26.16,14,Health,2024-11-29,1,5
+9cc63596-47e5-4948-9a58-16a4adf7f32e,Todd Cardenas,trujillocarlos@duncan.biz,51,Male,East Andrea,Budget,450.37,11,Books,2024-11-04,1,1
+21cbf875-8c7f-40d7-bd31-f3d3b414bb8d,Heidi Harrington,nwilliamson@hotmail.com,50,Other,South Meganton,Budget,245.21,11,Books,2025-01-15,0,1
+fcb3d03f-484d-4bec-9bf4-e90fd3bb3fcc,Mark Rodriguez,burkealyssa@duarte.com,65,Other,Andreamouth,Standard,165.61,13,Electronics,2024-12-01,1,2
+57b8542c-8027-4efc-9a3e-118d8a6ec732,Joshua Murillo,carrie16@hotmail.com,40,Other,Lake Judith,Premium,710.47,13,Fashion,2024-10-19,0,2
+22a2c6ec-8ca6-4aa3-b6f9-c1cbeab28b34,Gina Cowan,jpope@alvarado-roberts.com,41,Female,North Steven,Budget,35.36,18,Groceries,2025-02-27,1,2
+c1ce5c6f-6ea4-4cdd-ba29-f69958af57e5,Haley Cruz,crawfordamy@yahoo.com,54,Other,East David,Standard,203.55,12,Health,2025-03-29,0,1
+41b9324c-5831-4371-a720-0d70bba00bc3,Jay Maddox,jonathanvega@clark.biz,52,Other,South Ricardo,Standard,3.43,8,Fashion,2025-04-06,1,2
+08ea97ea-a65f-43d7-a420-80da210b6d11,Barbara Bowers,gregorycline@short.biz,61,Female,West Erikafort,Premium,189.71,4,Groceries,2024-10-21,1,4
+d3557790-0039-44f0-89f8-c5784e653dd0,Mary Harrison,traci71@yahoo.com,57,Other,Marcusburgh,Premium,17.39,8,Books,2024-12-20,0,4
+ac3a7551-989a-4a8b-8f23-bd5988da0722,Laurie Jackson,ruthmarsh@lewis.com,39,Female,Jenkinsland,Budget,37.95,12,Books,2024-12-02,1,0
+a641e1c4-4e44-405d-a5b8-7c9ed4f43daa,Renee Dixon,elliottlori@gmail.com,44,Female,Josephville,Premium,37.51,13,Electronics,2024-11-28,0,4
+e73193ec-f565-4c12-a709-90283ccdbfac,Joseph Rodriguez,youngruth@richards.com,52,Male,Lishire,Premium,314.27,10,Electronics,2025-02-15,0,2
+9a6a13bd-5107-48d1-94cd-bdc1ebacfb7f,Martha Klein,christopher32@collins.net,18,Male,East Sherry,Standard,411.18,12,Health,2025-03-22,1,2
+6a073d7d-afd1-4308-b06b-aa83cbcb4c8b,Daniel Turner,boydamber@beck-wyatt.org,52,Other,West Ronaldfurt,Standard,262.67,9,Fashion,2024-10-23,1,3
+a26fccd5-f9da-442d-ac3c-6768b4c13dd5,Scott Giles,jasonreynolds@ayers.com,54,Female,Duranhaven,Standard,982.42,12,Fashion,2025-04-07,0,0
+a2da1d3b-4144-47d4-9111-2ddee1cdae1c,Jennifer Galloway,aguilarjennifer@hotmail.com,64,Male,Hickston,Budget,140.94,5,Groceries,2025-03-04,1,1
+e52d2f95-bfd9-4ae5-8ef5-4edc1b13cab7,Mary Wheeler,mariafuller@gmail.com,31,Male,Port Curtis,Budget,100.94,11,Health,2024-12-10,1,2
+4d701e79-6f91-42a8-ab82-675351cd8de1,Bobby Romero,ilawson@yahoo.com,20,Male,East Brittany,Premium,608.85,17,Electronics,2024-12-20,1,1
+682cac79-8cc3-408d-9b2c-252b5d7b8b12,Savannah Holloway,mariamckenzie@davis.com,18,Male,Davidsonberg,Premium,75.92,9,Health,2025-03-21,0,3
+bc42f76d-8626-4d59-b8d3-e51270c32115,Tiffany Cooper,roselindsay@williams.info,22,Other,South Natasha,Budget,990.86,9,Books,2025-01-28,1,0
+d2e94fd7-9741-412f-b871-8988a3fa81f9,Amanda Glass,jonathangarza@gmail.com,43,Male,North Tracichester,Budget,3.67,15,Electronics,2025-03-09,0,3
+43a6c01e-c65c-427e-aacf-8af51440528b,Cynthia Taylor,belinda53@pierce.com,31,Other,Fosterbury,Standard,1050.76,7,Fashion,2025-01-22,0,5
+425349ac-da6e-4aae-a9f7-58f05df9a3ef,Jeffrey Bailey,lucastom@baker.biz,56,Female,Hollyborough,Budget,13.24,11,Electronics,2024-10-14,0,0
+31069e61-cae1-45f8-851e-8b534bab6c3f,Oscar Moore,patrick86@wood.biz,44,Other,Campbellstad,Budget,665.32,14,Books,2025-01-06,0,1
+827bb295-4965-4b3f-8b1f-b2e1bfdebf2e,Angela Kane,brewereric@gmail.com,26,Male,South Eugenetown,Premium,225.04,19,Electronics,2025-01-28,1,1
+fa05750b-f7b6-45c4-afdd-c0b858795d7b,Matthew Long,diana67@hotmail.com,32,Female,Port Crystalville,Premium,1487.05,13,Fashion,2024-12-25,1,0
+4d3972d1-c01f-47af-a8d3-67f4d499f4d1,Shannon James,toni14@gmail.com,32,Female,East Sarahfurt,Standard,23.0,6,Books,2024-10-13,0,1
+f5231061-7c45-4ff8-8c4e-00a78162dfe0,Jacob Wright,jennifer51@travis-mendoza.biz,43,Other,West Robert,Budget,242.13,15,Groceries,2024-12-26,0,2
+b68f9683-8791-4a55-86a1-71d239bf1995,Norman Garcia,christophernelson@gmail.com,59,Female,Yoderside,Premium,1045.07,13,Health,2025-02-04,0,2
+619b327f-9915-46be-825c-fc4ada85faf0,Robert Bowman,callahanbenjamin@brown.com,30,Other,Benjaminborough,Budget,222.13,5,Groceries,2025-04-09,0,0
+fdca80c3-ac32-40e6-aacc-3e5714c9d286,Connie Chavez,zamoraaaron@adams-rios.biz,68,Female,Lisaton,Budget,297.79,12,Books,2025-03-07,1,3
+3d73b828-b68d-4b23-8631-0bfd14408063,Bonnie Wright,kenneth50@jackson.com,49,Other,Johnsonhaven,Standard,356.97,7,Books,2025-02-07,0,0
+bc725396-395b-4729-b1f5-1db545df7217,Spencer Wilkerson,natalie84@gmail.com,56,Male,South Peggy,Budget,181.84,4,Books,2025-03-13,0,1
+054782db-79ff-4f54-9af3-c7ac0836b9c1,Randy Martinez,campbellbrandon@hotmail.com,66,Other,East Richard,Standard,296.3,8,Fashion,2024-10-25,0,1
+3d8dfb68-be72-4413-9320-2db3734ad8f1,Rhonda Navarro,destiny50@torres-gonzalez.com,69,Other,Wrightfort,Premium,263.35,8,Books,2024-10-15,0,4
+80a53dfd-3869-4a5b-ac1b-b26c002d56fb,Rodney Burke,zgordon@kelly-brown.net,49,Male,Elijahport,Premium,694.27,9,Health,2025-01-18,0,1
+6fe815f3-88f3-45ca-be6b-936d44437107,Andrew Raymond,april77@rojas.com,21,Other,Villabury,Premium,13.95,11,Fashion,2024-10-17,1,3
+add25acb-00b5-452a-8662-127f95d9d578,Angela Wells,shawdean@hotmail.com,47,Other,Richtown,Premium,98.95,13,Books,2025-02-04,1,1
+4d1b9024-304e-4724-ac00-13b16ed08e62,Michael Bell,murphyedward@gmail.com,54,Female,Troyside,Standard,901.2,10,Fashion,2025-02-21,1,2
+5a8fa518-8084-4ad6-8313-08ca59054ab4,Laura Clark,donnagarner@yahoo.com,40,Other,South Stephen,Standard,662.9,6,Health,2025-01-22,1,2
+d45c8d50-d930-4d60-81ba-561e0b33bf82,Alexis Brown,estradarick@lang.com,56,Female,East Caitlin,Premium,182.45,11,Health,2024-12-16,1,1
+1bf9412d-9331-43c4-becb-0b1468830f26,Christine Aguirre,kevin30@white.com,62,Male,Hineschester,Premium,290.38,11,Fashion,2024-11-16,0,4
+93a9531e-f1fb-4631-960a-b65ac645ed68,Charles Meyer,sstokes@palmer.com,32,Female,Whitefurt,Premium,97.46,8,Electronics,2025-01-16,1,0
+a76f845c-c82f-4a8b-8f71-cd5045a6005f,Caroline Clarke,zanderson@harper.org,60,Female,Lake Karaland,Standard,62.52,5,Groceries,2024-11-20,0,1
+06da369e-54c0-4917-9844-074c68d11c21,Laura Smith,katelyngreen@yahoo.com,46,Male,Scotthaven,Premium,186.92,9,Books,2025-02-11,1,1
+df1d5b29-9fb1-4c4a-adc5-8e34f5614a5c,Megan Edwards,dmccann@richardson-jensen.com,53,Female,Raymondbury,Standard,130.79,11,Groceries,2025-03-21,1,0
+f510063f-8b36-4c60-9d2c-56164ac409e7,David Smith,jacobcooke@diaz.org,30,Male,Maryshire,Budget,262.87,13,Health,2025-03-28,1,1
+2cccc4ce-95a1-40fc-92b6-26b7499162eb,Mary Anderson,michaelcoleman@morgan-anderson.com,49,Other,Meganchester,Premium,24.28,6,Groceries,2025-01-05,1,2
+705e7e45-a5ca-4fb7-a981-56e649d5c332,Susan Jones,rebeccahess@gmail.com,24,Other,Lake Tony,Standard,1099.49,11,Electronics,2025-04-01,0,1
+e8db51e2-191c-4fe3-a93d-ecd2694abfaf,Terri Cobb,dbrown@white.com,68,Female,Taylorfurt,Standard,1285.16,8,Groceries,2024-10-31,1,1
+e7d5288f-b306-45c0-942f-8ff19b449691,Amy White,jeremy54@gmail.com,39,Other,New Michealtown,Standard,359.36,10,Groceries,2025-03-25,0,0
+47016177-86aa-47db-87ad-24e489102cb4,Kathleen Montgomery,coffeycolleen@hotmail.com,45,Male,Lake Lindamouth,Budget,230.42,9,Health,2024-12-05,1,1
+c3be6390-6cd8-4c9b-bc80-1de696188fee,Anita Wallace,johnwatson@walker.com,19,Other,Harrisbury,Premium,111.11,10,Health,2024-11-16,1,1
+66297e1f-72f1-4aeb-ac59-9a0ffff1a926,Wesley Patton,mmack@smith.info,59,Male,West Rhondamouth,Standard,504.27,5,Books,2025-03-22,1,1
+80b67a02-cc9a-4e8e-b37d-a7f137259b8b,Stephen Reyes,shines@brown.biz,62,Other,Port Debbie,Premium,346.3,7,Fashion,2024-10-27,0,1
+6139aed6-8ed3-40fe-a39f-be9b06384bd6,Emily Patel,hubbardpaula@hotmail.com,23,Female,Sherrystad,Standard,53.24,14,Books,2024-10-27,0,2
+a9ea82c4-6bac-44dd-8687-971ebcdf482b,Jessica Beck,juan30@yahoo.com,45,Other,Lake Michael,Premium,725.49,7,Health,2024-11-18,1,3
+1f5586f2-bd28-418d-be81-01c76762f906,James Farley,crystal56@hunter.info,45,Other,Millerbury,Budget,518.7,11,Books,2025-03-27,1,1
+fe744651-f56d-470d-b6bd-9943ac0798cc,Kathleen Le,powelllindsay@yahoo.com,61,Other,Port Tracyfort,Standard,897.52,10,Groceries,2024-11-13,0,2
+cad33ee7-755e-4f50-b554-6cf9ee5b00d1,Timothy Peters,bcarpenter@gmail.com,61,Male,Lake Pamelaside,Standard,388.08,7,Groceries,2024-10-25,0,2
+10e6f118-a853-4d8b-afa3-26a9e659a721,Angela Parks,sullivanmichael@lowery.com,37,Male,South Amyshire,Budget,285.12,4,Health,2024-11-26,1,0
+09f5ba8e-8e66-444a-9826-d0cfff75957f,Bryan Morales,reedchristopher@gmail.com,47,Female,Nathanburgh,Premium,162.51,7,Health,2024-12-09,1,6
+d49c1c39-6da5-4aba-af7d-8e301529c6e1,Todd Jones,rowlandbrian@hotmail.com,28,Male,Clarkchester,Standard,809.71,12,Books,2025-01-25,0,0
+5dbf4196-4555-4844-ac94-72869699ec91,Stephen Johnson,andrewevans@hotmail.com,45,Other,Hartstad,Budget,603.12,8,Books,2025-01-03,1,2
+c4e01dab-0f9a-43f7-99fe-1c2388cf7b72,Terry Rojas,mckinneytyler@yahoo.com,42,Other,West Matthewstad,Standard,13.88,14,Groceries,2024-11-23,0,2
+32327925-f786-4971-a372-81cf58467a6e,Caleb Carroll,kimelizabeth@dickerson-harrison.net,56,Male,Reynoldsport,Standard,8.02,9,Fashion,2025-03-10,1,1
+e8d5310f-12aa-465f-9764-b63466fd2d80,Samantha Pennington,callen@gmail.com,50,Other,North Dylan,Standard,141.7,10,Fashion,2024-10-16,1,0
+66b8d70b-2a1a-4f13-9307-ffb4671300cb,Marvin Hill,sjuarez@malone-morris.com,18,Female,Simmonsburgh,Premium,499.09,15,Health,2024-10-31,0,1
+57ff00be-f5f4-44fc-8d25-433a97f74c9e,Jean Owen,carrolltyler@randall.com,44,Female,West Jill,Budget,1309.28,8,Books,2025-01-09,0,0
+98b5d8bb-ca76-4421-8323-57ec459f2e9b,Joshua Johnson,philip36@gmail.com,69,Male,Port Stevenchester,Budget,48.9,15,Fashion,2024-11-21,1,4
+2fbbbef1-eb4a-48d9-b061-98ba4afce3d4,Jennifer Gordon,logan87@becker-lee.net,30,Male,Weaverbury,Budget,270.52,11,Books,2025-03-03,0,3
+09183571-3f90-4c44-972f-6ba55bf7211f,Judy Weaver,davisbruce@yahoo.com,58,Female,Lake Lynn,Budget,143.84,12,Electronics,2025-02-16,1,2
+1d271c73-016c-46b0-be60-17cf31da5d92,Matthew Black,csmith@howard.biz,20,Female,Reyesshire,Standard,1051.11,6,Groceries,2025-01-25,0,0
+192435d2-4d44-4257-a8ad-37a104cde064,Kelly Orozco MD,franklinjoseph@luna.net,56,Male,North Kathleenburgh,Premium,553.77,20,Books,2025-02-16,0,2
+02983636-8b10-441d-81ac-a8ecc57289d6,Christopher Griffin,bruce10@gmail.com,23,Male,West Robertton,Budget,546.66,14,Books,2025-02-15,0,2
+60829164-d995-45b5-9948-fd9ba4f9e1ab,Laura Deleon,paul13@yahoo.com,25,Male,New Nicholas,Premium,189.72,9,Books,2025-03-28,0,0
+9a00ee99-3d49-4636-9908-f482508254f3,Robert Black,catherine44@gmail.com,44,Other,Gardnertown,Budget,160.75,9,Fashion,2024-12-15,1,2
+db6a654e-3a5a-40af-b990-43498d939c4d,Rachael Anderson,gilmorederek@scott-elliott.com,26,Male,East David,Budget,95.82,6,Books,2024-10-27,1,0
+d46ad7a9-40bb-4ff3-8375-348afb7caa1c,John Cordova,dana29@charles.com,54,Male,Peckborough,Standard,17.41,19,Electronics,2024-10-12,0,0
+4169a29b-8612-45da-a0ff-b7a7e73a22aa,Stephen Nolan,chase55@willis.com,50,Other,South Mindyport,Standard,600.13,11,Fashion,2025-04-04,1,1
+26626fba-e99b-4689-bc9c-b2971dd09596,Joseph Coffey,jennifer61@price.biz,68,Female,Annafort,Standard,502.84,13,Health,2024-11-24,1,1
+7b0c25e2-9763-4fcd-8884-cba5ef1dc9c4,Joseph Elliott,jonathanphelps@gmail.com,59,Male,New Ian,Premium,2451.73,19,Health,2024-12-16,1,1
+3131974e-e57c-4c6e-9c34-12408304ff6c,David Stewart,michaellamb@patterson.com,61,Other,North Mary,Standard,1708.46,7,Groceries,2025-01-03,1,0
+5a4b132c-22d5-43ae-b526-75d31947c7c1,David Reynolds,whartman@yahoo.com,41,Male,Lake Kristy,Standard,243.2,6,Electronics,2025-03-23,1,0
+35fb47ac-9fb0-4bcf-9a3a-3e13dcc3d00b,Carlos Anderson,laurieburnett@gmail.com,32,Male,Wrightshire,Budget,439.58,8,Books,2024-11-04,1,1
+c05e7085-3a98-4c17-b85a-3d752831f29f,Luke Wiley,smullen@zhang.info,49,Other,New Davidmouth,Budget,868.85,9,Electronics,2024-12-29,0,1
+dd5cf015-eeda-454f-95bc-c7f29cdfc01c,Daisy Gonzalez,johnpeterson@gonzalez.org,49,Female,Hubbardport,Standard,568.43,11,Health,2024-11-10,1,1
+cfa364e6-874d-417b-9da4-f4424ae73f6d,George Jones,scottlyons@gmail.com,41,Other,East Hannah,Standard,85.25,6,Books,2025-03-12,0,3
+0ac64021-b0d3-4464-8525-80f2c2cae096,Rebecca Nguyen,wadeamanda@carey.com,58,Male,Brendaton,Premium,179.65,12,Electronics,2025-01-22,1,2
+b5fbf40a-84a5-4f70-8479-a5fa450fffa4,Benjamin Bradley,dcosta@gmail.com,69,Female,Juliefurt,Premium,41.49,7,Fashion,2025-04-05,0,2
+326182aa-9d3f-4f8a-820e-bd2fbc541488,Mary Hurst,craigrodgers@yahoo.com,66,Other,Port Rebecca,Budget,924.07,8,Books,2025-02-23,1,0
+4bc85b32-92ef-4fbf-824e-585f79cb6f3c,Matthew Diaz,nathaniel28@williams.com,66,Other,North Shelbyview,Premium,279.55,2,Fashion,2025-03-31,1,2
+7e52b496-7baa-41a0-a682-aec7d8c3157b,Elizabeth Long,barbarale@hotmail.com,69,Female,Port Stephanieshire,Standard,77.88,8,Electronics,2025-03-16,1,1
+3e05f014-fbf6-4975-8919-044d5c1a5001,Roger Dennis,grobinson@gmail.com,29,Male,Petersonburgh,Standard,334.15,2,Books,2025-04-02,0,2
+40c2c9d0-321d-4ec2-82d3-d619ce0ccfd2,Joseph Torres,gclark@gamble-jacobson.com,56,Other,New Thomas,Budget,288.8,11,Groceries,2025-01-20,1,1
+97672b2f-c085-4b2e-9744-f67a0ba50cbb,John Dunn,kim74@hotmail.com,19,Other,Port Angela,Standard,133.03,9,Groceries,2024-11-08,0,0
+22541865-dcf7-4cd5-88ba-45798ba4084f,Stephanie Ellison,michaelcoleman@gmail.com,20,Other,Aaronburgh,Standard,36.16,10,Health,2024-12-01,0,1
+64ce3bea-10fd-49bf-8bda-7fc521835a23,Aaron Garcia,christine75@wright.com,66,Male,Mariafurt,Standard,334.03,6,Books,2024-11-13,1,2
+d3f38d71-495e-460f-9bce-ded4e4bb212d,Kristin Cook,mdean@fletcher-gray.com,54,Other,South Eileenland,Standard,220.38,8,Electronics,2025-01-06,1,4
+9748dc9b-c0d8-4bbc-b722-dd6050cd2513,Roger Conrad,vmorris@anderson.org,66,Female,South Micheleside,Premium,443.94,7,Groceries,2025-02-06,1,1
+6c7b8054-d4f9-4e56-b0f7-51d22a83039c,Andrew Moreno,keithsmith@freeman.net,34,Female,Macdonaldmouth,Premium,220.29,19,Health,2025-03-14,0,1
+ba30c956-7c57-4a9a-80ca-2b76665b1203,Benjamin Sanders,linda90@cruz-gray.com,66,Other,North Lauren,Premium,573.53,12,Books,2024-10-27,0,2
+f5fcf4a0-6e2d-4358-acad-708f55e53037,Ethan Brown,alisha81@nelson.biz,19,Other,Owensburgh,Premium,240.83,14,Groceries,2025-03-29,1,0
+262d854a-7b78-4aa6-a5d3-2f29a0b9a4e8,Lori Benitez,ricecole@kramer-smith.net,19,Female,Sherrytown,Premium,246.93,10,Books,2025-01-19,1,6
+9da58c19-75db-4e42-a7c4-a1070c3f8491,Joseph Lee,mckinneydominique@glenn.com,45,Female,Bowenfort,Budget,627.83,14,Health,2025-02-05,1,1
+1c1851d5-7cca-49af-9084-3ee71b6002ba,Sara Smith,josephchavez@gmail.com,40,Other,South Stephenmouth,Standard,154.99,12,Electronics,2025-01-11,0,0
+54c0c50f-67c8-4e49-9fe2-634f3d3b4099,Cathy Martinez,tammy76@gmail.com,54,Female,West Jackson,Budget,43.17,7,Health,2024-12-01,0,0
+b5a7a701-d993-4e5b-98dd-9def0a60d91c,Elizabeth Beard,hamiltonalejandra@garza-schultz.org,49,Male,Hensonchester,Standard,8.76,9,Electronics,2024-12-01,1,3
+3561decd-1f88-4b2b-82f7-42a8a1b726bd,Regina Hamilton,barnesryan@dunlap.net,50,Male,Robertville,Standard,422.12,5,Fashion,2024-10-18,1,2
+d9f63d23-2743-4d8e-96ff-3345bbae30ac,Reginald Kim,butlerchristopher@hotmail.com,18,Male,Amberstad,Standard,290.52,11,Groceries,2024-11-10,0,1
+d504cf37-11fa-454e-8cc1-8e23396fba16,Linda Pena,gherman@gmail.com,36,Male,Riceburgh,Budget,365.3,14,Fashion,2025-03-26,1,2
+d0186b4f-7627-46e8-9554-773f7b86444b,Mary Carpenter,jasonnorman@yahoo.com,19,Female,West Connorburgh,Standard,71.84,8,Electronics,2025-02-25,1,3
+5ecb89b8-fc52-4a06-8050-1607c1030f9b,Brandy Porter,cherylreed@cabrera.net,61,Male,West Rachel,Standard,43.98,13,Books,2024-10-30,0,0
+af9235ef-42ce-4ce4-828c-883099f30b49,Patricia Mcguire,douglasgomez@gmail.com,43,Other,Stephanieville,Premium,4.4,13,Electronics,2024-11-06,0,0
+e65b6bcf-bbe5-4b4f-900e-bc75be30a1d9,Gabriel Villarreal,jennifer70@gmail.com,49,Other,Garciaville,Premium,129.51,10,Electronics,2025-02-26,1,2
+1066c17a-e886-4de1-a046-4e51690420f6,Karen Miller,virginia33@yahoo.com,23,Male,Elizabethville,Standard,267.42,8,Books,2024-12-19,1,2
+1153a9cc-5673-4cc7-9a32-4de65f164a6e,Alexis Wright,anthony14@hotmail.com,49,Other,Jenniferburgh,Premium,149.39,9,Fashion,2024-12-01,0,2
+0423a7ac-5275-4e2e-8e3e-26da04914051,John Baker,richard59@garcia.com,21,Male,South Bonnie,Budget,172.6,9,Groceries,2024-11-21,0,1
+7e440a99-3be8-4c89-8cee-eb83e0ae1a23,Hailey Brown,melissa83@frazier.com,28,Male,West Shannon,Standard,703.52,7,Electronics,2024-10-27,0,2
+4235d3ac-9a30-439f-9f7b-71df9339b015,Paul Wolf,keyantonio@martin.net,34,Male,Mosesfurt,Budget,128.43,7,Electronics,2025-01-08,0,0
+d26eec7b-af04-4e36-acdd-fd9934bc5955,Andrew Ortega,michael61@yahoo.com,55,Other,Stephanieberg,Premium,216.46,11,Groceries,2024-12-26,0,0
+6ab55799-e20f-49e3-8c77-e6fbabbe7412,Gregory Simmons Jr.,mark80@gmail.com,41,Other,Santanaside,Premium,459.26,11,Electronics,2025-03-20,1,1
+30d98bad-7125-4f52-870d-4f95dcf28001,Anne Silva DDS,williamskim@evans.com,22,Male,Lesliebury,Budget,151.52,9,Groceries,2025-01-14,0,0
+6dca8c2f-e710-4ee8-bcfa-e3f6fc04ca41,Ashley Cannon,archercraig@gould.com,69,Male,North Amberborough,Standard,291.93,10,Groceries,2025-01-19,0,4
+07890a60-cfe2-4253-9db0-ce51ac86e7bb,Daniel Fischer,michael95@frazier-andrews.com,51,Male,Brendafort,Premium,594.94,9,Groceries,2024-10-17,1,1
+b59ff012-6741-48ee-8f74-d5297e8c4f40,Elizabeth Shields,carpentersamantha@yahoo.com,23,Male,West Kennethhaven,Premium,895.86,11,Books,2024-10-23,0,5
+c8f14b43-c83c-47b0-99d8-19044a5d4621,Mr. Peter Mcmahon Jr.,joseph44@singh.info,39,Female,North Davidburgh,Premium,47.72,11,Fashion,2024-12-11,1,2
+823bdf33-ec6c-43b9-8001-974336bc0934,Heidi Cline,williammartin@myers.com,28,Male,Lake David,Budget,783.5,13,Fashion,2025-02-08,0,2
+31414830-8d55-49c1-a1c0-ffaa3b489c84,Jacqueline Nguyen,sandragray@hotmail.com,65,Other,Wardmouth,Budget,203.25,17,Health,2024-12-27,0,7
+50120109-74c4-4a3e-a976-05b7b5049bb7,Tammy Harrell,palmerhenry@lambert.com,33,Male,Laurenfort,Premium,89.62,7,Books,2025-02-15,0,2
+c5a6de18-f542-4043-8739-8b77a0c339e8,Amy Mcclain,cisnerosselena@yahoo.com,50,Female,New David,Standard,184.38,8,Health,2024-11-25,0,2
+e368cdd2-1b81-4344-b1c3-63eabcb81b7e,Leslie Scott,vdunlap@campbell-shaw.com,26,Other,Lake Brenda,Budget,1174.1,10,Fashion,2024-10-14,1,2
+8ad362e6-fb1b-4000-a0bb-14aa30f7e8f5,Benjamin Gill,nscott@yahoo.com,23,Female,East Susanberg,Standard,203.55,8,Fashion,2025-03-14,0,0
+87c51276-802f-4a2d-a0cf-a4f0fca81820,Michael Potter,margaret70@norris.com,33,Male,Josephchester,Budget,119.58,13,Fashion,2025-02-13,1,0
+83e54476-d654-4348-9b84-31d7f1b9a784,Sara Baxter,hbrown@lane.com,46,Other,Lindaside,Budget,301.05,8,Electronics,2024-12-11,1,2
+933f4c3b-6e2c-4942-8c82-2ddd72c06252,Anthony Sanders,tuckerjoseph@hayes.com,20,Male,Lake Catherineside,Standard,82.39,12,Health,2025-02-20,0,1
+be472451-4499-4c4f-a827-5041d9a8e4c9,Chelsea Brown,allison49@gmail.com,37,Other,Nicholasfurt,Standard,23.67,9,Books,2025-02-19,1,2
+50cf8642-59b9-4bd1-912e-3f848994f716,Jacob Acosta,ksmith@hotmail.com,53,Other,Blackfurt,Standard,41.39,7,Health,2025-03-27,1,0
+91310078-6876-41d9-b693-bbde2fe13bab,Kara Lewis,shelbypeterson@baker.com,36,Other,Clarkburgh,Budget,41.11,7,Fashion,2025-03-22,1,1
+b0c1122e-f9ad-492d-b7e8-bc8cae378f71,Aimee Barton,eugene12@gmail.com,43,Female,Leonborough,Standard,49.43,12,Books,2025-03-09,0,2
+25fd3e3d-816c-42b4-a5d5-fd1c829f4d5c,David Campbell,rickycruz@hotmail.com,20,Male,Stevestad,Standard,44.84,11,Health,2025-01-04,0,1
+726f1c86-614f-42e4-b78d-12fa75a4bb23,Austin Smith,derrickhunt@hotmail.com,36,Female,Port Shawnshire,Standard,307.23,18,Fashion,2025-02-28,1,2
+e0386d1c-962d-4823-9b31-514f13974cd3,Michele Harrison,davissherry@gmail.com,37,Female,South Robert,Standard,60.22,13,Fashion,2025-02-20,1,2
+b6b92d8e-3abe-47aa-a43e-a517f706685c,Dr. John Andrade,millerjennifer@hotmail.com,49,Male,Allenmouth,Standard,127.24,17,Books,2024-11-18,0,4
+826cd3a5-5f4c-4787-81b3-cd1ed074d8ae,Annette Stokes,heidi91@gmail.com,24,Male,West Curtisside,Standard,681.29,7,Groceries,2024-11-25,1,1
+51ff10b0-5a18-40fc-ac84-c63e3b3b1055,Joe Gonzales,amber29@gmail.com,69,Male,Jimenezborough,Standard,192.71,11,Books,2024-12-08,1,1
+e5a42282-d4f1-4b41-85f2-3dce8e1bb3b6,Roberto Gregory,anthonybaxter@harmon.biz,58,Other,Lake Ericafurt,Budget,330.39,8,Groceries,2025-03-02,1,1
+9a719be4-49cc-4464-b9bc-255a6b9f8571,Jason Mayo,moniquechung@thornton.com,50,Female,Lake Dennis,Standard,56.74,13,Electronics,2024-11-25,1,0
+c36a63fe-dcba-4f23-ab41-58c5b516529f,Jodi Mitchell,jacksonphilip@hotmail.com,57,Female,Christinamouth,Budget,64.07,13,Books,2024-11-25,1,1
+d0a94236-66c7-43a0-b4bb-576d3cdb3fcb,Kimberly Sanders,wpoole@yahoo.com,56,Female,East Frank,Premium,12.52,12,Groceries,2025-02-01,1,1
+b21a7d84-a940-4737-bbb0-9b4936058657,Michael Cross,taylornancy@webb-brown.com,35,Female,North Wandaport,Premium,55.51,11,Health,2024-11-12,0,0
+80b05d0e-7702-41ac-9711-85d34f55f7ff,Rhonda Henderson,hawkinsjohn@yahoo.com,57,Female,Lake Christinemouth,Budget,97.96,11,Fashion,2025-03-28,0,0
+41323dc5-668c-4a5e-9e03-e90deadb3017,David Myers,lindseybrown@smith.biz,18,Other,Elliston,Standard,58.44,7,Electronics,2025-03-28,0,0
+a6a7308c-ce67-463e-ada7-3e0fd2e4edfa,Megan Thompson,benjaminmendoza@shields.com,28,Male,Shannontown,Budget,27.87,11,Books,2025-02-22,1,3
+72dcdb26-428c-4a3f-bf41-f8873ad2d63b,Dr. Nicole Williams,allencarlos@bates.com,45,Other,North Daniel,Premium,38.57,7,Groceries,2025-03-09,0,2
+70472091-7d4e-46ce-b3ec-d0b153585a74,Isabel Le,simmonsjonathan@gmail.com,42,Other,Dawsonville,Budget,185.29,11,Health,2025-02-20,1,1
+5c0ea032-625d-4404-b134-c7df3edd06cf,Jennifer Vargas,raymond61@yahoo.com,67,Other,Antoniotown,Premium,69.33,12,Groceries,2025-02-07,1,4
+d0db27fb-3477-4f94-ba56-3c1972af4782,James Sims,darrengarcia@ferguson.net,40,Male,South Earl,Budget,135.89,9,Books,2025-02-17,0,2
+12ddce24-ff87-4b72-b31e-f0774fe1c68c,Sarah Wiggins,edwarddavis@bonilla-barnes.info,48,Male,West Bobbyshire,Budget,210.0,6,Groceries,2025-01-07,0,0
+16e360fb-cad7-4e42-8406-a6a18c7203b9,Tracy Mata,alexiswilliams@gmail.com,47,Female,Berryburgh,Budget,351.74,12,Books,2025-01-16,1,1
+f41ebeb7-d450-4abe-80d9-500bc31f38a9,Christina Greer,whitebruce@garcia.net,59,Other,New Jose,Budget,12.03,8,Groceries,2025-04-06,0,2
+d77f9ea1-34dd-4549-b7b4-30632dbe4b50,David Monroe,johnsonkirsten@gmail.com,52,Female,Loriburgh,Budget,481.95,7,Fashion,2025-02-07,0,0
+e3e5640e-7484-4263-8f70-9ff6acbffafc,Robert Anderson,moniquerich@gmail.com,24,Male,New Pamelashire,Premium,296.58,7,Books,2025-01-01,1,0
+c6d7981c-7e29-415d-a045-028a9cac5bf5,Richard Levy,uwatts@yahoo.com,33,Male,Port Zachary,Budget,25.59,4,Books,2025-01-31,1,2
+a3c0a4e3-f104-46cb-a47d-ab9644cf5da1,Mackenzie Hudson,tiffanycontreras@burns-mills.com,43,Male,East Emily,Budget,620.44,7,Electronics,2025-01-05,0,3
+13b31b20-fdb3-4616-b9d1-28e22a7746c9,Alexandra Brown,kenneth32@blankenship.com,65,Male,Lewistown,Budget,761.01,14,Fashion,2025-04-01,1,2
+57dba97d-85e9-4b0e-bc68-7ba23890b36f,Nicholas Boyd,mccalljulie@hotmail.com,69,Other,Fredchester,Standard,18.91,10,Books,2025-03-31,0,2
+95caaf5b-9329-46e5-9318-95930f1712a3,James Levy,fgonzalez@whitehead-bryant.org,66,Female,Brendaborough,Premium,97.25,8,Health,2024-12-07,0,1
+9eff4e51-a3f4-44e7-861a-10afe5fb7ea4,Dr. Patricia Oliver,keithmoore@tate.org,19,Male,Walkertown,Budget,492.28,10,Groceries,2025-02-26,1,0
+b52d4405-e1e2-4dc5-971a-d4e38d7e2f09,Robin Jimenez,lee40@perez-hawkins.com,18,Female,Lake Madisonport,Premium,413.81,10,Health,2025-03-20,1,1
+d4af4989-02cb-4857-9c6a-5fe9e2d997d6,Robert Williams,cschwartz@gmail.com,65,Male,Priceshire,Budget,61.19,7,Groceries,2024-12-03,0,1
+f96bde14-6008-4494-92e9-9ec7c4f04107,Luis Griffin,ritachan@yahoo.com,29,Female,East Shane,Standard,70.47,5,Groceries,2024-11-06,1,0
+af390b65-c612-4f41-8f16-c24c15a97093,Crystal Marquez,hodgeslawrence@wilson.com,22,Female,Lake David,Premium,138.84,13,Electronics,2024-10-17,0,1
+f28fa2f0-ba67-499a-bf07-8675109ae01c,Brandon Bullock,ebonymcdaniel@diaz.org,54,Male,Kevinberg,Standard,198.8,16,Books,2025-01-19,1,1
+9bc32663-f559-4c4b-993e-3d2b48078bed,Frank Maddox,qsmith@robles.com,49,Male,West Mariastad,Standard,288.9,9,Groceries,2025-02-08,1,1
+83a05439-945d-4428-b855-060e59745af6,Jeffrey Fox,ashley89@morrison.com,26,Female,Hoffmanchester,Budget,138.09,10,Electronics,2025-03-21,0,2
+7577f363-f3dd-4e69-b272-03790b5eda1c,Linda Murray,mcox@yahoo.com,58,Other,East Judychester,Premium,186.27,10,Health,2025-01-02,1,3
+f5d168c8-7860-4343-86a5-78a310ccf677,Katherine Murray,morrisonmary@owens.biz,52,Male,North William,Premium,412.87,5,Electronics,2025-02-22,0,1
+4007d85f-6902-47e8-af30-94bfd2a2b401,Travis Smith DVM,barnesmark@hotmail.com,36,Male,Cowanmouth,Premium,11.21,6,Health,2024-12-04,1,2
+57f869db-edfa-4df5-86da-9444bfbaf4fb,Stephanie Lamb,kellydonna@sullivan.com,65,Other,New Donnaburgh,Premium,87.28,8,Books,2024-11-17,0,4
+9726e0e8-790f-40db-b7c9-5fed7e9402fe,Norman Boyd,leemarissa@marshall-perez.com,33,Other,Hernandezbury,Budget,374.85,10,Groceries,2025-03-06,0,2
+fa95d37d-9be9-483d-ad9b-ee999ba2befb,Adrian Santiago,jamiecollins@lee-patterson.org,20,Male,Christineburgh,Budget,676.73,9,Fashion,2025-03-31,1,0
+cefda19c-7e76-47e7-8561-aefbf228f1d7,Jeffrey Clark,ulee@hotmail.com,37,Male,New Daniel,Standard,215.03,11,Health,2025-02-26,0,2
+a8000caf-d8f2-4197-8281-486230426fb8,Tiffany Mason,ypadilla@hotmail.com,41,Male,Lake Richardport,Budget,227.86,15,Groceries,2024-12-29,1,3
+4c2c5335-0941-4d34-b605-91f29c0514ff,Elizabeth Ellison,marshallkaren@parsons-fox.info,50,Male,Jenniferberg,Premium,34.01,9,Fashion,2024-12-09,0,1
+cf6d03f7-8d1a-466a-8f8b-ddcb95f9b18a,Holly Rogers,elizabeth59@harris.com,41,Female,Evelynmouth,Budget,177.94,13,Fashion,2025-03-09,0,1
+16972a04-0771-4749-9627-37f3fb291252,Melissa Torres,mitchellpeggy@hotmail.com,69,Female,Davidfort,Standard,228.18,5,Health,2025-04-06,0,1
+c15038fd-9325-484b-91b3-47762737120c,Kimberly Davis,gutierrezmark@yahoo.com,28,Female,Lake Denise,Premium,83.31,11,Groceries,2025-02-27,1,2
+037fc8f1-192c-48cf-9154-85c7ad09943c,Deanna Wilson,whiterandall@yahoo.com,66,Male,Angelaville,Premium,94.1,6,Fashion,2024-10-29,1,4
+41ed7da0-2ca8-4a3d-b91c-30d4dbe943bf,Michael Rowe,pmurphy@sampson-ramsey.com,25,Female,North Kennethville,Standard,142.1,15,Electronics,2025-03-11,0,4
+c21ce95c-bffc-43f4-a3c5-b6d04909e6fc,Katelyn Rose,jeffreyflores@kirby-king.net,53,Male,Timothystad,Standard,6.08,11,Electronics,2025-03-14,1,1
+5a2cfda2-bb80-4185-9050-f0a9d9f47037,Hannah Miller,jessicabarber@yahoo.com,55,Male,West Austin,Premium,116.62,6,Groceries,2025-03-07,1,1
+e4aac747-0c46-49e8-9690-b916de70fada,Michael Webb,danielalexander@brown.info,57,Female,Ronaldport,Budget,71.27,9,Books,2025-02-22,0,6
+12a1eeb0-69c4-41e7-912d-c728d368d3e8,Tracy James,kathleensmith@yahoo.com,37,Male,East Richardfurt,Budget,119.02,9,Electronics,2025-03-07,0,1
+b7cb7bd2-deaa-4cea-95ee-15d66a97c43b,Sherri Rios,robertsonderrick@gmail.com,52,Female,West Daniel,Premium,38.27,18,Health,2025-02-18,0,2
+73dae264-80ba-4107-9edc-41816f46f565,Donald Davidson,christophergoodwin@blankenship-finley.com,65,Female,Timothyberg,Premium,663.62,8,Groceries,2024-11-17,1,0
+5017b2fd-f403-4bb4-85a9-0ff3a3a99ea4,Maureen Russo,brianchaney@yahoo.com,42,Female,South Jeremymouth,Premium,270.12,9,Fashion,2025-02-05,0,1
+4d984710-aaea-4f98-b1cc-dd187241432a,Dr. Nicole Woodard DVM,santiagocourtney@gmail.com,52,Female,Lake Kimberlyburgh,Budget,340.99,11,Electronics,2025-03-28,0,3
+5681188d-6509-4aec-a3e6-4be09f83c85c,Michelle Watkins,vcontreras@patterson-wheeler.com,42,Female,Faulknerstad,Budget,467.01,11,Groceries,2025-03-29,1,4
+d17bc789-d944-4440-bab0-df447a154a09,Cristina Spears,carolynpowers@savage-jones.com,46,Other,Katieport,Premium,207.01,6,Groceries,2024-10-16,0,3
+7a42dde8-b0c3-4acd-b73a-1651bc09fef4,Alexis Murphy,david94@johnson-bennett.com,35,Other,Derrickside,Standard,27.28,13,Books,2025-03-22,1,2
+261e4f37-2c81-47e9-a1ef-cc7c40606688,Katrina Wood,velazquezrichard@sanchez.com,63,Other,Lake Samuelton,Premium,231.08,6,Fashion,2025-03-29,0,0
+21aa21dd-0d29-46f8-a28f-058666805c18,Brittany Alvarado,judith18@gmail.com,35,Other,Jaclyntown,Premium,265.18,8,Fashion,2025-04-05,1,1
+a01c2ef2-ccd5-4260-8cb3-47d28e6d2aa4,Rachel Johnson,ginastokes@snow-garrison.biz,19,Other,Kimberlyhaven,Budget,410.46,12,Fashion,2025-02-12,0,1
+dca19205-991d-4bdf-ab17-8bb9801fbcf1,Susan White,gabrielle70@yahoo.com,52,Female,Burchburgh,Premium,169.51,13,Health,2025-03-16,0,3
+18ceaba7-7c37-498a-b817-4bda7fcabbe9,Brad Holmes,ikidd@wilkinson.com,33,Male,North Mandy,Budget,40.95,8,Groceries,2024-12-07,0,4
+efbb8b40-a390-4f8c-87ee-bf2a07729a62,John Lopez,george06@hotmail.com,58,Male,Woodside,Standard,100.13,10,Health,2025-02-05,1,1
+7aec62ec-9fe7-4360-8806-dd57eca8a881,Marcus Farmer DDS,susanlopez@crawford-stafford.com,53,Female,West Paul,Premium,135.33,9,Health,2024-10-30,1,1
+d87fc353-e735-45d9-98f8-dd8dedb776d0,Latasha Garcia,john23@gmail.com,50,Male,Kimberlyberg,Standard,311.47,9,Groceries,2024-12-10,0,1
+c2163267-da1b-4d85-9399-b9f051134e05,Christopher Massey,courtneyjohnson@yahoo.com,21,Male,Jennifermouth,Premium,253.73,13,Fashion,2024-11-08,0,1
+5b472a3b-b33f-413d-9490-9e578d7aaa2f,Christopher Wagner,swansonraymond@hotmail.com,50,Other,Amandafurt,Standard,132.06,13,Groceries,2024-12-20,1,2
+1b3d6baa-63c3-4564-9ca2-b1d808233b61,Jeffrey Miller,nathanielmiller@duncan-rowe.com,31,Other,Andreachester,Budget,1291.86,9,Books,2024-11-07,0,2
+9aa96a3d-d0f2-442a-ac78-0d51e262124d,Jeremy Scott,sjames@gmail.com,38,Other,Ortizmouth,Premium,279.25,13,Groceries,2025-04-03,0,2
+5625c606-20dd-4655-8d05-bc38c3275da8,Brandon Frye,todd58@yahoo.com,65,Male,Barajasberg,Premium,81.24,10,Groceries,2024-12-23,0,3
+7388f0bc-6655-42f7-9886-fc03458605d2,Brandi Barajas,danielbullock@gmail.com,37,Other,Lake Earl,Standard,32.2,18,Electronics,2024-11-27,1,1
+3e11edba-16fd-488c-9cf1-7b6c31959103,Joan Collins,jennifer78@hotmail.com,25,Female,South Teresastad,Budget,49.77,5,Books,2025-02-05,1,2
+886002ee-7338-4b5d-9dbc-10defa456fd1,Mark Ewing,burgessgeorge@gmail.com,24,Male,Larsenside,Standard,84.69,9,Electronics,2025-03-21,0,1
+4672f8b6-f2a2-4fa1-8c18-86ccfd94c0f2,Christopher Scott,melissacox@navarro.org,20,Male,Lake Chrismouth,Standard,52.55,5,Fashion,2024-10-19,1,2
+d49c6daf-aae9-4582-b143-00079cdc7cc7,Casey Kelley,arthur17@green.org,34,Other,Smithfort,Budget,61.95,6,Fashion,2025-02-27,0,1
+8ad657c2-818e-4ba8-8abf-e86c2ddf1e05,Erik Austin,nathanware@wang.com,50,Female,Natashaburgh,Standard,100.68,12,Books,2025-01-20,1,1
+57bc87cb-6bc1-41d0-93df-4b213f351d78,Stacey Christensen MD,iscott@gmail.com,65,Other,Lake Rachel,Standard,57.12,9,Health,2024-12-19,0,2
+815cdbdc-5761-4b5f-bbf4-b776daa56920,Rachel James,terrychristopher@gmail.com,29,Other,New Thomaschester,Premium,681.23,10,Groceries,2024-12-07,0,1
+adc27b7c-129f-4276-a06b-855aecf5c854,Joseph Riggs,russellcassidy@lowe.com,68,Male,West Timothy,Standard,25.09,13,Electronics,2025-02-15,1,1
+9cb12f72-1f03-4010-a669-cc64a54cc511,Brian Richards,hallrebecca@gmail.com,39,Male,East Nathan,Premium,223.02,12,Books,2025-02-27,0,0
+728bb986-43ad-4022-99c1-f0df9459f5f3,Christopher Dodson,mrojas@ray-fernandez.com,39,Other,Kimberlyshire,Budget,158.49,10,Electronics,2025-02-25,0,1
+0e680fb9-daea-459f-805a-6a527f1aec7d,Mr. Evan Chase,okane@hotmail.com,63,Male,Port Douglasview,Standard,1211.59,11,Groceries,2025-01-07,1,1
+2ada46a7-379a-4eae-9f8f-839bc3721328,Toni Mitchell,garciabernard@mcmillan.com,47,Male,Estesville,Budget,35.65,4,Health,2024-12-06,1,2
+a2bc0966-06e1-4e08-9984-c21df8b90d23,Kathleen Garrison,qmason@wilcox.com,55,Male,Wrightburgh,Premium,152.18,6,Electronics,2025-01-24,0,0
+f6a2cd3a-eea9-4fb0-9c69-5d70c8195cd9,Jerry Hawkins,johnsondavid@yahoo.com,55,Other,South Glentown,Premium,1046.72,10,Books,2025-02-18,1,2
+42665d2f-9bc7-4b57-a146-5ade26320640,Leslie Martin,david04@jarvis.net,62,Male,New Jeff,Premium,601.87,2,Groceries,2024-12-19,1,3
+cb6c4a3d-5768-4188-b8fb-5e11bd050e3f,Shawn Thomas,christineluna@duncan-diaz.com,68,Other,Jasonfurt,Standard,509.6,12,Groceries,2025-02-12,1,0
+ffc947f0-7cb6-4f55-9618-8c3a83880e22,Matthew Mcclure,sthompson@boyle.com,25,Male,Clayfurt,Premium,89.48,4,Health,2024-12-23,0,2
+212d6754-5c86-43bc-a3c2-347d2c46b723,Hannah Morgan,ruizjoshua@gmail.com,44,Female,Mannberg,Premium,56.22,17,Books,2024-10-25,1,2
+9ead5a07-ee6f-496f-9ce9-33b1feb1579f,Amanda Perez,justinmiller@scott-lopez.com,44,Male,Lake Julia,Standard,331.37,8,Groceries,2025-02-24,0,1
+f02b3d58-bba7-4385-8615-8b391e4af173,Daniel Brock,evansshannon@hotmail.com,51,Other,East Joelmouth,Standard,795.12,8,Electronics,2025-03-05,1,2
+f90a94a6-9e2c-43bc-adce-b1748446d8e7,Sarah Rodriguez,millerjessica@hotmail.com,38,Male,Brownfurt,Standard,244.1,12,Fashion,2024-10-20,0,0
+6ee50a6a-708e-4ede-ad5b-9f23648a8e08,Paula Knight,ashleycontreras@hotmail.com,47,Other,New Sarahview,Premium,254.32,6,Books,2025-01-03,0,3
+c1a45ba5-04ba-41df-85a6-22f2db80613d,Ashley Miller,elizabeth37@le.com,50,Other,Lake Ashley,Premium,98.54,8,Electronics,2025-03-17,1,3
+4d0f5ad6-7bf0-4b6c-865b-91893f0f6493,Roger Carter,brownrebecca@hotmail.com,45,Male,Port Barry,Standard,440.24,8,Health,2025-02-09,0,0
+37c7f104-8025-4d75-bae5-72c73014836b,Howard Gibson,mindyjuarez@butler.biz,64,Other,East William,Standard,62.12,11,Health,2025-02-14,0,1
+3bdc10c9-958c-476c-9850-cf6e2ba49e6c,Anne Watts,valerie96@gmail.com,50,Male,New Adrianburgh,Budget,117.33,7,Groceries,2025-03-13,1,2
+f77e327e-b9ef-4a8c-8601-d3fc18f8cb3c,Christopher Duran,andersonangela@gmail.com,22,Female,Thompsonland,Budget,166.24,11,Health,2025-02-25,1,1
+02721aa7-f424-4b4d-b6d1-fba401489a75,Phillip Hancock,ehuerta@gmail.com,65,Other,Rodriguezburgh,Standard,212.55,11,Fashion,2024-10-25,0,2
+7a7cb105-069f-4401-8ee7-85783c02d166,John Garcia,qgarcia@gomez-hall.com,36,Other,Joelport,Standard,83.28,13,Electronics,2024-11-03,1,0
+b1caa8f6-939f-4906-82fa-44142f6dd4dc,Alexis Diaz,ddavis@ward-fletcher.com,21,Other,Port Nicholas,Budget,36.59,11,Books,2025-03-10,1,1
+2cec26f0-3435-4499-8078-8df6fd797dbe,Nicolas Walker,derek24@morales.net,52,Other,Port Traceyberg,Standard,282.96,13,Groceries,2024-12-23,0,3
+eaa2f278-49b3-442e-9c1b-ae7a2d880a27,Michelle Clayton,heather82@gmail.com,66,Female,Thomasland,Premium,102.17,6,Books,2025-04-09,0,2
+4045b73e-e24d-40e1-8020-a88105d6677b,Sarah Giles,millerdonald@hotmail.com,34,Female,North Amandaburgh,Premium,261.14,16,Electronics,2024-11-14,0,3
+b8237444-18e7-4811-9c00-320993772f5a,Adam Ingram,brittanyortega@hotmail.com,61,Male,Katherineshire,Premium,50.3,9,Fashion,2025-01-24,1,1
+a64084ca-e928-4be4-9b05-c7fc81dbc248,Mary Mcdowell,dawn10@hotmail.com,45,Other,Suzanneborough,Standard,196.84,9,Electronics,2024-11-26,0,0
+9b94be9b-31d5-47d4-9f74-9160334ad8ee,Dakota Liu,fjenkins@carpenter-greene.com,47,Other,West Erica,Standard,228.16,16,Electronics,2025-02-27,1,2
+74efcf5c-0e18-4a14-83ab-cfed948be1d3,Tabitha Howard,tuckercharles@navarro.org,46,Female,Timothystad,Budget,15.96,6,Groceries,2024-10-25,0,1
+973fdf29-edc4-419b-b9cc-efe758dbd322,Troy Guzman,hernandezlori@yahoo.com,63,Male,North Eric,Standard,123.12,14,Books,2024-12-23,0,1
+85c6d20a-5843-408d-bee8-f287d31d9d4e,Jeanne Deleon,zpearson@gmail.com,23,Female,New Micheal,Standard,43.3,8,Electronics,2025-02-19,0,0
+767af7fb-8ae2-4b48-b04e-fa54ea5f5366,Andrew Jones,mary94@gmail.com,52,Female,North Karen,Budget,19.64,15,Electronics,2025-03-04,0,2
+714c5408-0398-4466-9388-9f402568f75e,Jason Gomez,sramirez@benson-leonard.info,58,Male,Port Timothyshire,Standard,1380.36,13,Fashion,2025-04-04,1,1
+2a8b1bde-5fa4-491b-8b12-7d61b1381291,Sharon Hart,npowell@yahoo.com,54,Other,Ashleyberg,Budget,116.74,13,Health,2024-10-23,1,6
+e04458ef-fe89-4efe-9696-bd16eedc4c8a,Daniel Jones,jason71@sampson-taylor.biz,41,Other,North Michelleport,Standard,498.02,6,Fashion,2025-04-07,1,3
+6d8fa938-e5b7-4ef2-a75e-58fe999236b1,Hunter Nelson,jamiehardy@smith.com,46,Female,East Chadstad,Standard,88.17,6,Books,2024-11-01,1,0
+c2384ab7-d629-4f54-950e-9b840dfb9035,Patrick Washington,gregory23@rodriguez.biz,66,Female,East Chad,Standard,343.24,13,Books,2024-11-13,1,2
+69704952-707f-461b-b622-250ee999d22a,Brian Snyder,deborahking@gmail.com,63,Female,Edwardsville,Standard,428.42,10,Groceries,2025-04-04,0,1
+36378ef4-18d9-4cb2-8c72-cdc3d7269056,Andrea Brown,bradley45@miller.com,48,Male,Bradleystad,Premium,271.63,12,Health,2024-12-16,0,2
+8bde60c2-b1c3-443b-8410-95d7bb8c99ee,Lynn Davenport,victoriaspence@yahoo.com,52,Male,East James,Premium,191.36,11,Books,2025-02-07,1,3
+e6c51972-845d-49c4-91b6-82da9201e6f4,Mary Arnold,ismith@smith-strong.com,50,Female,New Ashleyburgh,Standard,159.23,8,Health,2025-01-06,1,2
+fcbb4c70-2ad6-4f21-bab6-61592cf07820,Lisa Bryant,hflowers@preston.com,69,Other,Jamesfort,Premium,128.71,11,Fashion,2025-01-05,0,2
+d9158762-cb4b-47b1-8fd6-8507357b5910,Blake Flores,sarah32@yahoo.com,38,Other,Jeffreyberg,Budget,795.77,6,Books,2025-03-24,1,2
+b153a0f0-807c-470f-82ed-5269b210de92,Stephanie Smith,marvinroberts@yahoo.com,49,Male,Jillview,Premium,532.68,5,Electronics,2024-11-01,1,0
+a2d30fb9-8f41-40de-a89e-822560fd47b0,Robert Hernandez,kristenjackson@sullivan.org,40,Male,Davidchester,Budget,1005.95,13,Books,2025-04-06,0,1
+ad932f22-e0b2-4acc-9d99-19b26edeaa8e,Brandon Friedman,iroberts@mcdonald.com,50,Other,Jessicabury,Budget,39.82,10,Health,2025-02-22,1,0
+53000bcb-0fb2-40be-9bf5-30490be78176,April Anderson,theresa21@yahoo.com,20,Male,Ricardomouth,Budget,393.77,11,Books,2025-02-05,1,2
+15f4d41c-2e8c-4540-965a-ccaf557216d7,Jordan Moss,tcole@fox.com,35,Other,East Williamtown,Premium,835.84,9,Groceries,2025-02-11,1,2
+01732e66-145b-4339-8521-3c8355aa2121,Joshua Alvarado,ann61@yahoo.com,42,Female,Lake Gloria,Standard,59.99,10,Electronics,2025-04-01,1,1
+be977656-a6b9-4c15-a3bd-d8f833ade0c7,Michaela Hess,timothytaylor@foster.org,59,Male,Alexandraland,Standard,20.64,13,Groceries,2025-02-02,1,0
+4343fe43-aa7f-4572-946c-c31105a99478,Samuel Ayala,phillipsbrett@bauer.com,48,Female,Tylerside,Premium,405.42,12,Fashion,2025-03-12,1,0
+ca0cb7de-b5c7-4b96-bd02-61b0c9760282,Julie Torres,destinyhenry@robbins.org,20,Male,New Amandaport,Budget,256.33,18,Books,2024-11-07,0,0
+abd5093a-b839-4a1f-af2a-a7f2d07ebb08,Caleb Romero,medinakevin@yahoo.com,57,Male,Stevensmouth,Premium,553.22,8,Books,2025-01-01,1,4
+ddc2c2b2-07fc-45b1-a141-f4a0a4902930,Laura Murray,bsmith@mendez.com,63,Female,Bennettborough,Standard,45.17,8,Fashion,2024-12-26,1,1
+4b617b8f-2c6e-47ec-af5e-4847402decae,Beverly Johnson,carrdenise@allen.com,41,Female,West Adam,Premium,475.82,9,Groceries,2024-11-11,1,1
+65c7c0b8-c2eb-4975-b718-b3459eb2d9c5,Robert Myers,donnasimpson@gmail.com,67,Male,New Nicholas,Premium,67.55,14,Electronics,2025-01-15,1,1
+b0c982bd-2092-46c6-9626-d9cebc0b296f,Isaac Baker,jasmine00@ramirez.info,49,Female,Kevinville,Standard,53.61,9,Groceries,2024-12-16,0,3
+6067f84d-2c07-461e-a5ad-e3e77e96eb85,Gina Morgan,christine57@hotmail.com,64,Other,Harrisonmouth,Standard,53.83,12,Health,2024-11-20,1,3
+cb5946b6-d4e3-43e6-b1f7-1ce205768188,Tanya Holt,nmoreno@king.org,39,Other,Lindaberg,Budget,505.53,11,Groceries,2025-03-12,0,3
+8c400669-36c0-45a5-9a81-e29a31f01501,Christopher Mcgee,alexandra33@nelson.com,40,Female,Lake Elizabethbury,Budget,328.26,13,Electronics,2024-12-01,1,1
+41efaa94-f9cf-45b5-bd61-8d88e968e80a,Mark Hinton,dwayne02@yahoo.com,19,Other,New Carolynbury,Standard,222.11,11,Books,2024-11-09,0,1
+3b51d3b9-ce93-4d14-b8e3-a48bfc20f419,Aaron Harris,amanda90@gomez.com,44,Other,East Walterfurt,Budget,133.34,11,Groceries,2024-11-30,1,5
+dbefc5db-83ad-4ef6-ba8a-80ff9dbfc739,Kenneth Lindsey,watkinsbrian@yahoo.com,59,Other,South Joseph,Standard,629.16,11,Fashion,2024-12-04,1,1
+255d2601-1013-424a-aa2f-d82da44b4fc8,Leah Roberts,jackburgess@yahoo.com,19,Male,West Brianborough,Premium,149.49,11,Electronics,2025-03-06,0,1
+cb7bde7a-697f-4d74-8836-30c44e6b7db1,Jeffrey Camacho,kimberly65@snyder-giles.com,43,Other,North Kristenborough,Budget,508.82,8,Books,2025-01-17,0,1
+fd52d063-4aeb-4b58-9ce0-29a393fe1201,Mark Schwartz,crystal08@hotmail.com,34,Other,East Jasonhaven,Standard,173.48,10,Electronics,2024-11-25,1,0
+fc37e24b-f731-4f99-a4e5-0c7e1f6ff5f7,Natalie Lopez,nsingleton@warner.org,57,Female,South Josephstad,Premium,141.94,4,Fashion,2025-04-07,1,0
+c8df166e-fdb9-440c-b7ff-446c146e5f8b,Ellen Rivera,brian88@hotmail.com,50,Other,Port Anthonybury,Premium,186.35,13,Health,2024-10-29,1,0
+eec2a3d7-7f1b-47ee-9099-e06e446c4cd0,Elaine Perez,lindaking@barnes.biz,26,Male,Michaelbury,Standard,107.59,9,Electronics,2025-03-11,1,3
+21b35c76-3404-474c-965a-775510d8d65c,Diane Santana,christinewilson@baker-ryan.com,60,Male,Vasquezhaven,Standard,413.03,8,Electronics,2024-12-06,1,0
+5824ed3d-db36-4266-8e9a-d70d04b02437,Julie Goodman,lunamichael@hotmail.com,65,Female,Micheleburgh,Premium,209.58,5,Groceries,2025-03-29,0,0
+821e71e0-c139-4498-ae8d-6af99d0bd364,Kenneth Gutierrez,hallkaren@payne-everett.com,56,Male,Lake Stephenmouth,Premium,79.27,11,Fashion,2025-01-27,1,0
+2c3abb14-4928-4150-a44f-2ea0db5566b8,Rodney Evans,jillwilson@johnson.net,46,Male,Longview,Standard,689.5,11,Fashion,2024-12-28,1,1
+d516e265-2eee-4926-a075-a09fca2f9481,Samuel Gonzales PhD,susangibson@hotmail.com,59,Other,East Aimeeland,Standard,145.3,11,Health,2024-11-02,1,1
+7f7bae0e-927e-4fef-a9c4-d8e586883b14,Christopher Chapman,david95@washington-lin.com,43,Other,East Gregoryfort,Premium,235.28,5,Fashion,2025-01-20,0,0
+5e76e234-713e-4de7-83c3-8ad3ede12205,Mary Scott,acarney@robinson-fernandez.com,52,Male,Tylerburgh,Premium,710.85,14,Electronics,2024-11-21,1,2
+8c6e87e4-dd2e-4560-8fc0-f076b5ff442a,Rebecca Mendez MD,qbaker@cohen-west.biz,67,Female,East Vickie,Standard,293.64,11,Health,2025-02-05,1,0
+5a899761-ada8-45a6-82ab-356f2f5fda66,Christopher Foster,billyromero@griffith.net,42,Female,Williamshaven,Standard,37.29,7,Fashion,2025-01-23,1,1
+bad8a84e-e94b-4838-b3f7-66a123d74f10,Robert Gibson,samanthacampbell@gmail.com,41,Other,Port Tracyfort,Premium,843.19,8,Health,2024-10-18,0,0
+2a90a1aa-d9c3-4bc7-b8c5-289219e05400,Charles Kim,thompsondavid@lynch.net,30,Male,Hawkinshaven,Standard,296.42,8,Fashion,2025-01-21,0,3
+3eb322cf-d5bc-4f03-a818-ba8f22daf910,Zachary Norton,james21@davis.com,24,Other,Jonesbury,Standard,122.35,7,Fashion,2024-11-23,1,2
+76204678-79f6-4c89-888b-471637853122,Elijah Zamora,fernando98@yahoo.com,53,Female,North Erica,Standard,44.99,7,Groceries,2024-11-21,1,1
+e4866b74-8f62-479a-8ba5-f8c0719f9c8f,Linda Welch,samantha71@gmail.com,62,Male,North Amandastad,Standard,474.0,10,Fashion,2024-12-08,0,1
+a40fd2e3-cb95-47be-b644-3e057ad4ec1a,Heidi Bennett,toddjeremy@howard.com,37,Other,East Richard,Budget,290.33,6,Health,2024-10-25,0,3
+a04c61f2-9801-4d26-b640-cc4e20169e3a,Jaime Bell,brianhutchinson@hotmail.com,18,Other,Nicolashaven,Budget,228.72,12,Electronics,2025-02-27,0,1
+21540469-924b-4538-936b-41f6faa6c2e1,Albert Barnes,jenniferwalker@hotmail.com,25,Female,Blakemouth,Premium,672.99,9,Groceries,2025-02-09,1,1
+5ca7d327-60ff-470b-85b9-bdde42de1210,Susan Duncan,megan38@yahoo.com,63,Other,Davidbury,Budget,466.2,13,Fashion,2025-03-19,0,1
+6c0ea86a-7723-4c72-a01a-1ed50125431f,Kayla Rivera,michael52@gmail.com,33,Female,South Robertchester,Standard,49.35,11,Fashion,2024-11-18,0,2
+c10816fa-be7c-4ef3-99c2-fe0e4ac29252,Raymond Hill,edwardspam@barnes.com,31,Female,Port Laura,Budget,112.07,17,Health,2024-10-21,0,1
+fbe5c5f2-c868-48d0-bed0-59bdcf5c813c,Sarah Kelley,eball@gmail.com,29,Male,New Tylerstad,Premium,85.7,3,Groceries,2025-02-23,0,0
+998e33ad-d5d0-49e7-abb8-10515c8070c3,Cynthia Little,tstephens@gmail.com,68,Male,East Pamelafort,Premium,408.71,8,Fashion,2025-01-07,1,1
+6b9dc669-397c-4f28-8cbe-bcfa699fc88c,Christina Steele,ellenmiller@evans-fernandez.com,40,Other,Jonathanside,Premium,10.23,15,Electronics,2024-12-03,1,2
+1b28dd7f-8636-41b7-9c2b-eb2ee05a97a6,Ronald Hayden,scott33@martinez.com,32,Female,East Thomas,Budget,253.11,8,Electronics,2025-02-13,1,1
+5714251f-b53c-4fe7-a8e4-bafb586f2d82,Jacob Austin,wnelson@pineda.com,45,Female,North Zachary,Budget,431.22,9,Fashion,2025-01-24,0,0
+2ea5121f-b520-4679-b37e-b764fc8b70e3,Tracy Brown,ywebb@gomez.com,51,Male,Markside,Budget,628.1,4,Electronics,2025-03-13,0,5
+b6b5914f-9dba-47ac-a076-60f193a88ca0,Christine Conley,medinakatie@johnson-ramirez.com,19,Male,Lake Melissahaven,Premium,125.6,15,Groceries,2025-03-03,1,2
+5a1f8373-873f-4f6e-b517-f2ecf554000b,Nicole Little,hthomas@sawyer.com,49,Female,Maryfort,Standard,516.54,10,Fashion,2025-01-19,1,0
+7754dde3-5ecc-40f0-bbb5-9bfb3717af3f,George Nelson,sabrinacooke@wolfe.net,40,Male,New Karenfort,Standard,35.17,18,Health,2024-12-16,1,3
+cf4149fb-8bd9-4f4e-966e-6d7b682bd335,Theresa Cole,lynnthomas@hotmail.com,39,Other,Lake Sharonmouth,Premium,562.12,16,Groceries,2024-11-12,1,3
+1c522431-7a32-412e-8888-477baeceb31d,Anthony Valentine,ramosmarc@yahoo.com,68,Female,Kennethtown,Premium,40.91,9,Electronics,2025-01-01,0,0
+2fec8319-959b-41df-ac1e-b9895fc38d81,Billy Murphy,carolynmckinney@gmail.com,42,Male,Kimberlyton,Premium,151.89,7,Fashion,2024-12-12,0,2
+f0a69ebb-a6d0-4687-81fd-41fc509411ba,Pamela Willis,debralevine@gmail.com,39,Other,Edwardport,Premium,478.8,7,Groceries,2025-02-15,1,1
+4ba91ed5-bac9-4a9a-8751-59e39a2adcc5,John Aguilar,dturner@gmail.com,39,Female,South Kennethland,Standard,48.73,11,Electronics,2025-03-08,1,1
+38461947-77bd-4435-8b7c-ccbfaa363480,Bradley Brown,jrodriguez@ortega.info,66,Other,New Russellburgh,Budget,78.12,5,Fashion,2024-11-18,1,2
+fe4aed65-d42f-4084-9dcf-125b5f8ed3ed,Elizabeth Jarvis,barnettryan@yahoo.com,69,Other,Markview,Budget,384.31,7,Books,2024-10-21,1,2
+641c8bb6-cf8f-454c-9c46-4255cc3a0641,Paige Saunders,davidsoncraig@meyers.org,59,Female,New Carolstad,Standard,381.93,14,Health,2025-01-31,0,0
+583136e8-4d26-4153-8c52-6dee00a149e5,Joshua Mckenzie,bradymatthew@smith-ortiz.com,23,Other,Lake James,Budget,307.45,10,Electronics,2024-10-22,0,1
+76b603e7-f2d1-43e7-bdf6-955e2ae76548,Michael Jones,carriepatel@bass.com,32,Male,Simmonstown,Standard,355.2,10,Electronics,2025-03-01,0,0
+cc03c0b2-8fe8-488f-8f94-c05dc0e93b4e,April Booth,lauren32@parker.org,60,Male,South Vincent,Budget,234.74,10,Books,2025-03-13,0,1
+975098ab-1c91-4e74-979a-fd3851b8e6e4,Linda Baker,fredcampbell@wallace.com,54,Male,South Meghanton,Standard,87.03,10,Books,2024-12-22,1,3
+7efcab0e-900f-461f-b725-1ea34dd6cec9,Steven Stuart,jenniferweber@holmes.info,50,Other,North Lesliechester,Budget,127.25,11,Groceries,2024-10-21,1,0
+72c8ea11-ca0a-4f33-a675-9bbe75b07585,Christina Campbell,hgibson@hotmail.com,25,Male,Stewartburgh,Premium,60.12,4,Health,2025-01-19,0,2
+aa175685-3fa7-443b-9951-195736a1ad52,Roy Griffith,sullivanjennifer@caldwell.com,61,Other,Nelsonhaven,Premium,717.26,13,Health,2024-10-16,1,3
+32b19045-f665-4c8f-97bb-e040ec8743a9,Rebecca Cook,jellis@miller.com,61,Male,Jimenezhaven,Budget,262.68,7,Electronics,2024-12-20,1,4
+8445b22a-7a2b-4c32-baa0-35147eb5721e,Barbara Petersen,richard30@archer.com,22,Female,East Louisfort,Standard,153.67,6,Books,2024-12-12,1,1
+d2717435-7b57-4b64-ba1e-00e47605aa0f,Theresa Simmons,lawrencedonna@hotmail.com,56,Other,North Jennamouth,Budget,185.97,13,Health,2024-11-16,0,3
+ab88c984-c729-4e24-83ee-e6b234ab45f1,Nicholas Cooper,ericedwards@hotmail.com,21,Other,Lake Davidhaven,Budget,882.85,7,Fashion,2024-12-07,1,0
+fec103db-f5a4-4a19-8844-8f65821d78ae,Kristin Olsen,arroyojoe@yahoo.com,23,Male,North Francisco,Premium,49.94,10,Health,2024-10-30,1,5
+fc1d6d1d-bc79-462c-b3af-71cde5844486,Linda Ingram,erika36@gmail.com,62,Female,Vincentborough,Standard,264.73,10,Electronics,2025-01-10,0,3
+77ed73c8-d491-4cdd-bca7-3277bb551535,Daniel Osborn,brian19@baldwin-harris.com,49,Male,Edwardsshire,Premium,211.5,5,Health,2024-10-27,0,2
+c61f08da-47df-42b5-87d3-a97b912203e3,Daniel Thomas,andrew63@hotmail.com,69,Male,West Coleshire,Budget,283.6,13,Groceries,2025-01-27,0,0
+5e03ea9c-4b3f-43fc-b9da-b71f4dc81df2,Roger York,zfrench@duran.com,47,Female,Lake Daniel,Premium,5.48,7,Books,2025-02-04,0,1
+8c39d3b4-68d2-472e-9e4d-de730697f9fe,Sarah Hall,shieldsbruce@jones-green.net,64,Female,West Stevenview,Standard,617.01,8,Electronics,2025-02-07,1,0
+0e53bfe8-8cf0-431e-8b0a-9b1b75aa1234,Samantha Patel,bhubbard@yahoo.com,52,Male,Lake Candice,Budget,807.0,11,Electronics,2024-11-10,0,2
+862f4b63-5ceb-4eb7-8942-2fc03c5dccd3,Megan Palmer,prattlaura@duncan.org,57,Female,Victorport,Budget,249.81,13,Books,2024-11-16,1,0
+ed8f0359-4a3c-4c9e-b2b6-f5b92a8f8432,Michael Gonzales,vbrown@yahoo.com,69,Male,Port Davidborough,Premium,357.86,15,Books,2025-02-06,0,0
+703cf3db-4842-424f-9026-7b46b33b1a35,Ruben Green,kimberlyhanson@hotmail.com,33,Other,Tylerfort,Standard,767.24,6,Books,2024-12-16,1,2
+0cb8781b-3bc6-439c-a57e-6d1d74532de0,Maria Smith,martinezbrandon@gmail.com,30,Male,East Stephenport,Standard,368.52,13,Electronics,2025-01-09,1,2
+4be88830-daa2-494f-904b-3559d8218c80,Jonathan Murphy,ostrong@hotmail.com,67,Other,New Graceton,Standard,49.65,6,Books,2024-11-08,0,1
+3ff6bfe3-ee3a-41a1-9d23-ff41042a70fc,Jennifer Gilmore,mccormickcynthia@gmail.com,59,Male,Aaronstad,Standard,257.61,7,Books,2024-10-12,1,2
+e5c6b919-ef8f-4b78-b3cc-6936fcfbafc9,Richard Beck,jamesyoung@gmail.com,47,Female,Escobarmouth,Standard,279.97,11,Electronics,2024-10-21,1,1
+ec5d7c65-b228-428c-a91c-a42992bb83f6,Dr. David Richardson,enunez@rose.com,36,Other,Alvaradoborough,Budget,165.56,9,Electronics,2024-11-27,0,1
+bd21062f-be89-4369-9ab0-324ccd0c5cdd,Sherry Griffin,sjohnson@hotmail.com,34,Female,Carolport,Budget,400.05,5,Groceries,2024-10-24,0,1
+934bea2b-2664-4593-b65d-b4cb32257a49,Jacqueline Wheeler,arowe@george-olson.net,36,Other,East Benjaminside,Standard,817.1,13,Health,2024-10-24,1,4
+cb24eeb9-74bd-46fd-834d-157215b5d36b,Jesse Wood,matthew71@brown.com,45,Other,Josephtown,Standard,779.36,19,Fashion,2025-03-30,0,0
+d7165bab-6f7d-4175-bf24-f6b38e2b8604,James Henry,meyersanna@yahoo.com,43,Male,East Markfort,Budget,179.81,11,Electronics,2024-12-26,0,2
+ba0a2cdf-65bb-4c5a-8cb4-5b708dee7f6e,Patricia Robinson,michael65@morgan.net,54,Male,Lindsaymouth,Budget,36.05,14,Fashion,2025-02-21,0,0
+d5947f6b-c14d-43af-bc1c-87a79136197a,Terry Gray,ryanhowe@yahoo.com,43,Male,Whitefurt,Standard,1256.75,6,Groceries,2024-12-10,0,1
+2a667f67-2c4f-4660-8214-80f23a7d8c84,Jennifer Morrison,lonnieyang@gmail.com,40,Male,East Michael,Standard,547.72,11,Health,2024-10-26,0,1
+3fc8fc48-b215-4a4e-abb2-bd1a0ed492b4,Makayla Zimmerman,carolyn80@beltran-sanders.com,26,Female,West Phillip,Budget,39.94,7,Health,2024-10-12,1,1
+4dedbb93-e1a9-4d28-a06d-de053c2fd3fd,Laura Gray,terri39@wright-smith.net,29,Male,Hodgesstad,Premium,760.89,13,Health,2024-11-20,0,1
+09ad6343-925d-4399-8d33-3629836ae01d,Monica Strickland,moyerelizabeth@gmail.com,18,Male,Matthewton,Premium,611.83,12,Groceries,2025-04-02,1,5
+4542fe46-e530-49c8-8ea4-ef4207571abb,Mark Lane,moorejeremy@yahoo.com,18,Other,Aliciabury,Premium,219.47,10,Books,2025-02-14,1,1
+a5a68ecb-4e61-442a-8596-cc284e878668,Sarah Harrell,odonnelldavid@ayers.com,64,Female,Port Melindaside,Budget,268.41,10,Health,2025-01-19,1,1
+bc54afdd-9193-48ff-87d2-66cd8a408672,Mr. Tyler Daniels MD,jillcampbell@thompson.com,51,Female,Christineview,Budget,152.75,10,Health,2025-03-16,0,0
+5c4d6b08-b3bc-4c95-bc7f-06b194afcfb2,Tammie Kerr,jacob77@thompson.com,49,Other,Kaylaport,Budget,16.9,8,Groceries,2025-03-12,0,3
+2daf6a11-b6ae-4ea7-8644-3ceab564d0ac,Donna Adams MD,melindahernandez@kennedy.org,65,Other,North Meghanborough,Premium,122.48,5,Books,2024-10-20,0,2
+e7a9a97b-cea2-4080-9c90-96866b96b882,Susan Hayden,thomasallen@jackson.com,42,Male,Lake Michael,Standard,487.14,6,Health,2024-10-27,1,0
+8cf7a164-69e8-4a6b-b6e3-c3dfedd8268b,Mark Sanchez,robin71@perez-strickland.net,57,Female,Lake Holly,Budget,1.39,9,Health,2024-11-25,1,1
+b06df8c0-9b65-4097-91de-3b4409d191c8,James Hall,hclay@yahoo.com,62,Male,North Michelle,Budget,121.71,11,Books,2024-12-24,1,0
+745cd667-1ad7-4a7a-837a-16fb852f5ea5,Jon Guzman,alex17@yahoo.com,18,Other,Elizabethport,Budget,152.33,8,Electronics,2025-01-29,1,2

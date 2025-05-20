@@ -304,7 +304,7 @@ def robust_segment(series, num_bins=3, labels=None, quantile_based=True):
                 result = pd.cut(clean_series, bins=unique_values, labels=adjusted_labels)
                 return pd.Series(result, index=clean_series.index).reindex(series.index)
             except ValueError:
-                # If all else fails, assign to middle bin
+                # If all else fails, assign to the middle bin
                 return pd.Series(labels[len(labels)//2], index=series.index)
     
     # Normal case: enough unique values
@@ -538,31 +538,42 @@ try:
     shap_values = explainer.shap_values(X_test)
     
     # Visualize feature importance using SHAP
-    plt.figure(figsize=(12, 8))
-    # Revert: Summary plot often expects the full matrix for certain plot types.
+    plt.figure(figsize=(16, 8))  # Wider figure for better x-axis spacing
     shap.summary_plot(shap_values, X_test, feature_names=X_test.columns, show=False)
-    plt.tight_layout()
+    plt.tight_layout(pad=2.0)  # Add more padding
     plt.savefig(os.path.join(charts_folder, 'shap_summary.png'))
     plt.close()
-    
-    # Generate SHAP force plot
-    # More robust handling for expected_value and shap_values indexing
-    expected_value_for_plot = explainer.expected_value
-    if isinstance(explainer.expected_value, (list, np.ndarray)) and len(explainer.expected_value) > 1:
-        expected_value_for_plot = explainer.expected_value[1] # Use value for positive class
 
-    shap_values_for_plot = shap_values
+    # Prepare values for SHAP force plot
+    # For LightGBMClassifier, shap_values is a list (for each class); use class 1 for binary classification
     if isinstance(shap_values, list) and len(shap_values) > 1:
-        shap_values_for_plot = shap_values[1] # Use shap values for positive class
+        shap_values_for_plot = shap_values[1]
+        expected_value_for_plot = explainer.expected_value[1]
+    else:
+        shap_values_for_plot = shap_values
+        expected_value_for_plot = explainer.expected_value
 
+    # Generate SHAP force plot (static, with better spacing)
     force_plot_obj = shap.force_plot(
         expected_value_for_plot, 
-        shap_values_for_plot[0, :], # SHAP values for the first instance of the positive class
+        shap_values_for_plot[0, :], 
         X_test.iloc[0, :],
-        matplotlib=False # Ensure it returns the visualizer for saving
+        matplotlib=True  # Use matplotlib for static plot
     )
-    shap.save_html(os.path.join(charts_folder, 'shap_force_plot.html'), force_plot_obj)
-    
+    plt.gcf().set_size_inches(18, 4)  # Wider and taller for better axis spacing
+    plt.tight_layout(pad=2.0)
+    plt.savefig(os.path.join(charts_folder, 'shap_force_plot_static.png'))
+    plt.close()
+
+    # If you still want the interactive HTML, keep the original as well
+    force_plot_obj_html = shap.force_plot(
+        expected_value_for_plot, 
+        shap_values_for_plot[0, :], 
+        X_test.iloc[0, :],
+        matplotlib=False
+    )
+    shap.save_html(os.path.join(charts_folder, 'shap_force_plot.html'), force_plot_obj_html)
+
     # Stratified K-Fold Cross-Validation
     skf = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
     cv_scores = cross_val_score(lgb_model, X, y, cv=skf, scoring='accuracy')
@@ -666,14 +677,12 @@ def health_check():
 # Endpoint: Get Summary Metrics
 @app.route('/summary', methods=['GET'])
 def get_summary():
-    summary = {
+    return jsonify({
         "total_customers": len(df),
         "churn_rate": f"{df['IsChurned'].mean() * 100:.2f}%" if 'IsChurned' in df.columns else "N/A",
         "average_age": f"{df['Age'].mean():.1f}" if 'Age' in df.columns else "N/A",
         "average_spend": f"${df['TotalSpend'].mean():.2f}" if 'TotalSpend' in df.columns else "N/A",
-    }
-    return jsonify(summary), 200
-
+    }), 200
 # Endpoint: Get Customer Data
 @app.route('/customers', methods=['GET'])
 def get_customers():

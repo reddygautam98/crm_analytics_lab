@@ -17,3 +17,38 @@
 2025-05-20 15:53:47,845 - INFO - Original dataset size: 400
 2025-05-20 15:53:47,845 - INFO - Resampled dataset size: 404
 2025-05-20 15:53:48,137 - INFO - XGBoost Model Accuracy: 0.50
+2025-05-20 15:54:02,798 - INFO - Stratified K-Fold Cross-Validation Accuracy: 0.56 ± 0.04
+2025-05-20 15:54:03,595 - INFO - Random Forest Cross-Validation Accuracy: 0.54 ± 0.03
+2025-05-20 15:54:03,595 - INFO - 
+=== LightGBM Classification Report ===
+2025-05-20 15:54:03,609 - INFO - 
+              precision    recall  f1-score   support
+
+           0       0.59      0.53      0.56        57
+           1       0.45      0.51      0.48        43
+
+    accuracy                           0.52       100
+   macro avg       0.52      0.52      0.52       100
+weighted avg       0.53      0.52      0.52       100
+
+2025-05-20 15:54:03,622 - INFO - 
+=== RandomForest Classification Report ===
+2025-05-20 15:54:03,628 - INFO - 
+              precision    recall  f1-score   support
+
+           0       0.60      0.58      0.59        57
+           1       0.47      0.49      0.48        43
+
+    accuracy                           0.54       100
+   macro avg       0.53      0.53      0.53       100
+weighted avg       0.54      0.54      0.54       100
+
+2025-05-20 15:54:04,382 - INFO - Categorical features ['CustomerSegment', 'FavoriteCategory'] have been one-hot encoded.
+2025-05-20 15:54:04,382 - INFO - Customer Analytics Application Started
+2025-05-20 15:54:04,382 - INFO - Data loaded with 500 records
+2025-05-20 15:54:04,382 - INFO - Charts saved to charts
+2025-05-20 15:54:04,382 - INFO - HTML report generated: charts\report-20250520_155404.html
+2025-05-20 15:54:04,418 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-20 15:54:04,418 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-20 15:54:04,431 - INFO -  * Restarting with watchdog (windowsapi)

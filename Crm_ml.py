@@ -6,8 +6,7 @@ from datetime import datetime
 import warnings
 import os
 import logging
-from sklearn.preprocessing import StandardScaler, OneHotEncoder
-from sklearn.compose import ColumnTransformer
+from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split, StratifiedKFold, cross_val_score
 from sklearn.ensemble import RandomForestClassifier, IsolationForest
 from sklearn.metrics import classification_report, ConfusionMatrixDisplay, confusion_matrix, accuracy_score
@@ -20,11 +19,11 @@ from lifelines import KaplanMeierFitter
 from statsmodels.tsa.arima.model import ARIMA
 from statsmodels.tsa.stattools import adfuller
 from textblob import TextBlob
-import folium
 import shap
 from flask import Flask, jsonify, request, send_from_directory
 import importlib.util
 import matplotlib
+
 # Set matplotlib font size and figure parameters globally
 matplotlib.rcParams.update({
     'font.size': 10,
@@ -34,7 +33,7 @@ matplotlib.rcParams.update({
     'ytick.labelsize': 8,
     'legend.fontsize': 10,
     'figure.titlesize': 14,
-    'figure.figsize': (12, 8)
+    'figure.figsize': (16, 8)  # Increased width for better spacing
 })
 
 # Configure logging
@@ -46,19 +45,12 @@ timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 log_file_name = f"version-{timestamp}.txt"
 log_file_path = os.path.join(logs_dir, log_file_name)
 
-# Basic config for console logging (Flask will use this)
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-
-# Get the root logger
 logger = logging.getLogger()
-
-# Create a file handler for run-specific logs
 file_handler = logging.FileHandler(log_file_path)
 file_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 file_handler.setFormatter(file_formatter)
-file_handler.setLevel(logging.INFO)  # Set level for file handler as well
-
-# Add the file handler to the root logger
+file_handler.setLevel(logging.INFO)
 logger.addHandler(file_handler)
 
 # Check if Streamlit is available
@@ -69,10 +61,8 @@ else:
     STREAMLIT_AVAILABLE = False
     logging.warning("Streamlit not available. Running in script mode.")
 
-# Suppress warnings
 warnings.filterwarnings('ignore')
 
-# Configuration
 config = {
     'required_columns': ['CustomerSegment', 'ChurnProbability', 'Location', 'Latitude', 'Longitude'],
     'charts_folder': 'charts',
@@ -80,48 +70,32 @@ config = {
     'default_longitude_range': (-125, -67)
 }
 
-# Use configuration
 charts_folder = config['charts_folder']
 if not os.path.exists(charts_folder):
     os.makedirs(charts_folder)
     logging.info(f"Created charts folder: {charts_folder}")
 
-# Set plot style
 plt.style.use('ggplot')
 sns.set(style="whitegrid")
 
-# Load the dataset - Use a relative path instead of hardcoded path
-data_path = r'C:\Users\reddy\Downloads\crm_analytics_lab\synthetic_customer_data_500.csv'  # Use a relative path
+data_path = r'C:\Users\reddy\Downloads\crm_analytics_lab\synthetic_customer_data_500.csv'
 logging.info(f"Attempting to load data from file: {data_path}")
 
 try:
-    # For demonstration, create synthetic data if file doesn't exist
     if not os.path.exists(data_path):
         logging.warning(f"File not found at {data_path}. Creating synthetic data for demonstration.")
-        # Create synthetic data
         np.random.seed(42)
         num_samples = 500
-        
-        # Generate customer IDs
         customer_ids = [f'CUST{i:05d}' for i in range(1, num_samples + 1)]
-        
-        # Generate basic customer data
         ages = np.random.normal(35, 10, num_samples).astype(int)
-        ages = np.clip(ages, 18, 80)  # Ensure ages are reasonable
-        
+        ages = np.clip(ages, 18, 80)
         total_spend = np.random.exponential(500, num_samples)
         num_purchases = np.random.poisson(5, num_samples)
         support_tickets = np.random.poisson(2, num_samples)
-        
-        # Generate categorical data
         segments = np.random.choice(['Premium', 'Standard', 'Basic'], num_samples, p=[0.2, 0.5, 0.3])
         categories = np.random.choice(['Electronics', 'Clothing', 'Home', 'Books', 'Food'], num_samples)
         reward_tiers = np.random.choice(['Gold', 'Silver', 'Bronze', 'None'], num_samples, p=[0.1, 0.2, 0.3, 0.4])
-        
-        # Generate churn data
         is_churned = np.random.binomial(1, 0.2, num_samples)
-        
-        # Create DataFrame
         df = pd.DataFrame({
             'CustomerID': customer_ids,
             'Age': ages,
@@ -137,28 +111,20 @@ try:
             'Latitude': np.random.uniform(*config['default_latitude_range'], size=num_samples),
             'Longitude': np.random.uniform(*config['default_longitude_range'], size=num_samples)
         })
-        
-        # Save synthetic data
         df.to_csv(data_path, index=False)
         logging.info(f"Synthetic data created and saved to {data_path}")
     else:
         df = pd.read_csv(data_path)
         logging.info("Data loaded successfully!")
-    
-    # Add missing columns that the script expects but aren't in the CSV
     if 'Feedback' not in df.columns:
         df['Feedback'] = np.random.choice(['Great service!', 'Not satisfied', 'Average experience', 
                                          'Excellent support', 'Could be better'], size=len(df))
-    
     if 'Latitude' not in df.columns:
         df['Latitude'] = np.random.uniform(*config['default_latitude_range'], size=len(df))
-    
     if 'Longitude' not in df.columns:
         df['Longitude'] = np.random.uniform(*config['default_longitude_range'], size=len(df))
-        
 except Exception as e:
     logging.error(f"Error loading data: {str(e)}")
-    # Create a minimal DataFrame to allow the script to continue
     df = pd.DataFrame({
         'CustomerID': [f'CUST{i:05d}' for i in range(1, 101)],
         'Age': np.random.normal(35, 10, 100).astype(int),
@@ -173,8 +139,6 @@ except Exception as e:
     })
     logging.info("Created fallback data due to loading error")
 
-# Data Cleaning and Preparation
-# Convert data types with error handling
 numeric_cols = ['Age', 'TotalSpend', 'NumberOfPurchases', 'SupportTickets', 'IsChurned']
 for col in numeric_cols:
     if col in df.columns:
@@ -183,16 +147,14 @@ for col in numeric_cols:
 if 'LastLoginDate' in df.columns:
     df['LastLoginDate'] = pd.to_datetime(df['LastLoginDate'], errors='coerce')
 else:
-    # Create a synthetic LastLoginDate if it doesn't exist
     today = datetime.now()
     days_ago = np.random.randint(1, 365, size=len(df))
-    df['LastLoginDate'] = [today - pd.Timedelta(days=d) for d in days_ago]
+    df['LastLoginDate'] = [today - pd.Timedelta(days=int(d)) for d in days_ago]
     logging.info("Created synthetic LastLoginDate column")
 
 if 'TransactionMonth' not in df.columns:
     df['TransactionMonth'] = pd.to_datetime(df['LastLoginDate']).dt.to_period('M')
 
-# Fill missing values with median for numeric columns
 for col in numeric_cols:
     if col in df.columns:
         df[col].fillna(df[col].median(), inplace=True)
@@ -258,12 +220,12 @@ logging.info(f"Number of anomalies detected: {df['Anomaly'].value_counts().get('
 df['Sentiment'] = df['Feedback'].apply(lambda x: TextBlob(str(x)).sentiment.polarity)
 
 # Visualize sentiment distribution
-plt.figure(figsize=(10, 6))
+plt.figure(figsize=(14, 6))
 sns.histplot(df['Sentiment'], bins=10, kde=True, color='blue')
 plt.title('Customer Sentiment Distribution')
 plt.xlabel('Sentiment Polarity')
 plt.ylabel('Frequency')
-plt.tight_layout()
+plt.tight_layout(pad=2.0)
 plt.savefig(os.path.join(charts_folder, 'customer_sentiment.png'))
 plt.close()
 
@@ -398,13 +360,13 @@ df['PCA1'] = pca_result[:, 0]
 df['PCA2'] = pca_result[:, 1]
 
 # Visualize PCA Results
-plt.figure(figsize=(12, 8))
+plt.figure(figsize=(16, 10))
 sns.scatterplot(x='PCA1', y='PCA2', hue='RFM_Cluster', data=df, palette='viridis')
 plt.title('PCA Visualization of Customer Clusters')
 plt.xlabel('PCA Dimension 1')
 plt.ylabel('PCA Dimension 2')
 plt.legend(title='RFM Cluster')
-plt.tight_layout()
+plt.tight_layout(pad=2.0)
 plt.savefig(os.path.join(charts_folder, 'pca_customer_clusters.png'))
 plt.close()
 
@@ -418,13 +380,13 @@ dbscan = DBSCAN(eps=0.5, min_samples=5)
 df['DBSCAN_Cluster'] = dbscan.fit_predict(dbscan_data)
 
 # Visualize DBSCAN Clusters
-plt.figure(figsize=(12, 8))
+plt.figure(figsize=(16, 10))
 sns.scatterplot(x='TotalSpend', y='NumberOfPurchases', hue='DBSCAN_Cluster', data=df, palette='tab10')
 plt.title('DBSCAN Clustering')
 plt.xlabel('Total Spend')
 plt.ylabel('Number of Purchases')
 plt.legend(title='Cluster')
-plt.tight_layout()
+plt.tight_layout(pad=2.0)
 plt.savefig(os.path.join(charts_folder, 'dbscan_clusters.png'))
 plt.close()
 
@@ -434,12 +396,12 @@ df['Churned'] = df['IsChurned'] == 1  # Convert to boolean for lifelines
 kmf.fit(df['DaysSinceLastLogin'], event_observed=df['Churned'])
 
 # Plot the survival curve
-plt.figure(figsize=(10, 6))
+plt.figure(figsize=(14, 8))
 kmf.plot_survival_function()
 plt.title('Customer Retention Curve')
 plt.xlabel('Days Since Last Login')
 plt.ylabel('Survival Probability')
-plt.tight_layout()
+plt.tight_layout(pad=2.0)
 plt.savefig(os.path.join(charts_folder, 'customer_retention_curve.png'))
 plt.close()
 
@@ -486,14 +448,14 @@ try:
     forecast = model_fit.forecast(steps=forecast_steps)
 
     # Plot historical data and forecast
-    plt.figure(figsize=(12, 6))
+    plt.figure(figsize=(16, 8))
     plt.plot(monthly_spending, label='Historical Data')
     plt.plot(forecast, label='Forecast', linestyle='--')
     plt.title('Monthly Spending Forecast')
     plt.xlabel('Month')
     plt.ylabel('Total Spend')
     plt.legend()
-    plt.tight_layout()
+    plt.tight_layout(pad=2.0)
     plt.savefig(os.path.join(charts_folder, 'spending_forecast.png'))
     plt.close()
 except Exception as e:
@@ -551,15 +513,13 @@ try:
     shap_values = explainer.shap_values(X_test)
     
     # Visualize feature importance using SHAP
-    plt.figure(figsize=(16, 8))  # Wider figure for better x-axis spacing
+    plt.figure(figsize=(20, 8))
     shap.summary_plot(shap_values, X_test, feature_names=X_test.columns, show=False)
-    plt.tight_layout(pad=2.0)  # Add more padding
+    plt.tight_layout(pad=2.0)
     plt.savefig(os.path.join(charts_folder, 'shap_summary.png'))
     plt.close()
 
-    # ===== FIXED SHAP FORCE PLOT =====
-    # Create a separate visualization for each feature to avoid overlapping
-    # For LightGBMClassifier, shap_values is a list (for each class); use class 1 for binary classification
+    # SHAP force plot (improved spacing)
     if isinstance(shap_values, list) and len(shap_values) > 1:
         shap_values_for_plot = shap_values[1]
         expected_value_for_plot = explainer.expected_value[1]
@@ -580,7 +540,7 @@ try:
     sorted_values = [shap_values_for_plot[sample_idx, i] for i in sorted_idx]
     
     # Create a horizontal bar chart instead of force plot
-    plt.figure(figsize=(14, 10))
+    plt.figure(figsize=(24, 10))
     colors = ['red' if x < 0 else 'blue' for x in sorted_values]
     y_pos = np.arange(len(sorted_features))
     
@@ -625,12 +585,12 @@ try:
     ]
     plt.legend(handles=legend_elements, loc='lower right')
     
-    plt.tight_layout()
+    plt.tight_layout(pad=2.0)
     plt.savefig(os.path.join(charts_folder, 'shap_feature_impact.png'))
     plt.close()
     
     # Create a more readable version of the force plot
-    plt.figure(figsize=(20, 6))
+    plt.figure(figsize=(28, 6))
     
     # Create a horizontal line for the base value
     plt.axhline(y=0, color='gray', linestyle='-', alpha=0.3)
@@ -683,7 +643,7 @@ try:
     # Add grid for y-axis
     plt.grid(axis='y', linestyle='--', alpha=0.3)
     
-    plt.tight_layout()
+    plt.tight_layout(pad=2.0)
     plt.savefig(os.path.join(charts_folder, 'shap_force_plot_improved.png'))
     plt.close()
 
@@ -713,73 +673,108 @@ try:
     # Confusion Matrix for LightGBM
     cm_lgb = confusion_matrix(y_test, y_pred_lgb)
     disp_lgb = ConfusionMatrixDisplay(confusion_matrix=cm_lgb, display_labels=['Not Churned', 'Churned'])
-    fig_lgb, ax_lgb = plt.subplots(figsize=(10, 8))
+    fig_lgb, ax_lgb = plt.subplots(figsize=(12, 10))
     disp_lgb.plot(cmap='Blues', ax=ax_lgb)
     plt.title("Confusion Matrix - LightGBM")
-    plt.tight_layout()
+    plt.tight_layout(pad=2.0)
     plt.savefig(os.path.join(charts_folder, 'confusion_matrix_lightgbm.png'))
     plt.close()
     
     # Confusion Matrix for RandomForest
     cm_rf = confusion_matrix(y_test, y_pred_rf)
     disp_rf = ConfusionMatrixDisplay(confusion_matrix=cm_rf, display_labels=['Not Churned', 'Churned'])
-    fig_rf, ax_rf = plt.subplots(figsize=(10, 8))
+    fig_rf, ax_rf = plt.subplots(figsize=(12, 10))
     disp_rf.plot(cmap='Blues', ax=ax_rf)
     plt.title("Confusion Matrix - RandomForest")
-    plt.tight_layout()
+    plt.tight_layout(pad=2.0)
     plt.savefig(os.path.join(charts_folder, 'confusion_matrix_randomforest.png'))
     plt.close()
 except Exception as e:
     logging.error(f"Error during model training and evaluation: {str(e)}")
-    # Create empty models dictionary if training fails
     models = {}
 
-# Create a map to visualize customer locations
-try:
-    map_center = [df['Latitude'].mean(), df['Longitude'].mean()]
-    customer_map = folium.Map(location=map_center, zoom_start=4)
-    
-    for _, row in df.iterrows():
-        if not pd.isnull(row['Latitude']) and not pd.isnull(row['Longitude']):
-            popup_text = []
-            if 'CustomerID' in df.columns:
-                popup_text.append(f"ID: {row['CustomerID']}")
-            if 'CustomerSegment' in df.columns:
-                popup_text.append(f"Segment: {row['CustomerSegment']}")
-            if 'IsChurned' in df.columns:
-                popup_text.append(f"Churned: {'Yes' if row['IsChurned'] == 1 else 'No'}")
-            
-            folium.Marker(
-                location=[row['Latitude'], row['Longitude']],
-                popup="<br>".join(popup_text) if popup_text else None,
-                tooltip=f"Customer {_}"
-            ).add_to(customer_map)
-    
-    # Save the map as an HTML file
-    customer_map.save(os.path.join(charts_folder, 'customer_map.html'))
-except Exception as e:
-    logging.error(f"Error creating map: {str(e)}")
+# --- ADDITIONAL CHARTS SECTION ---
 
-# Apply OneHotEncoder to categorical features
-categorical_features = ['CustomerSegment', 'FavoriteCategory', 'RewardTier']
-categorical_features = [col for col in categorical_features if col in df.columns]
+# 1. Churn Rate by Customer Segment
+if 'CustomerSegment' in df.columns and 'IsChurned' in df.columns:
+    plt.figure(figsize=(12, 6))
+    churn_by_segment = df.groupby('CustomerSegment')['IsChurned'].mean().sort_values()
+    sns.barplot(x=churn_by_segment.index, y=churn_by_segment.values, palette='Set2')
+    plt.title('Churn Rate by Customer Segment')
+    plt.xlabel('Customer Segment')
+    plt.ylabel('Churn Rate')
+    plt.ylim(0, 1)
+    plt.tight_layout(pad=2.0)
+    plt.savefig(os.path.join(charts_folder, 'churn_rate_by_segment.png'))
+    plt.close()
 
-if categorical_features:
-    try:
-        encoder = ColumnTransformer(
-            transformers=[
-                ('cat', OneHotEncoder(handle_unknown='ignore'), categorical_features)
-            ],
-            remainder='passthrough'  # Keep other columns as is
-        )
-    
-        # Transform the dataset
-        df_encoded = encoder.fit_transform(df)
-    
-        # Log the encoding process
-        logging.info(f"Categorical features {categorical_features} have been one-hot encoded.")
-    except Exception as e:
-        logging.error(f"Error during one-hot encoding: {str(e)}")
+# 2. Distribution of Total Spend
+if 'TotalSpend' in df.columns:
+    plt.figure(figsize=(12, 6))
+    sns.histplot(df['TotalSpend'], bins=30, kde=True, color='orange')
+    plt.title('Distribution of Total Spend')
+    plt.xlabel('Total Spend')
+    plt.ylabel('Frequency')
+    plt.tight_layout(pad=2.0)
+    plt.savefig(os.path.join(charts_folder, 'total_spend_distribution.png'))
+    plt.close()
+
+# 3. Average Purchase Value by Reward Tier
+if 'RewardTier' in df.columns and 'AvgPurchaseValue' in df.columns:
+    plt.figure(figsize=(12, 6))
+    avg_purchase_by_tier = df.groupby('RewardTier')['AvgPurchaseValue'].mean().sort_values()
+    sns.barplot(x=avg_purchase_by_tier.index, y=avg_purchase_by_tier.values, palette='coolwarm')
+    plt.title('Average Purchase Value by Reward Tier')
+    plt.xlabel('Reward Tier')
+    plt.ylabel('Average Purchase Value')
+    plt.tight_layout(pad=2.0)
+    plt.savefig(os.path.join(charts_folder, 'avg_purchase_by_reward_tier.png'))
+    plt.close()
+
+# 4. Number of Purchases by Customer Segment
+if 'CustomerSegment' in df.columns and 'NumberOfPurchases' in df.columns:
+    plt.figure(figsize=(12, 6))
+    purchases_by_segment = df.groupby('CustomerSegment')['NumberOfPurchases'].mean().sort_values()
+    sns.barplot(x=purchases_by_segment.index, y=purchases_by_segment.values, palette='Blues')
+    plt.title('Average Number of Purchases by Customer Segment')
+    plt.xlabel('Customer Segment')
+    plt.ylabel('Average Number of Purchases')
+    plt.tight_layout(pad=2.0)
+    plt.savefig(os.path.join(charts_folder, 'avg_purchases_by_segment.png'))
+    plt.close()
+
+# 5. Support Tickets vs. Churn (Boxplot)
+if 'SupportTickets' in df.columns and 'IsChurned' in df.columns:
+    plt.figure(figsize=(12, 6))
+    sns.boxplot(x='IsChurned', y='SupportTickets', data=df, palette='pastel')
+    plt.title('Support Tickets by Churn Status')
+    plt.xlabel('Churned (0=No, 1=Yes)')
+    plt.ylabel('Number of Support Tickets')
+    plt.tight_layout(pad=2.0)
+    plt.savefig(os.path.join(charts_folder, 'support_tickets_by_churn.png'))
+    plt.close()
+
+# 6. Engagement Score Distribution by Segment
+if 'EngagementScore' in df.columns and 'CustomerSegment' in df.columns:
+    plt.figure(figsize=(12, 6))
+    sns.violinplot(x='CustomerSegment', y='EngagementScore', data=df, palette='muted')
+    plt.title('Engagement Score Distribution by Customer Segment')
+    plt.xlabel('Customer Segment')
+    plt.ylabel('Engagement Score')
+    plt.tight_layout(pad=2.0)
+    plt.savefig(os.path.join(charts_folder, 'engagement_by_segment.png'))
+    plt.close()
+
+# 7. Correlation Heatmap (Numerical Features)
+numerical_for_corr = [col for col in numerical_features if col in df.columns]
+if len(numerical_for_corr) > 1:
+    plt.figure(figsize=(10, 8))
+    corr = df[numerical_for_corr].corr()
+    sns.heatmap(corr, annot=True, cmap='coolwarm', fmt=".2f", linewidths=0.5)
+    plt.title('Correlation Heatmap of Numerical Features')
+    plt.tight_layout(pad=2.0)
+    plt.savefig(os.path.join(charts_folder, 'correlation_heatmap.png'))
+    plt.close()
 
 # Flask API
 app = Flask(__name__)
@@ -859,7 +854,18 @@ def get_visualizations():
 def serve_static(filename):
     return send_from_directory(charts_folder, filename)
 
-# Chatbot Logic
+# Add this chatbot endpoint if not already present
+@app.route('/chatbot', methods=['POST'])
+def chatbot():
+    try:
+        user_input = request.json.get("message", "")
+        if not user_input:
+            return jsonify({"error": "No message provided"}), 400
+        response = chatbot_response(user_input)
+        return jsonify({"response": response}), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
 def chatbot_response(user_input):
     responses = {
         "hello": "Hi there! How can I assist you today?",
@@ -869,25 +875,210 @@ def chatbot_response(user_input):
         "summary": "You can view summary metrics using the /summary endpoint.",
         "bye": "Goodbye! Have a great day!"
     }
-
-    # Convert user input to lowercase and find a matching response
     user_input = user_input.lower()
     return responses.get(user_input, "I'm sorry, I didn't understand that. Can you rephrase?")
 
-# Endpoint: Chatbot
-@app.route('/chatbot', methods=['POST'])
-def chatbot():
-    try:
-        # Get user input from the request
-        user_input = request.json.get("message", "")
-        if not user_input:
-            return jsonify({"error": "No message provided"}), 400
+# --- Enhanced Dashboard Template with Chatbot Link ---
+dashboard_template = """
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CRM Analytics Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { font-family: 'Segoe UI', Arial, sans-serif; background: linear-gradient(120deg, #f8fafc 0%, #e0e7ff 100%); margin: 0; padding: 0; }
+        .dashboard-container { max-width: 1500px; margin: 30px auto; background: #fff; border-radius: 18px; box-shadow: 0 4px 24px rgba(0,0,0,0.10); padding: 36px 32px; }
+        .kpi-row { display: flex; gap: 32px; margin-bottom: 44px; }
+        .kpi-card { flex: 1; background: linear-gradient(120deg, #e0e7ff 0%, #f8fafc 100%); border-radius: 14px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 28px 18px; text-align: center; border: 2px solid #e0e7ff; }
+        .kpi-title { font-size: 1.15em; color: #6b7280; margin-bottom: 10px; letter-spacing: 0.5px; }
+        .kpi-value { font-size: 2.5em; font-weight: bold; color: #2563eb; text-shadow: 0 2px 8px #e0e7ff; }
+        .charts-section { margin-top: 30px; }
+        .slider-container { margin-bottom: 36px; }
+        .slider-label { font-size: 1.1em; color: #374151; margin-bottom: 8px; }
+        .slider-value { font-weight: bold; color: #2563eb; margin-left: 10px; }
+        .charts-slider { width: 100%; }
+        .charts-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 32px; }
+        .chart-card { background: #f3f4f6; border-radius: 12px; box-shadow: 0 1px 6px rgba(0,0,0,0.05); padding: 18px; margin-bottom: 10px; border: 2px solid #e0e7ff; }
+        .chart-title { font-size: 1.13em; color: #1e293b; margin-bottom: 12px; font-weight: 500; }
+        img { width: 100%; max-width: 100%; border-radius: 8px; border: 1.5px solid #c7d2fe; background: #fff; }
+        .chatbot-link { display: block; text-align: right; margin-bottom: 18px; }
+        .chatbot-link a { background: #2563eb; color: #fff; padding: 10px 22px; border-radius: 8px; text-decoration: none; font-weight: bold; box-shadow: 0 2px 8px #a5b4fc; transition: background 0.2s; }
+        .chatbot-link a:hover { background: #1e40af; }
+        @media (max-width: 900px) {
+            .kpi-row { flex-direction: column; gap: 18px; }
+            .charts-grid { grid-template-columns: 1fr; }
+            .chatbot-link { text-align: center; }
+        }
+        .slider {
+            -webkit-appearance: none;
+            width: 100%;
+            height: 10px;
+            border-radius: 5px;
+            background: linear-gradient(90deg, #6366f1 0%, #60a5fa 100%);
+            outline: none;
+            opacity: 0.9;
+            transition: opacity .2s;
+            margin-bottom: 10px;
+        }
+        .slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            background: #2563eb;
+            cursor: pointer;
+            box-shadow: 0 2px 8px #a5b4fc;
+            border: 3px solid #fff;
+        }
+        .slider::-moz-range-thumb {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            background: #2563eb;
+            cursor: pointer;
+            box-shadow: 0 2px 8px #a5b4fc;
+            border: 3px solid #fff;
+        }
+    </style>
+    <script>
+        function updateSlider(val) {
+            document.getElementById('slider-value').innerText = val;
+            let chartCards = document.getElementsByClassName('chart-card');
+            for (let i = 0; i < chartCards.length; i++) {
+                chartCards[i].style.display = (i < val) ? 'block' : 'none';
+            }
+        }
+        window.onload = function() {
+            let slider = document.getElementById('chart-slider');
+            updateSlider(slider.value);
+        }
+        // Chatbot popup logic
+        function openChatbot() {
+            let chatWin = window.open('/chatbot-ui', 'Chatbot', 'width=400,height=600');
+            if (chatWin) { chatWin.focus(); }
+        }
+    </script>
+</head>
+<body>
+    <div class="dashboard-container">
+        <div class="chatbot-link">
+            <a href="javascript:void(0);" onclick="openChatbot()">💬 Open CRM Chatbot</a>
+        </div>
+        <h1 style="text-align:center; color:#2563eb; margin-bottom:36px; letter-spacing:1px;">CRM Analytics Dashboard</h1>
+        <div class="kpi-row">
+            <div class="kpi-card">
+                <div class="kpi-title">Total Customers</div>
+                <div class="kpi-value">{{ total_customers }}</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-title">Churn Rate</div>
+                <div class="kpi-value">{{ churn_rate }}</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-title">Average Age</div>
+                <div class="kpi-value">{{ average_age }}</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-title">Average Spend</div>
+                <div class="kpi-value">{{ average_spend }}</div>
+            </div>
+        </div>
+        <div class="charts-section">
+            <div class="slider-container">
+                <label class="slider-label" for="chart-slider">Charts to Display: 
+                    <span class="slider-value" id="slider-value">{{ charts|length }}</span>
+                </label>
+                <input type="range" min="1" max="{{ charts|length }}" value="{{ charts|length }}" class="slider" id="chart-slider" oninput="updateSlider(this.value)">
+            </div>
+            <div class="charts-grid">
+                {% for chart in charts %}
+                <div class="chart-card">
+                    <div class="chart-title">{{ chart.title }}</div>
+                    <img src="{{ chart.path }}" alt="{{ chart.title }}">
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('chart-slider').addEventListener('input', function() {
+            updateSlider(this.value);
+        });
+    </script>
+</body>
+</html>
+"""
 
-        # Get chatbot response
-        response = chatbot_response(user_input)
-        return jsonify({"response": response}), 200
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
+# Simple chatbot UI page
+@app.route('/chatbot-ui')
+def chatbot_ui():
+    return """
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CRM Chatbot</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body { font-family: 'Segoe UI', Arial, sans-serif; background: #f8fafc; margin: 0; padding: 0; }
+            .chat-container { max-width: 400px; margin: 0 auto; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); padding: 20px; margin-top: 20px; }
+            .chat-title { text-align: center; color: #2563eb; font-size: 1.3em; margin-bottom: 18px; }
+            .chat-history { height: 320px; overflow-y: auto; border: 1px solid #e0e7ff; border-radius: 8px; padding: 12px; background: #f3f4f6; margin-bottom: 14px; }
+            .chat-message { margin-bottom: 10px; }
+            .chat-message.user { text-align: right; color: #2563eb; }
+            .chat-message.bot { text-align: left; color: #111; }
+            .chat-input-row { display: flex; gap: 8px; }
+            .chat-input { flex: 1; padding: 10px; border-radius: 6px; border: 1px solid #c7d2fe; }
+            .chat-send { background: #2563eb; color: #fff; border: none; border-radius: 6px; padding: 10px 18px; font-weight: bold; cursor: pointer; }
+            .chat-send:hover { background: #1e40af; }
+        </style>
+    </head>
+    <body>
+        <div class="chat-container">
+            <div class="chat-title">CRM Chatbot</div>
+            <div class="chat-history" id="chat-history"></div>
+            <div class="chat-input-row">
+                <input type="text" id="chat-input" class="chat-input" placeholder="Type your message..." autocomplete="off" />
+                <button class="chat-send" onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+        <script>
+            function appendMessage(sender, text) {
+                var chatHistory = document.getElementById('chat-history');
+                var msgDiv = document.createElement('div');
+                msgDiv.className = 'chat-message ' + sender;
+                msgDiv.innerText = text;
+                chatHistory.appendChild(msgDiv);
+                chatHistory.scrollTop = chatHistory.scrollHeight;
+            }
+            function sendMessage() {
+                var input = document.getElementById('chat-input');
+                var message = input.value.trim();
+                if (!message) return;
+                appendMessage('user', message);
+                input.value = '';
+                fetch('/chatbot', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ message: message })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.response) {
+                        appendMessage('bot', data.response);
+                    } else if (data.error) {
+                        appendMessage('bot', 'Error: ' + data.error);
+                    }
+                });
+            }
+            document.getElementById('chat-input').addEventListener('keydown', function(e) {
+                if (e.key === 'Enter') sendMessage();
+            });
+        </script>
+    </body>
+    </html>
+    """
 
 # Main function to run the application
 def main(original_avg_age_arg, original_avg_spend_arg):
@@ -955,14 +1146,40 @@ def main(original_avg_age_arg, original_avg_spend_arg):
 
         <div class="chart-section">
             <h2>Visualizations</h2>
+            <!-- Add this inside your HTML where you want to display the chart -->
+
+<div class="chart-container">
+    <h4>Distribution of Total Spend</h4>
+    <img src="/static/total_spend_distribution.png" alt="Distribution of Total Spend">
+</div>
+
 """
         # Add PNG charts
         if png_charts:
+            # Mapping of file names to display names
+            chart_name_map = {
+                'churn_rate_by_segment.png': 'Churn Rate by Customer Segment',
+                'total_spend_distribution.png': 'Distribution of Total Spend',
+                'avg_purchase_by_reward_tier.png': 'Average Purchase Value by Reward Tier',
+                'avg_purchases_by_segment.png': 'Average Number of Purchases by Customer Segment',
+                'support_tickets_by_churn.png': 'Support Tickets by Churn Status',
+                'engagement_by_segment.png': 'Engagement Score Distribution by Segment',
+                'correlation_heatmap.png': 'Correlation Heatmap',
+                'customer_sentiment.png': 'Customer Sentiment Distribution',
+                'pca_customer_clusters.png': 'PCA Visualization of Customer Clusters',
+                'dbscan_clusters.png': 'DBSCAN Clustering',
+                'customer_retention_curve.png': 'Customer Retention Curve',
+                'spending_forecast.png': 'Monthly Spending Forecast',
+                'shap_summary.png': 'SHAP Summary Plot',
+                'shap_feature_impact.png': 'SHAP Feature Impact',
+                'shap_force_plot_improved.png': 'SHAP Force Plot',
+                'confusion_matrix_lightgbm.png': 'Confusion Matrices for LightGBM and RandomForest',
+                'confusion_matrix_randomforest.png': 'Confusion Matrices for LightGBM and RandomForest'
+            }
             html_content += "<h3>Image Charts</h3>"
             for chart in png_charts:
-                # Use relative path from report location (charts/report-ts.html) to chart (charts/chart.png)
-                chart_path = f"./{chart}"  # Ensure ./ prefix for local file opening
-                chart_title = chart.replace('.png', '').replace('_', ' ').title()
+                chart_path = f"./{chart}"
+                chart_title = chart_name_map.get(chart, chart.replace('.png', '').replace('_', ' ').title())
                 html_content += f"""
             <div class="chart-container">
                 <h4>{chart_title}</h4>
@@ -980,8 +1197,6 @@ def main(original_avg_age_arg, original_avg_spend_arg):
             <div class="chart-container">
                 <h4>{chart_title}</h4>
                 <p><a href="{chart_path}" target="_blank">Open Interactive: {chart_title}</a></p>
-                <!-- Optional: Iframe - might work for simple charts like SHAP force plot -->
-                <!-- <iframe src="{chart_path}" title="{chart_title}"></iframe> -->
             </div>
 """
         html_content += """

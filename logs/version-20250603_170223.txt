@@ -8,3 +8,55 @@
 2025-06-03 17:02:23,704 - INFO - Average Spend: $1639.47
 2025-06-03 17:02:23,714 - INFO - Numerical features have been standardized.
 2025-06-03 17:02:23,860 - INFO - Number of anomalies detected: 25
+2025-06-03 17:02:25,092 - WARNING - Not enough data points for ARIMA modeling. Creating synthetic data.
+2025-06-03 17:02:25,094 - INFO - ADF Statistic: 0.4055548519204114
+2025-06-03 17:02:25,094 - INFO - p-value: 0.9817014884698233
+2025-06-03 17:02:25,434 - INFO - Original dataset size: 400
+2025-06-03 17:02:25,434 - INFO - Resampled dataset size: 408
+2025-06-03 17:02:25,484 - INFO - LightGBM Model Accuracy: 0.530
+2025-06-03 17:02:25,484 - INFO - 
+=== LightGBM Classification Report ===
+2025-06-03 17:02:25,497 - INFO - 
+              precision    recall  f1-score   support
+
+           0       0.54      0.53      0.53        51
+           1       0.52      0.53      0.53        49
+
+    accuracy                           0.53       100
+   macro avg       0.53      0.53      0.53       100
+weighted avg       0.53      0.53      0.53       100
+
+2025-06-03 17:02:25,823 - INFO - RandomForest Model Accuracy: 0.510
+2025-06-03 17:02:25,823 - INFO - 
+=== RandomForest Classification Report ===
+2025-06-03 17:02:25,828 - INFO - 
+              precision    recall  f1-score   support
+
+           0       0.52      0.47      0.49        51
+           1       0.50      0.55      0.52        49
+
+    accuracy                           0.51       100
+   macro avg       0.51      0.51      0.51       100
+weighted avg       0.51      0.51      0.51       100
+
+2025-06-03 17:02:26,149 - INFO - XGBoost Model Accuracy: 0.520
+2025-06-03 17:02:26,149 - INFO - 
+=== XGBoost Classification Report ===
+2025-06-03 17:02:26,162 - INFO - 
+              precision    recall  f1-score   support
+
+           0       0.53      0.51      0.52        51
+           1       0.51      0.53      0.52        49
+
+    accuracy                           0.52       100
+   macro avg       0.52      0.52      0.52       100
+weighted avg       0.52      0.52      0.52       100
+
+2025-06-03 17:02:26,947 - INFO - Stratified K-Fold Cross-Validation Accuracy (LightGBM): 0.536 ± 0.037
+2025-06-03 17:02:27,444 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-03 17:02:27,444 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-03 17:02:28,000 - WARNING -  * Debugger is active!
+2025-06-03 17:02:28,004 - INFO -  * Debugger PIN: 867-014-462
+2025-06-03 17:06:28,133 - INFO - 127.0.0.1 - - [03/Jun/2025 17:06:28] "GET /chatbot-ui HTTP/1.1" 200 -
+2025-06-03 17:06:28,203 - INFO - 127.0.0.1 - - [03/Jun/2025 17:06:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-03 17:06:34,372 - INFO - 127.0.0.1 - - [03/Jun/2025 17:06:34] "POST /chatbot HTTP/1.1" 200 -

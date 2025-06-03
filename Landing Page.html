@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CRM Login - Secure Access</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background: #f7f9fb;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+        body {
+            min-height: 100vh;
+            display: flex;
+            align-items: stretch;
+            justify-content: center;
+        }
+        .container {
+            display: flex;
+            width: 900px;
+            min-height: 600px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0 8px 32px rgba(31, 38, 135, 0.10);
+            overflow: hidden;
+        }
+        .left-panel, .right-panel {
+            flex: 1;
+            padding: 48px 36px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .left-panel {
+            background: #f7f9fb;
+            position: relative;
+        }
+        .crm-logo {
+            width: 54px;
+            height: 54px;
+            background: linear-gradient(135deg, #2563eb 60%, #60a5fa 100%);
+            border-radius: 16px;
+            margin-bottom: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .crm-logo svg {
+            width: 32px;
+            height: 32px;
+        }
+        .smart-signin-btn {
+            position: absolute;
+            top: 32px;
+            right: 36px;
+            background: #2563eb;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            padding: 8px 18px;
+            font-size: 1em;
+            font-weight: 500;
+            cursor: pointer;
+            box-shadow: 0 2px 8px #a5b4fc;
+            transition: background 0.2s;
+        }
+        .smart-signin-btn:hover {
+            background: #1e40af;
+        }
+        .login-heading {
+            font-size: 1.7em;
+            font-weight: 600;
+            margin-bottom: 28px;
+            color: #222;
+        }
+        .login-form {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+        }
+        .login-form label {
+            font-size: 1em;
+            color: #555;
+            margin-bottom: 6px;
+        }
+        .login-form input[type="text"] {
+            padding: 12px 14px;
+            border: 1.5px solid #d1d5db;
+            border-radius: 8px;
+            font-size: 1em;
+            background: #fff;
+            transition: border 0.2s;
+        }
+        .login-form input[type="text"]:focus {
+            border: 1.5px solid #2563eb;
+            outline: none;
+        }
+        .login-form button {
+            background: #2563eb;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            padding: 12px 0;
+            font-size: 1.1em;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 8px;
+            box-shadow: 0 2px 8px #a5b4fc;
+            transition: background 0.2s;
+        }
+        .login-form button:hover {
+            background: #1e40af;
+        }
+        .divider {
+            margin: 28px 0 16px 0;
+            text-align: center;
+            color: #aaa;
+            font-size: 0.95em;
+            position: relative;
+        }
+        .divider:before, .divider:after {
+            content: '';
+            display: inline-block;
+            width: 40px;
+            height: 1px;
+            background: #e5e7eb;
+            vertical-align: middle;
+            margin: 0 10px;
+        }
+        .social-login {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: flex-start;
+            margin-bottom: 18px;
+        }
+        .social-btn {
+            display: flex;
+            align-items: center;
+            gap: 7px;
+            background: #f3f4f6;
+            border: none;
+            border-radius: 7px;
+            padding: 8px 14px;
+            font-size: 1em;
+            color: #222;
+            cursor: pointer;
+            transition: background 0.18s, box-shadow 0.18s;
+            box-shadow: 0 1px 4px #e0e7ff;
+        }
+        .social-btn:hover {
+            background: #e0e7ff;
+        }
+        .social-btn svg {
+            width: 20px;
+            height: 20px;
+        }
+        .signup-link {
+            margin-top: 18px;
+            text-align: left;
+            font-size: 1em;
+        }
+        .signup-link a {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 4px;
+        }
+        .signup-link a:hover {
+            text-decoration: underline;
+        }
+        .right-panel {
+            background: #fff;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            border-left: 1.5px solid #f3f4f6;
+            position: relative;
+        }
+        .illustration {
+            margin-bottom: 32px;
+        }
+        .illustration svg {
+            width: 180px;
+            height: 180px;
+        }
+        .security-title {
+            font-size: 1.3em;
+            font-weight: 600;
+            color: #2563eb;
+            margin-bottom: 10px;
+        }
+        .security-desc {
+            color: #444;
+            font-size: 1.05em;
+            margin-bottom: 28px;
+        }
+        .learn-more-btn {
+            background: #e0f2fe;
+            color: #2563eb;
+            border: none;
+            border-radius: 8px;
+            padding: 10px 28px;
+            font-size: 1em;
+            font-weight: 500;
+            cursor: pointer;
+            box-shadow: 0 2px 8px #bae6fd;
+            transition: background 0.2s;
+        }
+        .learn-more-btn:hover {
+            background: #bae6fd;
+        }
+        @media (max-width: 900px) {
+            .container { flex-direction: column; width: 98vw; min-height: unset; }
+            .left-panel, .right-panel { padding: 32px 12px; }
+            .right-panel { border-left: none; border-top: 1.5px solid #f3f4f6; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Left Panel: Login Form -->
+        <div class="left-panel">
+            <button class="smart-signin-btn">Try smart sign-in ✨</button>
+            <div class="crm-logo">
+                <!-- Abstract CRM logo (geometric shape) -->
+                <svg viewBox="0 0 40 40" fill="none">
+                    <rect x="5" y="5" width="30" height="30" rx="8" fill="#2563eb"/>
+                    <circle cx="20" cy="20" r="8" fill="#fff"/>
+                    <rect x="15" y="15" width="10" height="10" rx="3" fill="#60a5fa"/>
+                </svg>
+            </div>
+            <div class="login-heading">Sign in to access CRM</div>
+            <form class="login-form" autocomplete="off">
+                <label for="user">Email address or mobile number</label>
+                <input type="text" id="user" name="user" placeholder="Enter your email or mobile" required>
+                <button type="submit">Next</button>
+            </form>
+            <div class="divider">Sign in using</div>
+            <div class="social-login">
+                <button class="social-btn" title="Sign in with Google">
+                    <svg viewBox="0 0 24 24"><g><path fill="#EA4335" d="M12 10.8v3.4h4.8c-.2 1.2-1.4 3.5-4.8 3.5-2.9 0-5.3-2.4-5.3-5.3s2.4-5.3 5.3-5.3c1.7 0 2.8.7 3.4 1.3l2.3-2.3C16.6 4.9 14.5 4 12 4 6.5 4 2 8.5 2 14s4.5 10 10 10c5.5 0 10-4.5 10-10 0-.7-.1-1.3-.2-1.9H12z"/></g></svg>
+                    Google
+                </button>
+                <button class="social-btn" title="Sign in with Facebook">
+                    <svg viewBox="0 0 24 24"><g><path fill="#1877F3" d="M22.675 0h-21.35C.595 0 0 .592 0 1.326v21.348C0 23.408.595 24 1.325 24h11.495v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.797.143v3.24l-1.918.001c-1.504 0-1.797.715-1.797 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116C23.406 24 24 23.408 24 22.674V1.326C24 .592 23.406 0 22.675 0"/></g></svg>
+                    Facebook
+                </button>
+                <button class="social-btn" title="Sign in with LinkedIn">
+                    <svg viewBox="0 0 24 24"><g><path fill="#0077B5" d="M20.447 20.452h-3.554v-5.569c0-1.327-.025-3.037-1.849-3.037-1.851 0-2.132 1.445-2.132 2.939v5.667H9.358V9h3.414v1.561h.049c.476-.899 1.637-1.849 3.37-1.849 3.602 0 4.267 2.369 4.267 5.455v6.285zM5.337 7.433c-1.144 0-2.07-.926-2.07-2.07 0-1.143.926-2.07 2.07-2.07 1.143 0 2.07.927 2.07 2.07 0 1.144-.927 2.07-2.07 2.07zm1.777 13.019H3.56V9h3.554v11.452z"/></g></svg>
+                    LinkedIn
+                </button>
+                <button class="social-btn" title="Sign in with Twitter">
+                    <svg viewBox="0 0 24 24"><g><path fill="#1DA1F2" d="M24 4.557a9.83 9.83 0 0 1-2.828.775 4.932 4.932 0 0 0 2.165-2.724c-.951.564-2.005.974-3.127 1.195a4.916 4.916 0 0 0-8.38 4.482C7.691 8.095 4.066 6.13 1.64 3.161c-.542.929-.856 2.006-.857 3.17 0 2.188 1.115 4.117 2.823 5.247a4.904 4.904 0 0 1-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.936 4.936 0 0 1-2.224.084c.627 1.956 2.444 3.377 4.6 3.417A9.867 9.867 0 0 1 0 21.543a13.94 13.94 0 0 0 7.548 2.209c9.057 0 14.009-7.496 14.009-13.986 0-.213-.005-.425-.014-.636A10.012 10.012 0 0 0 24 4.557z"/></g></svg>
+                    Twitter
+                </button>
+                <button class="social-btn" title="Sign in with Microsoft">
+                    <svg viewBox="0 0 24 24"><g><rect fill="#F25022" x="2" y="2" width="9" height="9"/><rect fill="#7FBA00" x="13" y="2" width="9" height="9"/><rect fill="#00A4EF" x="2" y="13" width="9" height="9"/><rect fill="#FFB900" x="13" y="13" width="9" height="9"/></g></svg>
+                    Microsoft
+                </button>
+                <button class="social-btn" title="Sign in with Apple">
+                    <svg viewBox="0 0 24 24"><g><path fill="#000" d="M16.365 1.43c0 1.14-.93 2.07-2.07 2.07-1.14 0-2.07-.93-2.07-2.07 0-1.14.93-2.07 2.07-2.07 1.14 0 2.07.93 2.07 2.07zm4.13 6.13c-1.14-1.14-2.99-1.14-4.13 0-1.14 1.14-1.14 2.99 0 4.13 1.14 1.14 2.99 1.14 4.13 0 1.14-1.14 1.14-2.99 0-4.13zm-8.26 0c-1.14-1.14-2.99-1.14-4.13 0-1.14 1.14-1.14 2.99 0 4.13 1.14 1.14 2.99 1.14 4.13 0 1.14-1.14 1.14-2.99 0-4.13zm4.13 8.26c-1.14-1.14-2.99-1.14-4.13 0-1.14 1.14-1.14 2.99 0 4.13 1.14 1.14 2.99 1.14 4.13 0 1.14-1.14 1.14-2.99 0-4.13zm-8.26 0c-1.14-1.14-2.99-1.14-4.13 0-1.14 1.14-1.14 2.99 0 4.13 1.14 1.14 2.99 1.14 4.13 0 1.14-1.14 1.14-2.99 0-4.13z"/></g></svg>
+                    Apple
+                </button>
+                <button class="social-btn" title="Sign in with GitHub">
+                    <svg viewBox="0 0 24 24"><g><path fill="#181717" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.415-4.033-1.415-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.084-.729.084-.729 1.205.084 1.84 1.236 1.84 1.236 1.07 1.834 2.809 1.304 3.495.997.108-.775.418-1.305.762-1.605-2.665-.305-5.466-1.334-5.466-5.931 0-1.31.469-2.381 1.236-3.221-.124-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.553 3.297-1.23 3.297-1.23.653 1.653.242 2.873.119 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.803 5.624-5.475 5.921.43.371.823 1.102.823 2.222v3.293c0 .322.218.694.825.576C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></g></svg>
+                    GitHub
+                </button>
+            </div>
+            <div class="signup-link">
+                Don't have an account?
+                <a href="#">Sign up now</a>
+            </div>
+        </div>
+        <!-- Right Panel: Security Info & Illustration -->
+        <div class="right-panel">
+            <div class="illustration">
+                <!-- Illustration: Person with smartphone and social icons -->
+                <svg viewBox="0 0 220 180" fill="none">
+                    <ellipse cx="110" cy="170" rx="90" ry="10" fill="#e0e7ef"/>
+                    <!-- Person -->
+                    <circle cx="110" cy="70" r="32" fill="#60a5fa"/>
+                    <rect x="90" y="100" width="40" height="50" rx="12" fill="#2563eb"/>
+                    <rect x="105" y="120" width="10" height="20" rx="4" fill="#fff"/>
+                    <!-- Smartphone -->
+                    <rect x="130" y="110" width="28" height="46" rx="7" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+                    <rect x="142" y="150" width="4" height="4" rx="2" fill="#2563eb"/>
+                    <!-- Social icons around -->
+                    <circle cx="40" cy="60" r="14" fill="#fff" stroke="#ea4335" stroke-width="2"/>
+                    <text x="34" y="67" font-size="16" font-family="Segoe UI" fill="#ea4335">G</text>
+                    <circle cx="180" cy="40" r="14" fill="#fff" stroke="#1877f3" stroke-width="2"/>
+                    <text x="174" y="47" font-size="16" font-family="Segoe UI" fill="#1877f3">f</text>
+                    <circle cx="60" cy="130" r="12" fill="#fff" stroke="#1da1f2" stroke-width="2"/>
+                    <text x="55" y="137" font-size="14" font-family="Segoe UI" fill="#1da1f2">t</text>
+                    <circle cx="200" cy="120" r="12" fill="#fff" stroke="#e1306c" stroke-width="2"/>
+                    <text x="194" y="127" font-size="14" font-family="Segoe UI" fill="#e1306c">I</text>
+                </svg>
+            </div>
+            <div class="security-title">MFA for all accounts</div>
+            <div class="security-desc">
+                Secure online accounts with 2FA. Back up OTP secrets and never lose access to your account.
+            </div>
+            <button class="learn-more-btn">Learn more</button>
+        </div>
+    </div>
+</body>
+</html>

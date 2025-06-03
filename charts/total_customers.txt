@@ -1,0 +1,5 @@
+Total Customers Report
+
+Total unique customers: 500
+
+Source Data: C:\Users\reddy\Downloads\crm_analytics_lab\synthetic_customer_data_500.csv

@@ -1,0 +1,5 @@
+Churn Rate KPI Report
+
+Overall churn rate: 49.00%
+
+Source Data: C:\Users\reddy\Downloads\crm_analytics_lab\synthetic_customer_data_500.csv

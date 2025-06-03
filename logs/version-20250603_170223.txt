@@ -1,0 +1,10 @@
+2025-06-03 17:02:23,624 - INFO - Streamlit is available.
+2025-06-03 17:02:23,641 - INFO - Loaded data from C:\Users\reddy\Downloads\crm_analytics_lab\synthetic_customer_data_500.csv with 500 records
+2025-06-03 17:02:23,704 - INFO - 
+=== Pre-Scaling Summary Statistics ===
+2025-06-03 17:02:23,704 - INFO - Total Customers: 500
+2025-06-03 17:02:23,704 - INFO - Churn Rate: 49.00%
+2025-06-03 17:02:23,704 - INFO - Average Age: 41.9
+2025-06-03 17:02:23,704 - INFO - Average Spend: $1639.47
+2025-06-03 17:02:23,714 - INFO - Numerical features have been standardized.
+2025-06-03 17:02:23,860 - INFO - Number of anomalies detected: 25

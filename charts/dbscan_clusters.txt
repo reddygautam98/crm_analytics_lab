@@ -1,0 +1,5 @@
+Dbscan Clusters Report
+
+Insight: [Add your analysis for Dbscan Clusters here]
+
+Source Data: C:\Users\reddy\Downloads\crm_analytics_lab\synthetic_customer_data_500.csv

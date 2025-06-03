@@ -1,0 +1,7 @@
+Churn Rate by Segment Report
+
+Premium: 12%
+Standard: 18%
+Basic: 22%
+
+Source Data: C:\Users\reddy\Downloads\crm_analytics_lab\synthetic_customer_data_500.csv
